@@ -1,0 +1,153 @@
+"""
+Forward-tests the screen against its own history.
+
+Every run commits results/ranked_YYYY-MM-DD.csv. This walks those files, finds
+candidates old enough to have an outcome, looks up what the price actually did
+at +5 and +20 trading days, and reports hit rates per setup.
+
+This is the honest measurement. It is unbiased in a way a manual trade log is
+not, because it scores every candidate the screen ever produced - including
+the ones you would have talked yourself out of taking.
+
+It answers one question: does a setup do better than a coin flip?
+"""
+
+import glob
+import json
+import os
+from datetime import datetime
+
+import pandas as pd
+
+RESULTS_DIR = "results"
+OUT = "docs/record.json"
+
+HORIZONS = (5, 20)
+MIN_SAMPLE = 30      # below this, results are noise and are labelled as such
+
+
+def _load_history():
+    """Every past run, oldest first."""
+    rows = []
+    for path in sorted(glob.glob(os.path.join(RESULTS_DIR, "ranked_*.csv"))):
+        date = os.path.basename(path)[7:-4]
+        try:
+            df = pd.read_csv(path)
+        except Exception:
+            continue
+        for _, r in df.iterrows():
+            rows.append({
+                "date": date,
+                "ticker": str(r.get("ticker", "")).upper(),
+                "setup": r.get("setup", "Unknown"),
+                "entry": r.get("entry"),
+                "price": r.get("price"),
+            })
+    return rows
+
+
+def _price_lookup(tickers, start):
+    """Daily closes for every ticker we need to score."""
+    import yfinance as yf
+
+    out = {}
+    tickers = sorted(set(tickers))
+    for i in range(0, len(tickers), 150):
+        batch = tickers[i:i + 150]
+        try:
+            data = yf.download(batch, start=start, interval="1d",
+                               auto_adjust=True, group_by="ticker",
+                               progress=False, threads=True)
+        except Exception as e:
+            print(f"  price fetch failed for a batch: {e}")
+            continue
+        for t in batch:
+            try:
+                s = (data[t] if len(batch) > 1 else data)["Close"].dropna()
+                if len(s):
+                    out[t] = s
+            except (KeyError, TypeError):
+                continue
+    return out
+
+
+def evaluate():
+    rows = _load_history()
+    if not rows:
+        print("No history yet - nothing to evaluate.")
+        return None
+
+    earliest = min(r["date"] for r in rows)
+    print(f"Evaluating {len(rows)} past candidates since {earliest}...")
+
+    prices = _price_lookup([r["ticker"] for r in rows], earliest)
+
+    scored = []
+    for r in rows:
+        s = prices.get(r["ticker"])
+        if s is None or s.empty:
+            continue
+        try:
+            run_day = pd.Timestamp(r["date"]).tz_localize(None)
+        except Exception:
+            continue
+
+        idx = s.index.tz_localize(None) if s.index.tz is not None else s.index
+        after = s[idx > run_day]
+        if after.empty:
+            continue
+
+        base = float(s[idx <= run_day].iloc[-1]) if len(s[idx <= run_day]) else None
+        if not base:
+            continue
+
+        rec = {"date": r["date"], "ticker": r["ticker"],
+               "setup": r["setup"] or "Unknown"}
+        for h in HORIZONS:
+            rec[f"r{h}"] = (float(after.iloc[h - 1]) / base - 1
+                            if len(after) >= h else None)
+        scored.append(rec)
+
+    if not scored:
+        print("No candidates are old enough to score yet.")
+        return None
+
+    df = pd.DataFrame(scored)
+
+    def stats(sub):
+        out = {"n": int(len(sub))}
+        for h in HORIZONS:
+            col = sub[f"r{h}"].dropna()
+            out[f"n{h}"] = int(len(col))
+            out[f"avg{h}"] = round(float(col.mean()) * 100, 2) if len(col) else None
+            out[f"win{h}"] = (round(float((col > 0).mean()) * 100, 1)
+                              if len(col) else None)
+            out[f"med{h}"] = round(float(col.median()) * 100, 2) if len(col) else None
+        return out
+
+    record = {
+        "generated": datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
+        "first_run": earliest,
+        "min_sample": MIN_SAMPLE,
+        "overall": stats(df),
+        "by_setup": {name: stats(sub) for name, sub in df.groupby("setup")},
+    }
+
+    os.makedirs("docs", exist_ok=True)
+    with open(OUT, "w") as f:
+        json.dump(record, f, indent=1)
+
+    o = record["overall"]
+    print(f"\nScored {o['n']} candidates.")
+    for h in HORIZONS:
+        if o[f"win{h}"] is not None:
+            print(f"  +{h}d: {o[f'win{h}']}% finished up, "
+                  f"average {o[f'avg{h}']:+.2f}% (n={o[f'n{h}']})")
+    if o["n20"] < MIN_SAMPLE:
+        print(f"\n  Sample is {o['n20']}, below {MIN_SAMPLE}. Treat as noise.")
+
+    return record
+
+
+if __name__ == "__main__":
+    evaluate()

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Swing scan</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#EEF1EC">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+:root{
+  --ground:#EEF1EC; --panel:#E4E9E2; --ink:#1B2420; --muted:#5D6B62;
+  --rule:#C4CDC2; --green:#2E6A4C; --umber:#7C4A21; --red:#8E3B2F;
+  --serif:Georgia,"Iowan Old Style","Palatino Linotype",serif;
+  --sans:ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans)}
+body{font-size:15px;line-height:1.55;padding:0 20px env(safe-area-inset-bottom)}
+.wrap{max-width:780px;margin:0 auto;padding:32px 0 64px}
+h1{font-family:var(--serif);font-size:28px;font-weight:400;margin:0;letter-spacing:-.01em}
+.meta{color:var(--muted);font-size:13.5px;margin:4px 0 0}
+.num{font-variant-numeric:tabular-nums}
+
+/* ---- record panel: the hero ---- */
+.record{background:var(--panel);border-radius:3px;padding:22px 22px 18px;margin:28px 0 36px}
+.verdict{font-family:var(--serif);font-size:20px;line-height:1.35;margin:0 0 4px}
+.verdict-sub{color:var(--muted);font-size:13.5px;margin:0 0 18px;max-width:60ch}
+.stats{display:flex;flex-wrap:wrap;gap:28px 40px;margin:0 0 4px}
+.stat b{display:block;font-family:var(--serif);font-size:26px;font-weight:400;
+        line-height:1.1;font-variant-numeric:tabular-nums}
+.stat span{color:var(--muted);font-size:12.5px}
+.setup-record{border-top:1px solid var(--rule);margin-top:18px;padding-top:14px}
+.sr-row{display:flex;justify-content:space-between;gap:12px;padding:5px 0;font-size:13.5px}
+.sr-row i{font-style:normal;color:var(--muted)}
+.bar{position:relative;height:14px;margin:2px 0 10px}
+.bar::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--ink);opacity:.35}
+.bar i{position:absolute;top:3px;height:8px;border-radius:1px;background:var(--green)}
+.bar i.neg{background:var(--red)}
+.axis{display:flex;justify-content:space-between;font-size:10.5px;color:var(--muted);margin-bottom:2px}
+.axis u{text-decoration:none}
+
+/* ---- candidates ---- */
+h2{font-family:var(--serif);font-size:19px;font-weight:400;margin:36px 0 2px}
+.h2sub{color:var(--muted);font-size:13.5px;margin:0 0 14px}
+.cand{border-top:1px solid var(--rule);padding:0}
+.cand:last-of-type{border-bottom:1px solid var(--rule)}
+.chead{display:flex;align-items:baseline;gap:10px;width:100%;background:none;
+       border:0;padding:15px 4px;text-align:left;cursor:pointer;font:inherit;color:inherit}
+.chead:hover{background:rgba(0,0,0,.025)}
+.chead:focus-visible{outline:2px solid var(--green);outline-offset:-2px}
+.tk{font-family:var(--serif);font-size:19px;letter-spacing:.01em}
+.tag{font-size:12px;color:#fff;background:var(--green);padding:2px 7px;border-radius:2px}
+.tag.coil{background:var(--umber)} .tag.breakout{background:#2A5470}
+.tag.reset{background:#5A5A3C}
+.px{margin-left:auto;font-size:15px;font-variant-numeric:tabular-nums}
+.chev{color:var(--muted);font-size:12px;width:12px;transition:transform .18s ease}
+.cand[open] .chev{transform:rotate(90deg)}
+.body{padding:0 4px 20px}
+.biz{color:var(--muted);font-size:13px;margin:0 0 14px}
+.why{margin:0 0 16px;padding-left:18px;font-size:14px}
+.why li{margin:4px 0}
+.levels{display:grid;grid-template-columns:1fr auto;gap:2px 16px;font-size:14px;
+        border-top:1px solid var(--rule);padding-top:12px;margin-bottom:14px}
+.levels dt{color:var(--muted)}
+.levels dd{margin:0;text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+.fund{font-size:13px;background:rgba(0,0,0,.03);border-radius:3px;padding:10px 13px;margin-bottom:14px}
+.fund p{margin:0 0 4px;font-weight:600}
+.fund ul{margin:0;padding-left:16px;color:var(--muted)}
+.g-strong,.g-sound{color:var(--green)} .g-mixed{color:var(--umber)}
+.g-weak{color:var(--red)} .g-limiteddata,.g-nodata{color:var(--muted)}
+a.tv{color:var(--green);font-weight:600;text-decoration:none;border-bottom:1px solid currentColor}
+a.tv:hover{color:var(--ink)}
+
+.empty{background:var(--panel);border-radius:3px;padding:22px}
+.empty p{margin:0;max-width:62ch}
+.note{border-top:1px solid var(--rule);margin-top:44px;padding-top:16px;
+      color:var(--muted);font-size:12.5px;max-width:66ch}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media (max-width:520px){
+  .wrap{padding:24px 0 48px} h1{font-size:24px}
+  .stats{gap:18px 28px} .stat b{font-size:22px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Swing scan</h1>
+  <p class="meta" id="meta">Loading…</p>
+
+  <section class="record" id="record" hidden></section>
+
+  <h2 id="candTitle">Today</h2>
+  <p class="h2sub" id="candSub"></p>
+  <div id="cands"></div>
+
+  <p class="note">
+    Entries are buy stops above the prior day's high, so they only fill if the
+    stock turns up. Stops sit below the 10-day swing low, capped at twice ATR.
+    Targets are two and three times the entry-to-stop distance. These are a
+    consistent framework for measuring the screen, not tested parameters.
+    Nothing here is investment advice.
+  </p>
+</div>
+
+<script>
+const TAGS = {"Volatility coil":"coil","Breakout ready":"breakout",
+              "Trend reset at 50-day":"reset"};
+const money = n => n==null ? "—" : "$"+Number(n).toLocaleString(undefined,
+  {minimumFractionDigits:2,maximumFractionDigits:2});
+const esc = s => String(s??"").replace(/[&<>"]/g,c=>
+  ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+async function getJSON(p){
+  const r = await fetch(p+"?t="+Date.now());
+  if(!r.ok) throw new Error(p+" "+r.status);
+  return r.json();
+}
+
+function renderRecord(rec){
+  const el = document.getElementById("record");
+  if(!rec || !rec.overall || !rec.overall.n20){
+    el.hidden = false;
+    el.innerHTML = `<p class="verdict">No track record yet.</p>
+      <p class="verdict-sub">Candidates need twenty trading days before they
+      can be scored. Come back in about a month and this panel will tell you
+      whether the screen beats a coin flip.</p>`;
+    return;
+  }
+  const o = rec.overall, thin = o.n20 < rec.min_sample;
+  const edge = o.win20 - 50;
+
+  let verdict, sub;
+  if(thin){
+    verdict = `Too early to tell.`;
+    sub = `Only ${o.n20} candidates have been scored. Below ${rec.min_sample}
+      the numbers move around too much to mean anything. They are shown so you
+      can watch the sample grow, not so you can act on them.`;
+  } else if(edge > 4){
+    verdict = `The screen is beating a coin flip.`;
+    sub = `Across ${o.n20} scored candidates, ${o.win20}% were higher twenty
+      trading days later. That is ${edge.toFixed(1)} points above chance. Keep
+      watching — one good stretch is not an edge.`;
+  } else if(edge < -4){
+    verdict = `The screen is losing to a coin flip.`;
+    sub = `Across ${o.n20} scored candidates, ${o.win20}% were higher after
+      twenty trading days. Worth changing the filters rather than trading them.`;
+  } else {
+    verdict = `No edge so far.`;
+    sub = `${o.win20}% of ${o.n20} scored candidates were higher after twenty
+      trading days — close enough to chance that the screen is not yet adding
+      anything. This is the most common honest result.`;
+  }
+
+  const setups = Object.entries(rec.by_setup||{})
+    .filter(([,s])=>s.n20).sort((a,b)=>b[1].n20-a[1].n20);
+
+  el.hidden = false;
+  el.innerHTML = `
+    <p class="verdict">${esc(verdict)}</p>
+    <p class="verdict-sub">${esc(sub)}</p>
+    <div class="stats">
+      <div class="stat"><b>${o.n}</b><span>candidates scored</span></div>
+      <div class="stat"><b>${o.win5??"—"}%</b><span>up after 5 days</span></div>
+      <div class="stat"><b>${o.win20??"—"}%</b><span>up after 20 days</span></div>
+      <div class="stat"><b>${o.avg20>0?"+":""}${o.avg20??"—"}%</b><span>average 20-day move</span></div>
+    </div>
+    ${setups.length>1?`<div class="setup-record">
+      <div class="axis"><u>worse than chance</u><u>better</u></div>
+      ${setups.map(([n,s])=>`
+      <div class="sr-row"><span>${esc(n)}</span>
+        <i>${s.win20}% up, from ${s.n20} scored</i></div>
+      <div class="bar">${bar(s.win20)}</div>
+    `).join("")}</div>`:""}`;
+}
+
+function bar(win){
+  // Draw distance from a coin flip, not the raw percentage. A bar that fills
+  // from zero makes 52% look substantial; it isn't.
+  const d = (win==null?0:win-50), MAX = 20;
+  const w = Math.min(Math.abs(d)/MAX, 1) * 50;
+  const style = d>=0 ? `left:50%;width:${w}%` : `right:50%;width:${w}%`;
+  return `<i class="${d<0?"neg":""}" style="${style}"></i>`;
+}
+
+function card(c){
+  const cls = TAGS[c.setup]||"";
+  const also = c.also?.length?` <i style="color:var(--muted);font-size:12px">also ${esc(c.also.join(", "))}</i>`:"";
+  const g = "g-"+String(c.fund_grade||"nodata").toLowerCase().replace(/\s/g,"");
+  return `<details class="cand">
+    <summary class="chead">
+      <span class="chev">›</span>
+      <span class="tk">${esc(c.ticker)}</span>
+      <span class="tag ${cls}">${esc(c.setup||"—")}</span>${also}
+      <span class="px">${money(c.price)}</span>
+    </summary>
+    <div class="body">
+      <p class="biz">${esc(c.business||"")}</p>
+      <ul class="why">${(c.reasons||[]).map(r=>`<li>${esc(r)}</li>`).join("")}</ul>
+      <dl class="levels">
+        <dt>Entry trigger</dt><dd>${money(c.entry)}</dd>
+        <dt>Stop (${esc(c.stop_basis||"")})</dt><dd>${money(c.stop)}</dd>
+        <dt>Risk per share</dt><dd>${money(c.risk_per_share)} (${c.risk_pct}%)</dd>
+        <dt>First target</dt><dd>${money(c.target_2r)}</dd>
+        <dt>Second target</dt><dd>${money(c.target_3r)}</dd>
+      </dl>
+      <div class="fund">
+        <p class="${g}">Fundamentals: ${esc(c.fund_grade||"No data")}</p>
+        <ul>${(c.fund_notes||[]).map(n=>`<li>${esc(n)}</li>`).join("")}</ul>
+      </div>
+      ${c.tv_url?`<a class="tv" href="${esc(c.tv_url)}" target="_blank" rel="noopener">Open ${esc(c.ticker)} on TradingView</a>`:""}
+    </div>
+  </details>`;
+}
+
+(async function(){
+  let data=null, rec=null;
+  try{ data = await getJSON("data.json"); }catch(e){}
+  try{ rec  = await getJSON("record.json"); }catch(e){}
+
+  const meta = document.getElementById("meta");
+  if(!data){
+    meta.textContent = "No scan data yet.";
+    document.getElementById("cands").innerHTML =
+      `<div class="empty"><p>The scanner has not committed a result yet. Run
+       the workflow once from your repository's Actions tab, then reload this
+       page.</p></div>`;
+    renderRecord(null);
+    return;
+  }
+
+  meta.textContent = `${data.run_date}. Screened ${data.scanned} tickers. `
+    + `The S&P 500 is ${data.bench_return_60d>0?"up":"down"} `
+    + `${Math.abs(data.bench_return_60d)}% over sixty days.`;
+
+  renderRecord(rec);
+
+  const n = data.candidates.length;
+  document.getElementById("candTitle").textContent =
+    n ? `${n} setup${n===1?"":"s"} today` : "Nothing today";
+  document.getElementById("candSub").textContent = n
+    ? "Tap a ticker for the reasoning and levels."
+    : "";
+
+  document.getElementById("cands").innerHTML = n
+    ? data.candidates.map(card).join("")
+    : `<div class="empty"><p>No setups matched. Every setup needs an intact
+       uptrend, so an empty day usually means the market is weak rather than
+       that something broke. A screen that always finds something is not
+       filtering.</p></div>`;
+})();
+
+if("serviceWorker" in navigator){
+  navigator.serviceWorker.register("sw.js").catch(()=>{});
+}
+</script>
+</body>
+</html>

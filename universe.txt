@@ -1,0 +1,17 @@
+# Seed universe - replaced automatically by the weekly universe job.
+# ticker,exchange_code
+AAPL,Q
+MSFT,Q
+NVDA,Q
+GOOGL,Q
+AMZN,Q
+META,Q
+ADBE,Q
+COST,Q
+JPM,N
+UNH,N
+CAT,N
+LIN,Q
+HON,Q
+XOM,N
+WMT,N
