@@ -17,6 +17,7 @@ REQUIRED_FILES = [
     ("tradingview.py", "chart links and watchlist export"),
     ("report.py", "the email report"),
     ("dashboard.py", "the web app's data feed"),
+    ("bars.py", "normalizes price data"),
     ("requirements.txt", "the Python dependency list"),
 ]
 
@@ -84,8 +85,12 @@ def check_network():
     """One tiny download. If this fails, nothing downstream can work."""
     try:
         import yfinance as yf
-        df = yf.download("SPY", period="5d", interval="1d",
-                         progress=False, auto_adjust=True)
+        import bars
+        raw = yf.download("SPY", period="5d", interval="1d",
+                          progress=False, auto_adjust=True)
+        df = bars.flatten(raw, "SPY")
+        if df is None:
+            df = bars.flatten(raw)
         if df is None or df.empty:
             return fail(
                 "Yahoo Finance returned no data for SPY.",
@@ -93,8 +98,9 @@ def check_network():
                 "anything you did. Wait ten minutes and re-run the workflow. "
                 "If it keeps happening for days, yfinance may need updating - "
                 "edit requirements.txt and bump the yfinance version.")
+        import bars as _b
         print(f"  Yahoo reachable, SPY last close "
-              f"{float(df['Close'].iloc[-1]):.2f}")
+              f"{_b.scalar(df['Close'].iloc[-1]):.2f}")
         return True
     except Exception as e:
         return fail(
