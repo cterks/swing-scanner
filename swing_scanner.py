@@ -21,6 +21,8 @@ from datetime import date
 import numpy as np
 import pandas as pd
 
+import bars
+
 BENCHMARK = "SPY"
 LOOKBACK_DAYS = 400
 RS_WINDOW = 60
@@ -79,37 +81,37 @@ def compute_metrics(df, bench_return_60d):
         return None
 
     close = df["Close"]
-    last = float(close.iloc[-1])
+    last = bars.scalar(close.iloc[-1])
 
-    sma20 = float(sma(close, 20).iloc[-1])
-    sma50 = float(sma(close, 50).iloc[-1])
-    sma200 = float(sma(close, 200).iloc[-1])
+    sma20 = bars.scalar(sma(close, 20).iloc[-1])
+    sma50 = bars.scalar(sma(close, 50).iloc[-1])
+    sma200 = bars.scalar(sma(close, 200).iloc[-1])
 
     if any(np.isnan(x) for x in (sma20, sma50, sma200)):
         return None
 
-    atr_s = float(atr(df, ATR_SHORT).iloc[-1])
-    atr_l = float(atr(df, ATR_LONG).iloc[-1])
+    atr_s = bars.scalar(atr(df, ATR_SHORT).iloc[-1])
+    atr_l = bars.scalar(atr(df, ATR_LONG).iloc[-1])
     if np.isnan(atr_s) or np.isnan(atr_l) or atr_l == 0:
         return None
 
-    ret_60 = last / float(close.iloc[-(RS_WINDOW + 1)]) - 1.0
+    ret_60 = last / bars.scalar(close.iloc[-(RS_WINDOW + 1)]) - 1.0
 
     return {
         "price": last,
         "sma20": sma20,
         "sma50": sma50,
         "sma200": sma200,
-        "rsi14": float(rsi(close).iloc[-1]),
-        "avg_vol_50d": float(df["Volume"].rolling(50).mean().iloc[-1]),
-        "pct_from_52w_high": last / float(close.tail(252).max()) - 1.0,
+        "rsi14": bars.scalar(rsi(close).iloc[-1]),
+        "avg_vol_50d": bars.scalar(df["Volume"].rolling(50).mean().iloc[-1]),
+        "pct_from_52w_high": last / bars.scalar(close.tail(252).max()) - 1.0,
         # Distance below the 50-day, as a fraction. Positive = below the MA.
         "pullback_depth": (sma50 - last) / sma50,
         "pct_above_sma200": (last / sma200 - 1) * 100,
-        "atr14": float(atr(df, 14).iloc[-1]),
+        "atr14": bars.scalar(atr(df, 14).iloc[-1]),
         # Volume over the last 5 days vs the 50-day average. Below 1.0 = dry-up.
-        "vol_dryup": float(df["Volume"].tail(5).mean()
-                           / df["Volume"].tail(50).mean()),
+        "vol_dryup": bars.scalar(df["Volume"].tail(5).mean())
+        / bars.scalar(df["Volume"].tail(50).mean()),
         # Volatility contraction. Below 1.0 means recent ranges are tightening.
         "coil_ratio": atr_s / atr_l,
         "rel_strength": ret_60 - bench_return_60d,
@@ -191,13 +193,14 @@ def fetch(tickers, chunk=150, pause=1.5):
             continue
 
         for t in batch:
-            try:
-                df = data[t] if len(batch) > 1 else data
-                df = df.dropna()
-                if len(df) > 0:
-                    out[t] = df
-            except (KeyError, TypeError):
+            df = bars.flatten(data, t)
+            if df is None and len(batch) == 1:
+                df = bars.flatten(data)
+            if df is None:
                 continue
+            df = df.dropna()
+            if bars.usable(df):
+                out[t] = df
 
         time.sleep(pause)
 
@@ -209,20 +212,28 @@ def main():
     tickers = universe.load()
     print(f"Fetching {len(tickers)} tickers plus benchmark...")
 
-    bars = fetch(tickers + [BENCHMARK])
+    price_bars = fetch(tickers + [BENCHMARK])
 
-    if BENCHMARK not in bars:
-        sys.exit(f"Could not fetch {BENCHMARK}. Check your connection.")
+    if BENCHMARK not in price_bars:
+        print("\n" + "=" * 68)
+        print(f"SETUP PROBLEM: could not fetch {BENCHMARK} (the benchmark).")
+        print("\nHOW TO FIX: this is nearly always Yahoo rate limiting, not")
+        print("something you did. Wait ten minutes and re-run the workflow")
+        print("from the Actions tab. If it fails for several days running,")
+        print("bump the yfinance version in requirements.txt.")
+        print("=" * 68 + "\n")
+        sys.exit(1)
 
-    bench = bars[BENCHMARK]["Close"]
-    bench_ret = float(bench.iloc[-1]) / float(bench.iloc[-(RS_WINDOW + 1)]) - 1.0
+    bench = price_bars[BENCHMARK]["Close"]
+    bench_ret = (bars.scalar(bench.iloc[-1])
+                 / bars.scalar(bench.iloc[-(RS_WINDOW + 1)]) - 1.0)
     print(f"{BENCHMARK} {RS_WINDOW}d return: {bench_ret:+.1%}")
 
     import setups
 
     rows = []
     for t in tickers:
-        m = compute_metrics(bars.get(t), bench_ret)
+        m = compute_metrics(price_bars.get(t), bench_ret)
         if m is None or not passes_filters(m):
             continue
 
@@ -230,7 +241,7 @@ def main():
         if primary is None:
             continue
 
-        lv = setups.trade_levels(bars[t], m)
+        lv = setups.trade_levels(price_bars[t], m)
         if lv is None:
             continue
 
