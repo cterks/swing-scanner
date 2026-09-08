@@ -10,6 +10,8 @@ WHY a name appeared, not just that it scored well.
 
 import numpy as np
 
+import bars
+
 
 # ---------------------------------------------------------------------
 # Setup definitions
@@ -154,8 +156,8 @@ def trade_levels(df, m):
     Targets: 2R and 3R, where R is the distance from entry to stop.
     """
     atr = m["atr14"]
-    prior_high = float(df["High"].iloc[-1])
-    swing_low = float(df["Low"].tail(10).min())
+    prior_high = bars.scalar(df["High"].iloc[-1])
+    swing_low = bars.scalar(df["Low"].tail(10).min())
 
     entry = round(prior_high + 0.05 * atr, 2)
 
