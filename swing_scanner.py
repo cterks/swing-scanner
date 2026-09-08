@@ -313,11 +313,16 @@ def main():
 
 
 def emit_report(rows, run_date, scanned, bench_ret):
-    import report
-    html = report.build_html(rows, run_date, scanned, bench_ret)
-    n = 0 if rows is None else len(rows)
-    subject = f"Swing scan {run_date} - {n} candidate{'' if n == 1 else 's'}"
-    report.send(html, subject, attach="tradingview_watchlist.txt")
+    """Reporting is optional. It must never fail a successful scan."""
+    try:
+        import report
+        html = report.build_html(rows, run_date, scanned, bench_ret)
+        n = 0 if rows is None else len(rows)
+        subject = f"Swing scan {run_date} - {n} candidate{'' if n == 1 else 's'}"
+        report.send(html, subject, attach="tradingview_watchlist.txt")
+    except Exception as e:
+        print(f"\nReport step failed ({type(e).__name__}: {e}).")
+        print("The scan succeeded - results and dashboard data are written.")
 
 
 if __name__ == "__main__":
