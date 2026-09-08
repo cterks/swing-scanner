@@ -124,19 +124,39 @@ trades, never on one day. Not investment advice.
 </body></html>"""
 
 
+def _env(name, default=None):
+    """
+    Read an environment variable, treating empty as unset.
+
+    GitHub Actions sets env vars for secrets that don't exist to an EMPTY
+    STRING rather than leaving them undefined, so os.environ.get(name,
+    default) returns "" instead of the default. That turned an optional
+    feature into a crash.
+    """
+    v = os.environ.get(name)
+    return default if v is None or not v.strip() else v.strip()
+
+
 def send(html, subject, out_path="report.html", attach=None):
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html)
 
-    host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
-    port = int(os.environ.get("SMTP_PORT", "587"))
-    user = os.environ.get("SMTP_USER")
-    password = os.environ.get("SMTP_PASS")
-    to = os.environ.get("MAIL_TO") or user
+    user = _env("SMTP_USER")
+    password = _env("SMTP_PASS")
 
+    # Check credentials BEFORE parsing anything else. Email is optional and
+    # must never be able to fail a run whose real work already succeeded.
     if not user or not password:
-        print(f"No SMTP credentials set - skipped sending. Wrote {out_path}")
+        print(f"No email credentials set - skipped sending. Wrote {out_path}")
         return False
+
+    host = _env("SMTP_HOST", "smtp.gmail.com")
+    try:
+        port = int(_env("SMTP_PORT", "587"))
+    except ValueError:
+        print("SMTP_PORT is not a number - falling back to 587.")
+        port = 587
+    to = _env("MAIL_TO") or user
 
     msg = EmailMessage()
     msg["Subject"] = subject
@@ -151,10 +171,21 @@ def send(html, subject, out_path="report.html", attach=None):
             msg.add_attachment(f.read(), maintype="text", subtype="plain",
                                filename=os.path.basename(attach))
 
-    with smtplib.SMTP(host, port, timeout=30) as server:
-        server.starttls(context=ssl.create_default_context())
-        server.login(user, password)
-        server.send_message(msg)
+    try:
+        with smtplib.SMTP(host, port, timeout=30) as server:
+            server.starttls(context=ssl.create_default_context())
+            server.login(user, password)
+            server.send_message(msg)
+    except Exception as e:
+        # The scan already succeeded and the data is on disk. Losing the day's
+        # results because a mail server refused a connection would be absurd.
+        print(f"\nCould not send email ({type(e).__name__}: {e}).")
+        print("The scan itself succeeded - results and dashboard are written.")
+        if "auth" in str(e).lower() or "password" in str(e).lower():
+            print("That looks like a credentials problem. Check SMTP_USER is "
+                  "the full address and SMTP_PASS is a 16-character Gmail app "
+                  "password with no spaces.")
+        return False
 
     print(f"Emailed report to {to}")
     return True
