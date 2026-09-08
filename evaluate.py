@@ -19,6 +19,8 @@ from datetime import datetime
 
 import pandas as pd
 
+import bars
+
 RESULTS_DIR = "results"
 OUT = "docs/record.json"
 
@@ -62,12 +64,14 @@ def _price_lookup(tickers, start):
             print(f"  price fetch failed for a batch: {e}")
             continue
         for t in batch:
-            try:
-                s = (data[t] if len(batch) > 1 else data)["Close"].dropna()
-                if len(s):
-                    out[t] = s
-            except (KeyError, TypeError):
+            df = bars.flatten(data, t)
+            if df is None and len(batch) == 1:
+                df = bars.flatten(data)
+            if df is None or "Close" not in df.columns:
                 continue
+            s = df["Close"].dropna()
+            if len(s):
+                out[t] = s
     return out
 
 
@@ -97,14 +101,15 @@ def evaluate():
         if after.empty:
             continue
 
-        base = float(s[idx <= run_day].iloc[-1]) if len(s[idx <= run_day]) else None
+        prior = s[idx <= run_day]
+        base = bars.scalar(prior.iloc[-1]) if len(prior) else None
         if not base:
             continue
 
         rec = {"date": r["date"], "ticker": r["ticker"],
                "setup": r["setup"] or "Unknown"}
         for h in HORIZONS:
-            rec[f"r{h}"] = (float(after.iloc[h - 1]) / base - 1
+            rec[f"r{h}"] = (bars.scalar(after.iloc[h - 1]) / base - 1
                             if len(after) >= h else None)
         scored.append(rec)
 
