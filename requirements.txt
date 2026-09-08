@@ -1,3 +1,5 @@
+# yfinance 1.x changed the column layout to MultiIndex. bars.py normalizes
+# every layout, so either major version works.
 yfinance>=0.2.40
 pandas>=2.0
 numpy>=1.24
