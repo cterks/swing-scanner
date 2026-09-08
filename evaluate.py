@@ -27,12 +27,32 @@ OUT = "docs/record.json"
 HORIZONS = (5, 20)
 MIN_SAMPLE = 30      # below this, results are noise and are labelled as such
 
+# A run needs at least this many calendar days before any outcome exists.
+# Scoring today's candidates is meaningless - nothing has happened to them.
+# It also avoids asking Yahoo for a start date that is still in the future,
+# which happens whenever the scan runs late enough that UTC has rolled over.
+MIN_AGE_DAYS = 3
+
+# Fetch from a few days before the earliest run so the base price is available
+# even if that run landed on a Monday after a long weekend.
+LOOKBACK_PAD_DAYS = 7
+
 
 def _load_history():
-    """Every past run, oldest first."""
-    rows = []
+    """Past runs old enough to have an outcome, oldest first."""
+    from datetime import date as _date, timedelta
+
+    cutoff = _date.today() - timedelta(days=MIN_AGE_DAYS)
+    rows, skipped = [], 0
+
     for path in sorted(glob.glob(os.path.join(RESULTS_DIR, "ranked_*.csv"))):
         date = os.path.basename(path)[7:-4]
+        try:
+            if _date.fromisoformat(date) > cutoff:
+                skipped += 1
+                continue
+        except ValueError:
+            continue
         try:
             df = pd.read_csv(path)
         except Exception:
@@ -45,6 +65,10 @@ def _load_history():
                 "entry": r.get("entry"),
                 "price": r.get("price"),
             })
+
+    if skipped:
+        print(f"Skipped {skipped} run(s) newer than {MIN_AGE_DAYS} days - "
+              "too recent to have an outcome yet.")
     return rows
 
 
@@ -78,13 +102,25 @@ def _price_lookup(tickers, start):
 def evaluate():
     rows = _load_history()
     if not rows:
-        print("No history yet - nothing to evaluate.")
+        print("Nothing old enough to score yet. This is expected for roughly "
+              "the first week - come back once a few runs have aged.")
         return None
 
     earliest = min(r["date"] for r in rows)
-    print(f"Evaluating {len(rows)} past candidates since {earliest}...")
 
-    prices = _price_lookup([r["ticker"] for r in rows], earliest)
+    # Pad backwards so the base price exists, and never ask for a start date
+    # at or after today.
+    from datetime import date as _date, timedelta
+    start = _date.fromisoformat(earliest) - timedelta(days=LOOKBACK_PAD_DAYS)
+    today = _date.today()
+    if start >= today:
+        print("Start date would be in the future - nothing to score.")
+        return None
+
+    print(f"Evaluating {len(rows)} past candidates since {earliest} "
+          f"(fetching from {start})...")
+
+    prices = _price_lookup([r["ticker"] for r in rows], start.isoformat())
 
     scored = []
     for r in rows:
