@@ -1,29 +1,29 @@
 {
- "run_date": "2026-09-08",
- "generated": "2026-09-08 22:25 UTC",
+ "run_date": "2026-09-09",
+ "generated": "2026-09-09 22:24 UTC",
  "scanned": 1200,
- "bench_return_60d": 4.09,
+ "bench_return_60d": 3.05,
  "candidates": [
   {
    "ticker": "UTZ",
    "setup": "Volatility coil",
    "also": [],
-   "price": 14.21,
-   "score": 0.689,
-   "business": "Utz Brands Inc, Consumer Defensive, small cap at $1.3B",
+   "price": 14.22,
+   "score": 0.703,
+   "business": "Utz Brands Inc, Consumer Defensive, mid cap at $2.0B",
    "reasons": [
     "Daily ranges have contracted to 64% of their 20-day norm \u2014 volatility is compressing",
     "Holding within 0% of its 52-week high while quieting down",
     "Tight action near highs often precedes an expansion, though the direction is not predetermined",
-    "Volume has dried up to 42% of its 50-day average, typical of a supply pause"
+    "Volume has dried up to 43% of its 50-day average, typical of a supply pause"
    ],
-   "entry": 14.23,
+   "entry": 14.22,
    "stop": 14.17,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 0.06,
-   "risk_pct": 0.42,
-   "target_2r": 14.35,
-   "target_3r": 14.41,
+   "risk_per_share": 0.05,
+   "risk_pct": 0.35,
+   "target_2r": 14.32,
+   "target_3r": 14.37,
    "fund_grade": "Weak",
    "fund_notes": [
     "Net margin -2% \u2014 currently lossmaking",
@@ -34,25 +34,52 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:UTZ"
   },
   {
+   "ticker": "S",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 19.44,
+   "score": 0.689,
+   "business": "SentinelOne, Inc., Technology, mid cap at $6.8B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 21% above the 200-day, so the larger trend is intact",
+    "RSI at 44 \u2014 the pullback has done real work"
+   ],
+   "entry": 19.8,
+   "stop": 18.8,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 1.0,
+   "risk_pct": 5.05,
+   "target_2r": 21.8,
+   "target_3r": 22.8,
+   "fund_grade": "Weak",
+   "fund_notes": [
+    "Net margin -31% \u2014 currently lossmaking",
+    "Revenue growing 21% year over year",
+    "Return on equity -23% \u2014 destroying capital"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:S"
+  },
+  {
    "ticker": "SLS",
    "setup": "Volatility coil",
    "also": [],
-   "price": 13.96,
-   "score": 0.679,
+   "price": 13.95,
+   "score": 0.682,
    "business": "SELLAS Life Sciences Group, Inc, Healthcare, mid cap at $2.8B",
    "reasons": [
-    "Daily ranges have contracted to 77% of their 20-day norm \u2014 volatility is compressing",
+    "Daily ranges have contracted to 75% of their 20-day norm \u2014 volatility is compressing",
     "Holding within 10% of its 52-week high while quieting down",
     "Tight action near highs often precedes an expansion, though the direction is not predetermined",
-    "Volume has dried up to 69% of its 50-day average, typical of a supply pause"
+    "Volume has dried up to 73% of its 50-day average, typical of a supply pause"
    ],
-   "entry": 14.42,
-   "stop": 12.32,
+   "entry": 14.39,
+   "stop": 12.33,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 2.1,
-   "risk_pct": 14.56,
-   "target_2r": 18.62,
-   "target_3r": 20.72,
+   "risk_per_share": 2.06,
+   "risk_pct": 14.32,
+   "target_2r": 18.51,
+   "target_3r": 20.57,
    "fund_grade": "Weak",
    "fund_notes": [
     "Net margin 0% \u2014 currently lossmaking",
@@ -62,11 +89,40 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:SLS"
   },
   {
+   "ticker": "RBRK",
+   "setup": "Pullback to 20-day",
+   "also": [
+    "Trend reset at 50-day"
+   ],
+   "price": 88.82,
+   "score": 0.649,
+   "business": "Rubrik, Inc., Technology, large cap at $18.3B",
+   "reasons": [
+    "Trading 28% above its 200-day average, so the long-term trend is up",
+    "Now 1.9% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 47 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 27.2% over 60 days"
+   ],
+   "entry": 93.3,
+   "stop": 84.5,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 8.8,
+   "risk_pct": 9.43,
+   "target_2r": 110.9,
+   "target_3r": 119.7,
+   "fund_grade": "Mixed",
+   "fund_notes": [
+    "Net margin -16% \u2014 currently lossmaking",
+    "Revenue growing 38% year over year"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:RBRK"
+  },
+  {
    "ticker": "CZR",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 29.66,
-   "score": 0.652,
+   "price": 29.67,
+   "score": 0.648,
    "business": "Caesars Entertainment, Inc., Consumer Cyclical, mid cap at $6.0B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
@@ -90,108 +146,27 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:CZR"
   },
   {
-   "ticker": "S",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 19.43,
-   "score": 0.638,
-   "business": "SentinelOne, Inc., Technology, mid cap at $6.8B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 21% above the 200-day, so the larger trend is intact",
-    "RSI at 43 \u2014 the pullback has done real work"
-   ],
-   "entry": 19.86,
-   "stop": 18.78,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 1.08,
-   "risk_pct": 5.44,
-   "target_2r": 22.02,
-   "target_3r": 23.1,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin -31% \u2014 currently lossmaking",
-    "Revenue growing 21% year over year",
-    "Return on equity -23% \u2014 destroying capital"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:S"
-  },
-  {
-   "ticker": "ORKA",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 94.31,
-   "score": 0.635,
-   "business": "Oruka Therapeutics, Inc., Healthcare, mid cap at $6.2B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 61% above the 200-day, so the larger trend is intact",
-    "RSI at 46 \u2014 the pullback has done real work"
-   ],
-   "entry": 96.73,
-   "stop": 85.09,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 11.64,
-   "risk_pct": 12.03,
-   "target_2r": 120.01,
-   "target_3r": 131.65,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin 0% \u2014 currently lossmaking",
-    "Return on equity -18% \u2014 destroying capital",
-    "Debt/equity 0.23 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:ORKA"
-  },
-  {
-   "ticker": "ACA",
-   "setup": "Breakout ready",
-   "also": [
-    "Volatility coil"
-   ],
-   "price": 145.65,
-   "score": 0.63,
-   "business": "Arcosa, Inc., Industrials, mid cap at $7.2B",
-   "reasons": [
-    "Sitting 0.0% below its 52-week high \u2014 a breakout is within reach",
-    "RSI at 63, so it is not yet stretched",
-    "Ranges are narrowing into the level rather than spiking through it"
-   ],
-   "entry": 145.77,
-   "stop": 145.18,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 0.59,
-   "risk_pct": 0.4,
-   "target_2r": 146.95,
-   "target_3r": 147.54,
-   "fund_grade": "Sound",
-   "fund_notes": [
-    "Net margin 17% \u2014 solidly profitable",
-    "Revenue up 2% \u2014 modest growth",
-    "Debt/equity 0.51 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ACA"
-  },
-  {
    "ticker": "EAT",
    "setup": "Pullback to 20-day",
-   "also": [],
-   "price": 222.49,
-   "score": 0.626,
-   "business": "Brinker International, Inc., Consumer Cyclical, mid cap at $9.3B",
-   "reasons": [
-    "Trading 35% above its 200-day average, so the long-term trend is up",
-    "Now 5.5% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 47 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 36.1% over 60 days"
+   "also": [
+    "Trend reset at 50-day"
    ],
-   "entry": 230.77,
-   "stop": 218.1,
+   "price": 215.31,
+   "score": 0.647,
+   "business": "Brinker International, Inc., Consumer Cyclical, mid cap at $9.0B",
+   "reasons": [
+    "Trading 31% above its 200-day average, so the long-term trend is up",
+    "Now 1.7% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 42 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 32.1% over 60 days"
+   ],
+   "entry": 223.99,
+   "stop": 212.52,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 12.67,
-   "risk_pct": 5.49,
-   "target_2r": 256.11,
-   "target_3r": 268.78,
+   "risk_per_share": 11.47,
+   "risk_pct": 5.12,
+   "target_2r": 246.93,
+   "target_3r": 258.4,
    "fund_grade": "Mixed",
    "fund_notes": [
     "Net margin 8% \u2014 thin but positive",
@@ -205,22 +180,22 @@
    "ticker": "PSNL",
    "setup": "Volatility coil",
    "also": [],
-   "price": 16.6,
-   "score": 0.626,
+   "price": 16.4,
+   "score": 0.641,
    "business": "Personalis, Inc., Healthcare, small cap at $1.8B",
    "reasons": [
-    "Daily ranges have contracted to 77% of their 20-day norm \u2014 volatility is compressing",
-    "Holding within 10% of its 52-week high while quieting down",
+    "Daily ranges have contracted to 73% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 11% of its 52-week high while quieting down",
     "Tight action near highs often precedes an expansion, though the direction is not predetermined",
-    "Volume has dried up to 63% of its 50-day average, typical of a supply pause"
+    "Volume has dried up to 60% of its 50-day average, typical of a supply pause"
    ],
-   "entry": 17.4,
-   "stop": 16.19,
+   "entry": 16.87,
+   "stop": 16.16,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 1.21,
-   "risk_pct": 6.95,
-   "target_2r": 19.82,
-   "target_3r": 21.03,
+   "risk_per_share": 0.71,
+   "risk_pct": 4.21,
+   "target_2r": 18.29,
+   "target_3r": 19.0,
    "fund_grade": "Weak",
    "fund_notes": [
     "Net margin -154% \u2014 currently lossmaking",
@@ -234,21 +209,21 @@
    "ticker": "TECH",
    "setup": "Breakout ready",
    "also": [],
-   "price": 72.31,
-   "score": 0.621,
+   "price": 72.25,
+   "score": 0.639,
    "business": "Bio-Techne Corp, Healthcare, large cap at $11.3B",
    "reasons": [
-    "Sitting 0.2% below its 52-week high \u2014 a breakout is within reach",
-    "RSI at 62, so it is not yet stretched",
+    "Sitting 0.3% below its 52-week high \u2014 a breakout is within reach",
+    "RSI at 60, so it is not yet stretched",
     "Ranges are narrowing into the level rather than spiking through it"
    ],
-   "entry": 72.47,
-   "stop": 72.12,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 0.35,
-   "risk_pct": 0.48,
-   "target_2r": 73.17,
-   "target_3r": 73.52,
+   "entry": 72.37,
+   "stop": 72.1,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 0.27,
+   "risk_pct": 0.37,
+   "target_2r": 72.91,
+   "target_3r": 73.18,
    "fund_grade": "Sound",
    "fund_notes": [
     "Net margin 15% \u2014 solidly profitable",
@@ -258,37 +233,67 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:TECH"
   },
   {
-   "ticker": "RVMD",
+   "ticker": "CAKE",
    "setup": "Volatility coil",
    "also": [
     "Pullback to 20-day"
    ],
-   "price": 207.32,
-   "score": 0.62,
-   "business": "Revolution Medicines, Inc., Healthcare, large cap at $44.4B",
+   "price": 103.61,
+   "score": 0.633,
+   "business": "The Cheesecake Factory Incorpor, Consumer Cyclical, mid cap at $5.2B",
    "reasons": [
-    "Daily ranges have contracted to 77% of their 20-day norm \u2014 volatility is compressing",
-    "Holding within 6% of its 52-week high while quieting down",
+    "Daily ranges have contracted to 69% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 12% of its 52-week high while quieting down",
     "Tight action near highs often precedes an expansion, though the direction is not predetermined",
-    "Volume has dried up to 76% of its 50-day average, typical of a supply pause"
+    "Volume has dried up to 73% of its 50-day average, typical of a supply pause"
    ],
-   "entry": 213.39,
-   "stop": 196.88,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 16.51,
-   "risk_pct": 7.74,
-   "target_2r": 246.41,
-   "target_3r": 262.92,
-   "fund_grade": "Weak",
+   "entry": 106.49,
+   "stop": 102.37,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 4.12,
+   "risk_pct": 3.87,
+   "target_2r": 114.73,
+   "target_3r": 118.85,
+   "fund_grade": "Mixed",
    "fund_notes": [
-    "Net margin 0% \u2014 currently lossmaking",
-    "Return on equity -79% \u2014 destroying capital",
-    "Debt/equity 0.46 \u2014 conservative balance sheet"
+    "Net margin 5% \u2014 thin but positive",
+    "Revenue up 8% \u2014 modest growth",
+    "Return on equity 39%",
+    "Debt/equity 4.01 \u2014 heavily leveraged"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:RVMD"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:CAKE"
+  },
+  {
+   "ticker": "HRB",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 45.14,
+   "score": 0.633,
+   "business": "H&R Block, Inc., Consumer Cyclical, mid cap at $5.6B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 19% above the 200-day, so the larger trend is intact",
+    "RSI at 37 \u2014 the pullback has done real work"
+   ],
+   "entry": 46.22,
+   "stop": 44.54,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 1.68,
+   "risk_pct": 3.63,
+   "target_2r": 49.58,
+   "target_3r": 51.26,
+   "fund_grade": "Mixed",
+   "fund_notes": [
+    "Net margin 19% \u2014 solidly profitable",
+    "Revenue up 3% \u2014 modest growth",
+    "Return on equity 714%",
+    "Debt/equity 17.89 \u2014 heavily leveraged"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:HRB"
   }
  ],
  "past_runs": [
-  "2026-09-08"
+  "2026-09-08",
+  "2026-09-09"
  ]
 }
