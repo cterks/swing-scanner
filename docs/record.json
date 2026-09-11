@@ -1,0 +1,62 @@
+{
+ "generated": "2026-09-11 22:24 UTC",
+ "first_run": "2026-09-08",
+ "min_sample": 30,
+ "overall": {
+  "n": 273,
+  "n5": 0,
+  "avg5": null,
+  "win5": null,
+  "med5": null,
+  "n20": 0,
+  "avg20": null,
+  "win20": null,
+  "med20": null
+ },
+ "by_setup": {
+  "Breakout ready": {
+   "n": 29,
+   "n5": 0,
+   "avg5": null,
+   "win5": null,
+   "med5": null,
+   "n20": 0,
+   "avg20": null,
+   "win20": null,
+   "med20": null
+  },
+  "Pullback to 20-day": {
+   "n": 137,
+   "n5": 0,
+   "avg5": null,
+   "win5": null,
+   "med5": null,
+   "n20": 0,
+   "avg20": null,
+   "win20": null,
+   "med20": null
+  },
+  "Trend reset at 50-day": {
+   "n": 89,
+   "n5": 0,
+   "avg5": null,
+   "win5": null,
+   "med5": null,
+   "n20": 0,
+   "avg20": null,
+   "win20": null,
+   "med20": null
+  },
+  "Volatility coil": {
+   "n": 18,
+   "n5": 0,
+   "avg5": null,
+   "win5": null,
+   "med5": null,
+   "n20": 0,
+   "avg20": null,
+   "win20": null,
+   "med20": null
+  }
+ }
+}

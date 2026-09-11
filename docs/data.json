@@ -1,28 +1,57 @@
 {
- "run_date": "2026-09-10",
- "generated": "2026-09-10 22:24 UTC",
+ "run_date": "2026-09-11",
+ "generated": "2026-09-11 22:24 UTC",
  "scanned": 1200,
- "bench_return_60d": 0.66,
+ "bench_return_60d": 2.12,
  "candidates": [
+  {
+   "ticker": "UTZ",
+   "setup": "Volatility coil",
+   "also": [],
+   "price": 14.28,
+   "score": 0.794,
+   "business": "Utz Brands Inc, Consumer Defensive, small cap at $1.3B",
+   "reasons": [
+    "Daily ranges have contracted to 63% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 0% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 37% of its 50-day average, typical of a supply pause"
+   ],
+   "entry": 14.28,
+   "stop": 14.18,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 0.1,
+   "risk_pct": 0.7,
+   "target_2r": 14.48,
+   "target_3r": 14.58,
+   "fund_grade": "Weak",
+   "fund_notes": [
+    "Net margin -2% \u2014 currently lossmaking",
+    "Revenue up 1% \u2014 modest growth",
+    "Return on equity -3% \u2014 destroying capital",
+    "Debt/equity 0.79 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:UTZ"
+  },
   {
    "ticker": "S",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 19.81,
-   "score": 0.712,
+   "price": 19.75,
+   "score": 0.791,
    "business": "SentinelOne, Inc., Technology, mid cap at $6.9B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 23% above the 200-day, so the larger trend is intact",
     "RSI at 46 \u2014 the pullback has done real work"
    ],
-   "entry": 20.18,
-   "stop": 18.8,
+   "entry": 20.29,
+   "stop": 18.81,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 1.38,
-   "risk_pct": 6.84,
-   "target_2r": 22.94,
-   "target_3r": 24.32,
+   "risk_per_share": 1.48,
+   "risk_pct": 7.29,
+   "target_2r": 23.25,
+   "target_3r": 24.73,
    "fund_grade": "Weak",
    "fund_notes": [
     "Net margin -31% \u2014 currently lossmaking",
@@ -32,80 +61,24 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:S"
   },
   {
-   "ticker": "SLS",
-   "setup": "Pullback to 20-day",
-   "also": [],
-   "price": 13.49,
-   "score": 0.703,
-   "business": "SELLAS Life Sciences Group, Inc, Healthcare, mid cap at $2.7B",
-   "reasons": [
-    "Trading 93% above its 200-day average, so the long-term trend is up",
-    "Now 5.6% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 52 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 73.9% over 60 days"
-   ],
-   "entry": 13.88,
-   "stop": 12.34,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 1.54,
-   "risk_pct": 11.1,
-   "target_2r": 16.96,
-   "target_3r": 18.5,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin 0% \u2014 currently lossmaking",
-    "Return on equity -40% \u2014 destroying capital",
-    "Debt/equity 0.54 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:SLS"
-  },
-  {
-   "ticker": "QLYS",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 161.57,
-   "score": 0.692,
-   "business": "Qualys, Inc., Technology, mid cap at $5.7B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 29% above the 200-day, so the larger trend is intact",
-    "RSI at 40 \u2014 the pullback has done real work"
-   ],
-   "entry": 173.96,
-   "stop": 158.62,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 15.34,
-   "risk_pct": 8.82,
-   "target_2r": 204.64,
-   "target_3r": 219.98,
-   "fund_grade": "Strong",
-   "fund_notes": [
-    "Net margin 29% \u2014 solidly profitable",
-    "Revenue growing 11% year over year",
-    "Return on equity 39%",
-    "Debt/equity 0.09 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:QLYS"
-  },
-  {
    "ticker": "CZR",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 29.65,
-   "score": 0.671,
+   "price": 29.67,
+   "score": 0.736,
    "business": "Caesars Entertainment, Inc., Consumer Cyclical, mid cap at $6.0B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 11% above the 200-day, so the larger trend is intact",
-    "RSI at 46 \u2014 the pullback has done real work"
+    "RSI at 47 \u2014 the pullback has done real work"
    ],
-   "entry": 29.68,
+   "entry": 29.72,
    "stop": 29.58,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 0.1,
-   "risk_pct": 0.34,
-   "target_2r": 29.88,
-   "target_3r": 29.98,
+   "risk_per_share": 0.14,
+   "risk_pct": 0.47,
+   "target_2r": 30.0,
+   "target_3r": 30.14,
    "fund_grade": "Weak",
    "fund_notes": [
     "Net margin -4% \u2014 currently lossmaking",
@@ -116,79 +89,144 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:CZR"
   },
   {
-   "ticker": "GRMN",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 272.2,
-   "score": 0.656,
-   "business": "Garmin Ltd., Technology, large cap at $52.5B",
+   "ticker": "PSNL",
+   "setup": "Volatility coil",
+   "also": [
+    "Pullback to 20-day"
+   ],
+   "price": 16.21,
+   "score": 0.735,
+   "business": "Personalis, Inc., Healthcare, small cap at $1.7B",
    "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 14% above the 200-day, so the larger trend is intact",
-    "RSI at 37 \u2014 the pullback has done real work"
+    "Daily ranges have contracted to 70% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 12% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 56% of its 50-day average, typical of a supply pause"
    ],
-   "entry": 273.84,
-   "stop": 266.61,
+   "entry": 16.62,
+   "stop": 15.82,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 7.23,
-   "risk_pct": 2.64,
-   "target_2r": 288.3,
-   "target_3r": 295.53,
-   "fund_grade": "Mixed",
+   "risk_per_share": 0.8,
+   "risk_pct": 4.81,
+   "target_2r": 18.22,
+   "target_3r": 19.02,
+   "fund_grade": "Weak",
    "fund_notes": [
-    "Net margin 24% \u2014 solidly profitable",
-    "Revenue growing 11% year over year",
-    "Return on equity 22%",
-    "Debt/equity 2.51 \u2014 heavily leveraged"
+    "Net margin -154% \u2014 currently lossmaking",
+    "Revenue growing 30% year over year",
+    "Return on equity -50% \u2014 destroying capital",
+    "Debt/equity 0.16 \u2014 conservative balance sheet"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:GRMN"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:PSNL"
   },
   {
-   "ticker": "CM",
+   "ticker": "RBRK",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 114.47,
-   "score": 0.655,
-   "business": "Canadian Imperial Bank of Comme, Financial Services, large cap at $103.9B",
+   "price": 86.65,
+   "score": 0.731,
+   "business": "Rubrik, Inc., Technology, large cap at $17.8B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 10% above the 200-day, so the larger trend is intact",
-    "RSI at 44 \u2014 the pullback has done real work"
+    "Still 25% above the 200-day, so the larger trend is intact",
+    "RSI at 45 \u2014 the pullback has done real work"
    ],
-   "entry": 115.35,
-   "stop": 110.71,
+   "entry": 90.55,
+   "stop": 84.23,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 4.64,
-   "risk_pct": 4.02,
-   "target_2r": 124.63,
-   "target_3r": 129.27,
-   "fund_grade": "Strong",
+   "risk_per_share": 6.32,
+   "risk_pct": 6.98,
+   "target_2r": 103.19,
+   "target_3r": 109.51,
+   "fund_grade": "Mixed",
    "fund_notes": [
-    "Net margin 34% \u2014 solidly profitable",
-    "Revenue growing 17% year over year",
-    "Return on equity 16%"
+    "Net margin -16% \u2014 currently lossmaking",
+    "Revenue growing 38% year over year"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CM"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:RBRK"
+  },
+  {
+   "ticker": "VIRT",
+   "setup": "Volatility coil",
+   "also": [
+    "Pullback to 20-day",
+    "Trend reset at 50-day"
+   ],
+   "price": 60.86,
+   "score": 0.723,
+   "business": "Virtu Financial, Inc., Financial Services, mid cap at $5.4B",
+   "reasons": [
+    "Daily ranges have contracted to 58% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 10% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 58% of its 50-day average, typical of a supply pause"
+   ],
+   "entry": 62.69,
+   "stop": 60.26,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 2.43,
+   "risk_pct": 3.88,
+   "target_2r": 67.55,
+   "target_3r": 69.98,
+   "fund_grade": "Mixed",
+   "fund_notes": [
+    "Net margin 17% \u2014 solidly profitable",
+    "Revenue growing 29% year over year",
+    "Return on equity 54%",
+    "Debt/equity 4.15 \u2014 heavily leveraged"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:VIRT"
+  },
+  {
+   "ticker": "CRWD",
+   "setup": "Volatility coil",
+   "also": [
+    "Pullback to 20-day",
+    "Trend reset at 50-day"
+   ],
+   "price": 206.74,
+   "score": 0.723,
+   "business": "CrowdStrike Holdings, Inc., Technology, mega cap at $211.7B",
+   "reasons": [
+    "Daily ranges have contracted to 65% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 11% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 80% of its 50-day average, typical of a supply pause"
+   ],
+   "entry": 213.86,
+   "stop": 197.26,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 16.6,
+   "risk_pct": 7.76,
+   "target_2r": 247.06,
+   "target_3r": 263.66,
+   "fund_grade": "Sound",
+   "fund_notes": [
+    "Net margin 1% \u2014 thin but positive",
+    "Revenue growing 26% year over year",
+    "Debt/equity 0.16 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:CRWD"
   },
   {
    "ticker": "TOST",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 31.94,
-   "score": 0.647,
-   "business": "Toast, Inc., Technology, large cap at $18.5B",
+   "price": 32.12,
+   "score": 0.708,
+   "business": "Toast, Inc., Technology, large cap at $18.6B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 6% above the 200-day, so the larger trend is intact",
-    "RSI at 38 \u2014 the pullback has done real work"
+    "Still 7% above the 200-day, so the larger trend is intact",
+    "RSI at 39 \u2014 the pullback has done real work"
    ],
-   "entry": 32.81,
-   "stop": 31.53,
+   "entry": 32.39,
+   "stop": 31.25,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 1.28,
-   "risk_pct": 3.9,
-   "target_2r": 35.37,
-   "target_3r": 36.65,
+   "risk_per_share": 1.14,
+   "risk_pct": 3.52,
+   "target_2r": 34.67,
+   "target_3r": 35.81,
    "fund_grade": "Sound",
    "fund_notes": [
     "Net margin 7% \u2014 thin but positive",
@@ -198,97 +236,66 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:TOST"
   },
   {
-   "ticker": "EAT",
+   "ticker": "ABCL",
    "setup": "Pullback to 20-day",
-   "also": [
-    "Trend reset at 50-day"
-   ],
-   "price": 214.69,
-   "score": 0.639,
-   "business": "Brinker International, Inc., Consumer Cyclical, mid cap at $9.0B",
+   "also": [],
+   "price": 10.89,
+   "score": 0.707,
+   "business": "AbCellera Biologics Inc., Healthcare, mid cap at $3.5B",
    "reasons": [
-    "Trading 30% above its 200-day average, so the long-term trend is up",
-    "Now 0.9% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 42 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 36.8% over 60 days"
+    "Trading 106% above its 200-day average, so the long-term trend is up",
+    "Now 25.6% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 55 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 111.8% over 60 days"
    ],
-   "entry": 220.1,
-   "stop": 209.6,
+   "entry": 10.99,
+   "stop": 10.14,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 10.5,
-   "risk_pct": 4.77,
-   "target_2r": 241.1,
-   "target_3r": 251.6,
-   "fund_grade": "Mixed",
+   "risk_per_share": 0.85,
+   "risk_pct": 7.73,
+   "target_2r": 12.69,
+   "target_3r": 13.54,
+   "fund_grade": "Weak",
    "fund_notes": [
-    "Net margin 8% \u2014 thin but positive",
-    "Revenue up 5% \u2014 modest growth",
-    "Return on equity 120%",
-    "Debt/equity 3.96 \u2014 heavily leveraged"
+    "Net margin -249% \u2014 currently lossmaking",
+    "Revenue -76% \u2014 sales are shrinking",
+    "Return on equity -17% \u2014 destroying capital",
+    "Debt/equity 0.15 \u2014 conservative balance sheet"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:EAT"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:ABCL"
   },
   {
-   "ticker": "UNP",
+   "ticker": "CM",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 285.78,
-   "score": 0.638,
-   "business": "Union Pacific Corporation, Industrials, large cap at $169.8B",
+   "price": 114.64,
+   "score": 0.701,
+   "business": "Canadian Imperial Bank of Comme, Financial Services, large cap at $104.1B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 10% above the 200-day, so the larger trend is intact",
-    "RSI at 38 \u2014 the pullback has done real work"
+    "RSI at 44 \u2014 the pullback has done real work"
    ],
-   "entry": 288.94,
-   "stop": 282.52,
+   "entry": 115.92,
+   "stop": 110.7,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 6.42,
-   "risk_pct": 2.22,
-   "target_2r": 301.78,
-   "target_3r": 308.2,
+   "risk_per_share": 5.22,
+   "risk_pct": 4.5,
+   "target_2r": 126.36,
+   "target_3r": 131.58,
    "fund_grade": "Strong",
    "fund_notes": [
-    "Net margin 29% \u2014 solidly profitable",
-    "Revenue growing 12% year over year",
-    "Return on equity 40%",
-    "Debt/equity 1.51 \u2014 moderate leverage"
+    "Net margin 34% \u2014 solidly profitable",
+    "Revenue growing 17% year over year",
+    "Return on equity 16%"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:UNP"
-  },
-  {
-   "ticker": "UTZ",
-   "setup": "Volatility coil",
-   "also": [],
-   "price": 14.23,
-   "score": 0.637,
-   "business": "Utz Brands Inc, Consumer Defensive, small cap at $1.3B",
-   "reasons": [
-    "Daily ranges have contracted to 73% of their 20-day norm \u2014 volatility is compressing",
-    "Holding within 0% of its 52-week high while quieting down",
-    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
-    "Volume has dried up to 39% of its 50-day average, typical of a supply pause"
-   ],
-   "entry": 14.25,
-   "stop": 14.17,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 0.08,
-   "risk_pct": 0.56,
-   "target_2r": 14.41,
-   "target_3r": 14.49,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin -2% \u2014 currently lossmaking",
-    "Revenue up 1% \u2014 modest growth",
-    "Return on equity -3% \u2014 destroying capital",
-    "Debt/equity 0.79 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:UTZ"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CM"
   }
  ],
  "past_runs": [
   "2026-09-08",
   "2026-09-09",
-  "2026-09-10"
+  "2026-09-10",
+  "2026-09-11"
  ]
 }
