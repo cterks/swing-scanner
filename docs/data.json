@@ -1,76 +1,20 @@
 {
- "run_date": "2026-09-14",
- "generated": "2026-09-14 22:27 UTC",
+ "run_date": "2026-09-15",
+ "generated": "2026-09-15 22:25 UTC",
  "scanned": 1200,
- "bench_return_60d": 2.95,
+ "bench_return_60d": 1.43,
  "candidates": [
-  {
-   "ticker": "VIRT",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 59.93,
-   "score": 0.75,
-   "business": "Virtu Financial, Inc., Financial Services, mid cap at $5.3B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 25% above the 200-day, so the larger trend is intact",
-    "RSI at 43 \u2014 the pullback has done real work"
-   ],
-   "entry": 61.26,
-   "stop": 59.25,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 2.01,
-   "risk_pct": 3.28,
-   "target_2r": 65.28,
-   "target_3r": 67.29,
-   "fund_grade": "Mixed",
-   "fund_notes": [
-    "Net margin 17% \u2014 solidly profitable",
-    "Revenue growing 29% year over year",
-    "Return on equity 54%",
-    "Debt/equity 4.15 \u2014 heavily leveraged"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:VIRT"
-  },
-  {
-   "ticker": "UNP",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 285.08,
-   "score": 0.744,
-   "business": "Union Pacific Corporation, Industrials, large cap at $169.4B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 10% above the 200-day, so the larger trend is intact",
-    "RSI at 37 \u2014 the pullback has done real work"
-   ],
-   "entry": 285.91,
-   "stop": 281.5,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 4.41,
-   "risk_pct": 1.54,
-   "target_2r": 294.73,
-   "target_3r": 299.14,
-   "fund_grade": "Strong",
-   "fund_notes": [
-    "Net margin 29% \u2014 solidly profitable",
-    "Revenue growing 12% year over year",
-    "Return on equity 40%",
-    "Debt/equity 1.51 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:UNP"
-  },
   {
    "ticker": "CBZ",
    "setup": "Breakout ready",
    "also": [
     "Volatility coil"
    ],
-   "price": 54.6,
-   "score": 0.744,
+   "price": 54.68,
+   "score": 0.782,
    "business": "CBIZ, Inc., Industrials, mid cap at $3.0B",
    "reasons": [
-    "Sitting 3.9% below its 52-week high \u2014 a breakout is within reach",
+    "Sitting 3.7% below its 52-week high \u2014 a breakout is within reach",
     "RSI at 70, so it is not yet stretched",
     "Ranges are narrowing into the level rather than spiking through it"
    ],
@@ -90,51 +34,83 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CBZ"
   },
   {
-   "ticker": "CM",
+   "ticker": "HRB",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 114.17,
-   "score": 0.733,
-   "business": "Canadian Imperial Bank of Comme, Financial Services, large cap at $103.7B",
+   "price": 45.84,
+   "score": 0.727,
+   "business": "H&R Block, Inc., Consumer Cyclical, mid cap at $5.7B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 10% above the 200-day, so the larger trend is intact",
-    "RSI at 43 \u2014 the pullback has done real work"
+    "Still 21% above the 200-day, so the larger trend is intact",
+    "RSI at 41 \u2014 the pullback has done real work"
    ],
-   "entry": 115.26,
-   "stop": 110.71,
+   "entry": 45.92,
+   "stop": 43.95,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 4.55,
-   "risk_pct": 3.95,
-   "target_2r": 124.36,
-   "target_3r": 128.91,
-   "fund_grade": "Strong",
+   "risk_per_share": 1.97,
+   "risk_pct": 4.29,
+   "target_2r": 49.86,
+   "target_3r": 51.83,
+   "fund_grade": "Mixed",
    "fund_notes": [
-    "Net margin 34% \u2014 solidly profitable",
-    "Revenue growing 17% year over year",
-    "Return on equity 16%"
+    "Net margin 19% \u2014 solidly profitable",
+    "Revenue up 3% \u2014 modest growth",
+    "Return on equity 714%",
+    "Debt/equity 17.89 \u2014 heavily leveraged"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CM"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:HRB"
+  },
+  {
+   "ticker": "AVY",
+   "setup": "Volatility coil",
+   "also": [
+    "Pullback to 20-day"
+   ],
+   "price": 171.52,
+   "score": 0.708,
+   "business": "Avery Dennison Corporation, Consumer Cyclical, large cap at $13.1B",
+   "reasons": [
+    "Daily ranges have contracted to 64% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 12% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 84% of its 50-day average, typical of a supply pause"
+   ],
+   "entry": 171.82,
+   "stop": 165.82,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 6.0,
+   "risk_pct": 3.49,
+   "target_2r": 183.82,
+   "target_3r": 189.82,
+   "fund_grade": "Sound",
+   "fund_notes": [
+    "Net margin 8% \u2014 thin but positive",
+    "Revenue growing 11% year over year",
+    "Return on equity 31%",
+    "Debt/equity 1.59 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:AVY"
   },
   {
    "ticker": "BMO",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 174.28,
-   "score": 0.731,
-   "business": "Bank Of Montreal, Financial Services, large cap at $121.1B",
+   "price": 173.7,
+   "score": 0.699,
+   "business": "Bank Of Montreal, Financial Services, large cap at $120.7B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 15% above the 200-day, so the larger trend is intact",
-    "RSI at 48 \u2014 the pullback has done real work"
+    "Still 14% above the 200-day, so the larger trend is intact",
+    "RSI at 47 \u2014 the pullback has done real work"
    ],
-   "entry": 175.82,
-   "stop": 169.59,
+   "entry": 173.93,
+   "stop": 168.05,
    "stop_basis": "2x ATR cap",
-   "risk_per_share": 6.23,
-   "risk_pct": 3.54,
-   "target_2r": 188.28,
-   "target_3r": 194.51,
+   "risk_per_share": 5.88,
+   "risk_pct": 3.38,
+   "target_2r": 185.69,
+   "target_3r": 191.57,
    "fund_grade": "Sound",
    "fund_notes": [
     "Net margin 26% \u2014 solidly profitable",
@@ -146,21 +122,21 @@
    "ticker": "CNI",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 122.09,
-   "score": 0.728,
-   "business": "Canadian National Railway Compa, Industrials, large cap at $73.9B",
+   "price": 121.77,
+   "score": 0.698,
+   "business": "Canadian National Railway Compa, Industrials, large cap at $73.7B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 11% above the 200-day, so the larger trend is intact",
-    "RSI at 43 \u2014 the pullback has done real work"
+    "Still 10% above the 200-day, so the larger trend is intact",
+    "RSI at 42 \u2014 the pullback has done real work"
    ],
-   "entry": 123.16,
-   "stop": 119.08,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 4.08,
-   "risk_pct": 3.31,
-   "target_2r": 131.32,
-   "target_3r": 135.4,
+   "entry": 122.21,
+   "stop": 118.48,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 3.73,
+   "risk_pct": 3.05,
+   "target_2r": 129.67,
+   "target_3r": 133.4,
    "fund_grade": "Strong",
    "fund_notes": [
     "Net margin 27% \u2014 solidly profitable",
@@ -171,115 +147,149 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CNI"
   },
   {
-   "ticker": "CZR",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 29.68,
-   "score": 0.727,
-   "business": "Caesars Entertainment, Inc., Consumer Cyclical, mid cap at $6.0B",
+   "ticker": "MRK",
+   "setup": "Volatility coil",
+   "also": [
+    "Pullback to 20-day"
+   ],
+   "price": 143.79,
+   "score": 0.694,
+   "business": "Merck & Company, Inc., Healthcare, mega cap at $354.8B",
    "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 11% above the 200-day, so the larger trend is intact",
-    "RSI at 48 \u2014 the pullback has done real work"
+    "Daily ranges have contracted to 65% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 8% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 84% of its 50-day average, typical of a supply pause"
    ],
-   "entry": 29.73,
-   "stop": 29.58,
+   "entry": 144.31,
+   "stop": 141.51,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 0.15,
-   "risk_pct": 0.5,
-   "target_2r": 30.03,
-   "target_3r": 30.18,
-   "fund_grade": "Weak",
+   "risk_per_share": 2.8,
+   "risk_pct": 1.94,
+   "target_2r": 149.91,
+   "target_3r": 152.71,
+   "fund_grade": "Limited data",
    "fund_notes": [
-    "Net margin -4% \u2014 currently lossmaking",
-    "Revenue up 3% \u2014 modest growth",
-    "Return on equity -10% \u2014 destroying capital",
-    "Debt/equity 7.30 \u2014 heavily leveraged"
+    "Net margin 5% \u2014 thin but positive",
+    "Revenue up 5% \u2014 modest growth",
+    "Debt/equity 1.28 \u2014 moderate leverage"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:CZR"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:MRK"
   },
   {
-   "ticker": "EAT",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 214.16,
-   "score": 0.726,
-   "business": "Brinker International, Inc., Consumer Cyclical, mid cap at $8.9B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 29% above the 200-day, so the larger trend is intact",
-    "RSI at 42 \u2014 the pullback has done real work"
+   "ticker": "BMY",
+   "setup": "Volatility coil",
+   "also": [
+    "Pullback to 20-day",
+    "Trend reset at 50-day"
    ],
-   "entry": 217.85,
-   "stop": 208.21,
+   "price": 63.73,
+   "score": 0.69,
+   "business": "Bristol-Myers Squibb Company, Healthcare, large cap at $130.2B",
+   "reasons": [
+    "Daily ranges have contracted to 76% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 6% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 72% of its 50-day average, typical of a supply pause"
+   ],
+   "entry": 64.19,
+   "stop": 62.84,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 9.64,
-   "risk_pct": 4.43,
-   "target_2r": 237.13,
-   "target_3r": 246.77,
+   "risk_per_share": 1.35,
+   "risk_pct": 2.1,
+   "target_2r": 66.89,
+   "target_3r": 68.24,
    "fund_grade": "Mixed",
    "fund_notes": [
-    "Net margin 8% \u2014 thin but positive",
-    "Revenue up 5% \u2014 modest growth",
-    "Return on equity 120%",
-    "Debt/equity 3.96 \u2014 heavily leveraged"
+    "Net margin 19% \u2014 solidly profitable",
+    "Revenue up 6% \u2014 modest growth",
+    "Return on equity 47%",
+    "Debt/equity 2.02 \u2014 heavily leveraged"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:EAT"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:BMY"
   },
   {
-   "ticker": "TRU",
+   "ticker": "XYZ",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 78.83,
-   "score": 0.717,
-   "business": "TransUnion, Financial Services, large cap at $15.1B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 3% above the 200-day, so the larger trend is intact",
-    "RSI at 45 \u2014 the pullback has done real work"
-   ],
-   "entry": 80.13,
-   "stop": 74.47,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 5.66,
-   "risk_pct": 7.06,
-   "target_2r": 91.45,
-   "target_3r": 97.11,
-   "fund_grade": "Strong",
-   "fund_notes": [
-    "Net margin 15% \u2014 solidly profitable",
-    "Revenue growing 15% year over year",
-    "Return on equity 16%",
-    "Debt/equity 1.13 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:TRU"
-  },
-  {
-   "ticker": "RY",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 205.16,
-   "score": 0.713,
-   "business": "Royal Bank Of Canada, Financial Services, mega cap at $284.0B",
+   "price": 78.31,
+   "score": 0.687,
+   "business": "Block, Inc., Technology, large cap at $47.0B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 13% above the 200-day, so the larger trend is intact",
     "RSI at 44 \u2014 the pullback has done real work"
    ],
-   "entry": 206.54,
-   "stop": 200.94,
+   "entry": 80.41,
+   "stop": 76.26,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 5.6,
-   "risk_pct": 2.71,
-   "target_2r": 217.74,
-   "target_3r": 223.34,
+   "risk_per_share": 4.15,
+   "risk_pct": 5.16,
+   "target_2r": 88.71,
+   "target_3r": 92.86,
    "fund_grade": "Sound",
    "fund_notes": [
-    "Net margin 34% \u2014 solidly profitable",
+    "Net margin 1% \u2014 thin but positive",
     "Revenue up 9% \u2014 modest growth",
-    "Return on equity 16%"
+    "Debt/equity 0.33 \u2014 conservative balance sheet"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:RY"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:XYZ"
+  },
+  {
+   "ticker": "PATH",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 14.23,
+   "score": 0.684,
+   "business": "UiPath, Inc., Technology, mid cap at $7.4B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 10% above the 200-day, so the larger trend is intact",
+    "RSI at 43 \u2014 the pullback has done real work"
+   ],
+   "entry": 14.76,
+   "stop": 12.98,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 1.78,
+   "risk_pct": 12.06,
+   "target_2r": 18.32,
+   "target_3r": 20.1,
+   "fund_grade": "Mixed",
+   "fund_notes": [
+    "Net margin 21% \u2014 solidly profitable",
+    "Revenue growing 13% year over year",
+    "Return on equity 20%",
+    "Debt/equity 4.09 \u2014 heavily leveraged"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:PATH"
+  },
+  {
+   "ticker": "NVDA",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 212.17,
+   "score": 0.677,
+   "business": "NVIDIA Corporation, Technology, mega cap at $5123.3B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 7% above the 200-day, so the larger trend is intact",
+    "RSI at 45 \u2014 the pullback has done real work"
+   ],
+   "entry": 214.32,
+   "stop": 207.05,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 7.27,
+   "risk_pct": 3.39,
+   "target_2r": 228.86,
+   "target_3r": 236.13,
+   "fund_grade": "Strong",
+   "fund_notes": [
+    "Net margin 64% \u2014 solidly profitable",
+    "Revenue growing 106% year over year",
+    "Return on equity 117%",
+    "Debt/equity 0.17 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:NVDA"
   }
  ],
  "past_runs": [
@@ -287,6 +297,7 @@
   "2026-09-09",
   "2026-09-10",
   "2026-09-11",
-  "2026-09-14"
+  "2026-09-14",
+  "2026-09-15"
  ]
 }
