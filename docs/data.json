@@ -1,8 +1,8 @@
 {
- "run_date": "2026-09-16",
- "generated": "2026-09-16 22:24 UTC",
+ "run_date": "2026-09-17",
+ "generated": "2026-09-17 22:23 UTC",
  "scanned": 1200,
- "bench_return_60d": 1.3,
+ "bench_return_60d": 3.96,
  "candidates": [
   {
    "ticker": "CBZ",
@@ -11,7 +11,7 @@
     "Volatility coil"
    ],
    "price": 54.6,
-   "score": 0.805,
+   "score": 0.807,
    "business": "CBIZ, Inc., Industrials, mid cap at $3.0B",
    "reasons": [
     "Sitting 3.9% below its 52-week high \u2014 a breakout is within reach",
@@ -19,12 +19,12 @@
     "Ranges are narrowing into the level rather than spiking through it"
    ],
    "entry": 54.68,
-   "stop": 54.37,
+   "stop": 54.43,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 0.31,
-   "risk_pct": 0.57,
-   "target_2r": 55.3,
-   "target_3r": 55.61,
+   "risk_per_share": 0.25,
+   "risk_pct": 0.46,
+   "target_2r": 55.18,
+   "target_3r": 55.43,
    "fund_grade": "Mixed",
    "fund_notes": [
     "Net margin 4% \u2014 thin but positive",
@@ -34,52 +34,24 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CBZ"
   },
   {
-   "ticker": "HRB",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 45.11,
-   "score": 0.741,
-   "business": "H&R Block, Inc., Consumer Cyclical, mid cap at $5.6B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 19% above the 200-day, so the larger trend is intact",
-    "RSI at 39 \u2014 the pullback has done real work"
-   ],
-   "entry": 45.94,
-   "stop": 43.96,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 1.98,
-   "risk_pct": 4.31,
-   "target_2r": 49.9,
-   "target_3r": 51.88,
-   "fund_grade": "Mixed",
-   "fund_notes": [
-    "Net margin 19% \u2014 solidly profitable",
-    "Revenue up 3% \u2014 modest growth",
-    "Return on equity 714%",
-    "Debt/equity 17.89 \u2014 heavily leveraged"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:HRB"
-  },
-  {
    "ticker": "JAZZ",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 243.59,
-   "score": 0.7,
+   "price": 243.84,
+   "score": 0.685,
    "business": "Jazz Pharmaceuticals plc, Healthcare, large cap at $15.8B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 17% above the 200-day, so the larger trend is intact",
     "RSI at 47 \u2014 the pullback has done real work"
    ],
-   "entry": 244.68,
-   "stop": 234.38,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 10.3,
-   "risk_pct": 4.21,
-   "target_2r": 265.28,
-   "target_3r": 275.58,
+   "entry": 247.63,
+   "stop": 235.01,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 12.62,
+   "risk_pct": 5.1,
+   "target_2r": 272.87,
+   "target_3r": 285.49,
    "fund_grade": "Strong",
    "fund_notes": [
     "Net margin 20% \u2014 solidly profitable",
@@ -90,24 +62,164 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:JAZZ"
   },
   {
+   "ticker": "DAR",
+   "setup": "Breakout ready",
+   "also": [
+    "Volatility coil"
+   ],
+   "price": 66.49,
+   "score": 0.676,
+   "business": "Darling Ingredients Inc., Consumer Defensive, large cap at $10.5B",
+   "reasons": [
+    "Sitting 2.7% below its 52-week high \u2014 a breakout is within reach",
+    "RSI at 55, so it is not yet stretched",
+    "Ranges are narrowing into the level rather than spiking through it"
+   ],
+   "entry": 67.2,
+   "stop": 63.06,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 4.14,
+   "risk_pct": 6.16,
+   "target_2r": 75.48,
+   "target_3r": 79.62,
+   "fund_grade": "Sound",
+   "fund_notes": [
+    "Net margin 9% \u2014 thin but positive",
+    "Revenue growing 16% year over year",
+    "Debt/equity 0.79 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:DAR"
+  },
+  {
+   "ticker": "PKG",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 235.57,
+   "score": 0.674,
+   "business": "Packaging Corporation of Americ, Consumer Cyclical, large cap at $21.0B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 6% above the 200-day, so the larger trend is intact",
+    "RSI at 48 \u2014 the pullback has done real work"
+   ],
+   "entry": 236.02,
+   "stop": 224.54,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 11.48,
+   "risk_pct": 4.86,
+   "target_2r": 258.98,
+   "target_3r": 270.46,
+   "fund_grade": "Sound",
+   "fund_notes": [
+    "Net margin 7% \u2014 thin but positive",
+    "Revenue growing 15% year over year",
+    "Debt/equity 0.94 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:PKG"
+  },
+  {
+   "ticker": "MRK",
+   "setup": "Volatility coil",
+   "also": [],
+   "price": 147.15,
+   "score": 0.665,
+   "business": "Merck & Company, Inc., Healthcare, mega cap at $363.0B",
+   "reasons": [
+    "Daily ranges have contracted to 67% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 5% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined"
+   ],
+   "entry": 147.8,
+   "stop": 141.97,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 5.83,
+   "risk_pct": 3.94,
+   "target_2r": 159.46,
+   "target_3r": 165.29,
+   "fund_grade": "Limited data",
+   "fund_notes": [
+    "Net margin 5% \u2014 thin but positive",
+    "Revenue up 5% \u2014 modest growth",
+    "Debt/equity 1.28 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:MRK"
+  },
+  {
+   "ticker": "TIGO",
+   "setup": "Volatility coil",
+   "also": [],
+   "price": 95.69,
+   "score": 0.664,
+   "business": "Millicom International Cellular, Communication Services, large cap at $16.0B",
+   "reasons": [
+    "Daily ranges have contracted to 74% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 8% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 56% of its 50-day average, typical of a supply pause"
+   ],
+   "entry": 97.1,
+   "stop": 92.35,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 4.75,
+   "risk_pct": 4.89,
+   "target_2r": 106.6,
+   "target_3r": 111.35,
+   "fund_grade": "Mixed",
+   "fund_notes": [
+    "Net margin 9% \u2014 thin but positive",
+    "Revenue growing 59% year over year",
+    "Return on equity 22%",
+    "Debt/equity 4.85 \u2014 heavily leveraged"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:TIGO"
+  },
+  {
+   "ticker": "ABNB",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 165.93,
+   "score": 0.663,
+   "business": "Airbnb, Inc., Consumer Cyclical, large cap at $99.4B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 17% above the 200-day, so the larger trend is intact",
+    "RSI at 40 \u2014 the pullback has done real work"
+   ],
+   "entry": 169.56,
+   "stop": 164.2,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 5.36,
+   "risk_pct": 3.16,
+   "target_2r": 180.28,
+   "target_3r": 185.64,
+   "fund_grade": "Strong",
+   "fund_notes": [
+    "Net margin 20% \u2014 solidly profitable",
+    "Revenue growing 16% year over year",
+    "Return on equity 35%",
+    "Debt/equity 0.32 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:ABNB"
+  },
+  {
    "ticker": "PAYX",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 116.72,
-   "score": 0.693,
-   "business": "Paychex, Inc., Technology, large cap at $41.6B",
+   "price": 116.51,
+   "score": 0.662,
+   "business": "Paychex, Inc., Technology, large cap at $41.5B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 14% above the 200-day, so the larger trend is intact",
     "RSI at 43 \u2014 the pullback has done real work"
    ],
-   "entry": 118.55,
-   "stop": 113.84,
+   "entry": 116.84,
+   "stop": 113.87,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 4.71,
-   "risk_pct": 3.97,
-   "target_2r": 127.97,
-   "target_3r": 132.68,
+   "risk_per_share": 2.97,
+   "risk_pct": 2.54,
+   "target_2r": 122.78,
+   "target_3r": 125.75,
    "fund_grade": "Strong",
    "fund_notes": [
     "Net margin 27% \u2014 solidly profitable",
@@ -118,175 +230,60 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:PAYX"
   },
   {
-   "ticker": "AVY",
-   "setup": "Volatility coil",
-   "also": [
-    "Pullback to 20-day"
-   ],
-   "price": 172.28,
-   "score": 0.689,
-   "business": "Avery Dennison Corporation, Consumer Cyclical, large cap at $13.2B",
-   "reasons": [
-    "Daily ranges have contracted to 67% of their 20-day norm \u2014 volatility is compressing",
-    "Holding within 11% of its 52-week high while quieting down",
-    "Tight action near highs often precedes an expansion, though the direction is not predetermined"
-   ],
-   "entry": 174.84,
-   "stop": 166.63,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 8.21,
-   "risk_pct": 4.7,
-   "target_2r": 191.26,
-   "target_3r": 199.47,
-   "fund_grade": "Sound",
-   "fund_notes": [
-    "Net margin 8% \u2014 thin but positive",
-    "Revenue growing 11% year over year",
-    "Return on equity 31%",
-    "Debt/equity 1.59 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:AVY"
-  },
-  {
-   "ticker": "MRK",
-   "setup": "Volatility coil",
-   "also": [
-    "Pullback to 20-day"
-   ],
-   "price": 144.91,
-   "score": 0.687,
-   "business": "Merck & Company, Inc., Healthcare, mega cap at $357.5B",
-   "reasons": [
-    "Daily ranges have contracted to 60% of their 20-day norm \u2014 volatility is compressing",
-    "Holding within 7% of its 52-week high while quieting down",
-    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
-    "Volume has dried up to 82% of its 50-day average, typical of a supply pause"
-   ],
-   "entry": 145.12,
-   "stop": 141.57,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 3.55,
-   "risk_pct": 2.45,
-   "target_2r": 152.22,
-   "target_3r": 155.77,
-   "fund_grade": "Limited data",
-   "fund_notes": [
-    "Net margin 5% \u2014 thin but positive",
-    "Revenue up 5% \u2014 modest growth",
-    "Debt/equity 1.28 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:MRK"
-  },
-  {
-   "ticker": "DAR",
-   "setup": "Volatility coil",
-   "also": [],
-   "price": 65.56,
-   "score": 0.685,
-   "business": "Darling Ingredients Inc., Consumer Defensive, large cap at $10.3B",
-   "reasons": [
-    "Daily ranges have contracted to 69% of their 20-day norm \u2014 volatility is compressing",
-    "Holding within 4% of its 52-week high while quieting down",
-    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
-    "Volume has dried up to 82% of its 50-day average, typical of a supply pause"
-   ],
-   "entry": 66.86,
-   "stop": 63.06,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 3.8,
-   "risk_pct": 5.68,
-   "target_2r": 74.46,
-   "target_3r": 78.26,
-   "fund_grade": "Sound",
-   "fund_notes": [
-    "Net margin 9% \u2014 thin but positive",
-    "Revenue growing 16% year over year",
-    "Debt/equity 0.79 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:DAR"
-  },
-  {
-   "ticker": "ORKA",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 93.55,
-   "score": 0.677,
-   "business": "Oruka Therapeutics, Inc., Healthcare, mid cap at $6.2B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 55% above the 200-day, so the larger trend is intact",
-    "RSI at 47 \u2014 the pullback has done real work"
-   ],
-   "entry": 95.71,
-   "stop": 86.45,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 9.26,
-   "risk_pct": 9.68,
-   "target_2r": 114.23,
-   "target_3r": 123.49,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin 0% \u2014 currently lossmaking",
-    "Return on equity -18% \u2014 destroying capital",
-    "Debt/equity 0.23 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:ORKA"
-  },
-  {
-   "ticker": "EL",
+   "ticker": "THC",
    "setup": "Pullback to 20-day",
    "also": [],
-   "price": 95.6,
-   "score": 0.668,
-   "business": "Estee Lauder Companies, Inc. (T, Consumer Defensive, large cap at $34.6B",
+   "price": 261.9,
+   "score": 0.661,
+   "business": "Tenet Healthcare Corporation, Healthcare, large cap at $21.1B",
    "reasons": [
-    "Trading 4% above its 200-day average, so the long-term trend is up",
-    "Now 5.7% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 48 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 12.2% over 60 days"
+    "Trading 24% above its 200-day average, so the long-term trend is up",
+    "Now 5.5% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 51 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 40.8% over 60 days"
    ],
-   "entry": 96.85,
-   "stop": 93.65,
+   "entry": 266.35,
+   "stop": 254.09,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 3.2,
-   "risk_pct": 3.3,
-   "target_2r": 103.25,
-   "target_3r": 106.45,
-   "fund_grade": "Mixed",
+   "risk_per_share": 12.26,
+   "risk_pct": 4.6,
+   "target_2r": 290.87,
+   "target_3r": 303.13,
+   "fund_grade": "Sound",
    "fund_notes": [
-    "Net margin 1% \u2014 thin but positive",
-    "Revenue up 6% \u2014 modest growth",
-    "Debt/equity 2.43 \u2014 heavily leveraged"
+    "Net margin 10% \u2014 solidly profitable",
+    "Revenue up 7% \u2014 modest growth",
+    "Return on equity 37%",
+    "Debt/equity 1.52 \u2014 moderate leverage"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:EL"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:THC"
   },
   {
-   "ticker": "BMY",
+   "ticker": "GPN",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 63.6,
-   "score": 0.666,
-   "business": "Bristol-Myers Squibb Company, Healthcare, large cap at $129.9B",
+   "price": 85.4,
+   "score": 0.659,
+   "business": "Global Payments Inc., Industrials, large cap at $22.6B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 10% above the 200-day, so the larger trend is intact",
-    "RSI at 43 \u2014 the pullback has done real work"
+    "Still 13% above the 200-day, so the larger trend is intact",
+    "RSI at 42 \u2014 the pullback has done real work"
    ],
-   "entry": 64.44,
-   "stop": 62.83,
+   "entry": 87.55,
+   "stop": 84.69,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 1.61,
-   "risk_pct": 2.5,
-   "target_2r": 67.66,
-   "target_3r": 69.27,
+   "risk_per_share": 2.86,
+   "risk_pct": 3.27,
+   "target_2r": 93.27,
+   "target_3r": 96.13,
    "fund_grade": "Mixed",
    "fund_notes": [
-    "Net margin 19% \u2014 solidly profitable",
-    "Revenue up 6% \u2014 modest growth",
-    "Return on equity 47%",
-    "Debt/equity 2.02 \u2014 heavily leveraged"
+    "Net margin -9% \u2014 currently lossmaking",
+    "Revenue growing 69% year over year",
+    "Debt/equity 0.98 \u2014 moderate leverage"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:BMY"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:GPN"
   }
  ],
  "past_runs": [
@@ -296,6 +293,7 @@
   "2026-09-11",
   "2026-09-14",
   "2026-09-15",
-  "2026-09-16"
+  "2026-09-16",
+  "2026-09-17"
  ]
 }
