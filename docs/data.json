@@ -1,8 +1,8 @@
 {
- "run_date": "2026-09-21",
- "generated": "2026-09-21 22:24 UTC",
+ "run_date": "2026-09-22",
+ "generated": "2026-09-22 22:24 UTC",
  "scanned": 1200,
- "bench_return_60d": 5.6,
+ "bench_return_60d": 6.35,
  "candidates": [
   {
    "ticker": "CBZ",
@@ -11,7 +11,7 @@
     "Volatility coil"
    ],
    "price": 54.68,
-   "score": 0.686,
+   "score": 0.702,
    "business": "CBIZ, Inc., Industrials, mid cap at $3.0B",
    "reasons": [
     "Sitting 3.7% below its 52-week high \u2014 a breakout is within reach",
@@ -19,12 +19,12 @@
     "Ranges are narrowing into the level rather than spiking through it"
    ],
    "entry": 54.76,
-   "stop": 54.47,
+   "stop": 54.48,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 0.29,
-   "risk_pct": 0.53,
-   "target_2r": 55.34,
-   "target_3r": 55.63,
+   "risk_per_share": 0.28,
+   "risk_pct": 0.51,
+   "target_2r": 55.32,
+   "target_3r": 55.6,
    "fund_grade": "Mixed",
    "fund_notes": [
     "Net margin 4% \u2014 thin but positive",
@@ -37,21 +37,21 @@
    "ticker": "IOT",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 38.05,
-   "score": 0.629,
-   "business": "Samsara Inc., Technology, large cap at $22.3B",
+   "price": 38.26,
+   "score": 0.621,
+   "business": "Samsara Inc., Technology, large cap at $22.4B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 13% above the 200-day, so the larger trend is intact",
     "RSI at 46 \u2014 the pullback has done real work"
    ],
-   "entry": 40.11,
+   "entry": 39.97,
    "stop": 36.69,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 3.42,
-   "risk_pct": 8.53,
-   "target_2r": 46.95,
-   "target_3r": 50.37,
+   "risk_per_share": 3.28,
+   "risk_pct": 8.21,
+   "target_2r": 46.53,
+   "target_3r": 49.81,
    "fund_grade": "Mixed",
    "fund_notes": [
     "Net margin 5% \u2014 thin but positive",
@@ -61,63 +61,35 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:IOT"
   },
   {
-   "ticker": "PCTY",
+   "ticker": "PBF",
    "setup": "Pullback to 20-day",
    "also": [
     "Trend reset at 50-day"
    ],
-   "price": 144.42,
-   "score": 0.612,
-   "business": "Paylocity Holding Corporation, Technology, mid cap at $8.0B",
+   "price": 71.44,
+   "score": 0.616,
+   "business": "PBF Energy Inc., Energy, mid cap at $8.5B",
    "reasons": [
-    "Trading 15% above its 200-day average, so the long-term trend is up",
-    "Now 1.1% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 47 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 38.1% over 60 days"
+    "Trading 55% above its 200-day average, so the long-term trend is up",
+    "Now 2.9% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 48 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 60.0% over 60 days"
    ],
-   "entry": 145.29,
-   "stop": 139.23,
+   "entry": 75.18,
+   "stop": 67.93,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 6.06,
-   "risk_pct": 4.17,
-   "target_2r": 157.41,
-   "target_3r": 163.47,
+   "risk_per_share": 7.25,
+   "risk_pct": 9.64,
+   "target_2r": 89.68,
+   "target_3r": 96.93,
    "fund_grade": "Strong",
    "fund_notes": [
-    "Net margin 15% \u2014 solidly profitable",
-    "Revenue growing 11% year over year",
-    "Return on equity 22%",
-    "Debt/equity 0.11 \u2014 conservative balance sheet"
+    "Net margin 4% \u2014 thin but positive",
+    "Revenue growing 56% year over year",
+    "Return on equity 23%",
+    "Debt/equity 0.38 \u2014 conservative balance sheet"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:PCTY"
-  },
-  {
-   "ticker": "VG",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 13.66,
-   "score": 0.608,
-   "business": "Venture Global, Inc., Energy, large cap at $34.2B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 17% above the 200-day, so the larger trend is intact",
-    "RSI at 42 \u2014 the pullback has done real work"
-   ],
-   "entry": 13.93,
-   "stop": 13.24,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 0.69,
-   "risk_pct": 4.95,
-   "target_2r": 15.31,
-   "target_3r": 16.0,
-   "fund_grade": "Mixed",
-   "fund_notes": [
-    "Net margin 22% \u2014 solidly profitable",
-    "Revenue growing 48% year over year",
-    "Return on equity 34%",
-    "Debt/equity 3.55 \u2014 heavily leveraged"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:VG"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:PBF"
   },
   {
    "ticker": "BWIN",
@@ -125,21 +97,21 @@
    "also": [
     "Volatility coil"
    ],
-   "price": 31.89,
-   "score": 0.603,
+   "price": 31.95,
+   "score": 0.615,
    "business": "The Baldwin Insurance Group, In, Financial Services, mid cap at $3.1B",
    "reasons": [
-    "Sitting 1.8% below its 52-week high \u2014 a breakout is within reach",
-    "RSI at 58, so it is not yet stretched",
+    "Sitting 1.7% below its 52-week high \u2014 a breakout is within reach",
+    "RSI at 59, so it is not yet stretched",
     "Ranges are narrowing into the level rather than spiking through it"
    ],
-   "entry": 32.01,
-   "stop": 29.92,
+   "entry": 32.0,
+   "stop": 30.09,
    "stop_basis": "2x ATR cap",
-   "risk_per_share": 2.09,
-   "risk_pct": 6.53,
-   "target_2r": 36.19,
-   "target_3r": 38.28,
+   "risk_per_share": 1.91,
+   "risk_pct": 5.97,
+   "target_2r": 35.82,
+   "target_3r": 37.73,
    "fund_grade": "Weak",
    "fund_notes": [
     "Net margin -5% \u2014 currently lossmaking",
@@ -150,52 +122,55 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:BWIN"
   },
   {
-   "ticker": "AMGN",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 393.16,
-   "score": 0.594,
-   "business": "Amgen Inc., Healthcare, mega cap at $212.6B",
+   "ticker": "PCTY",
+   "setup": "Pullback to 20-day",
+   "also": [
+    "Trend reset at 50-day"
+   ],
+   "price": 145.71,
+   "score": 0.607,
+   "business": "Paylocity Holding Corporation, Technology, mid cap at $8.1B",
    "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 10% above the 200-day, so the larger trend is intact",
-    "RSI at 45 \u2014 the pullback has done real work"
+    "Trading 16% above its 200-day average, so the long-term trend is up",
+    "Now 1.7% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 49 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 30.7% over 60 days"
    ],
-   "entry": 395.05,
-   "stop": 373.01,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 22.04,
-   "risk_pct": 5.58,
-   "target_2r": 439.13,
-   "target_3r": 461.17,
-   "fund_grade": "Mixed",
+   "entry": 147.33,
+   "stop": 139.28,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 8.05,
+   "risk_pct": 5.46,
+   "target_2r": 163.43,
+   "target_3r": 171.48,
+   "fund_grade": "Strong",
    "fund_notes": [
-    "Net margin 23% \u2014 solidly profitable",
-    "Revenue up 10% \u2014 modest growth",
-    "Return on equity 91%",
-    "Debt/equity 4.90 \u2014 heavily leveraged"
+    "Net margin 15% \u2014 solidly profitable",
+    "Revenue growing 11% year over year",
+    "Return on equity 22%",
+    "Debt/equity 0.11 \u2014 conservative balance sheet"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:AMGN"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:PCTY"
   },
   {
    "ticker": "RPRX",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 58.44,
-   "score": 0.593,
+   "price": 58.52,
+   "score": 0.606,
    "business": "Royalty Pharma plc, Healthcare, large cap at $33.8B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 17% above the 200-day, so the larger trend is intact",
-    "RSI at 42 \u2014 the pullback has done real work"
+    "RSI at 43 \u2014 the pullback has done real work"
    ],
-   "entry": 59.14,
+   "entry": 59.11,
    "stop": 57.36,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 1.78,
-   "risk_pct": 3.01,
-   "target_2r": 62.7,
-   "target_3r": 64.48,
+   "risk_per_share": 1.75,
+   "risk_pct": 2.96,
+   "target_2r": 62.61,
+   "target_3r": 64.36,
    "fund_grade": "Sound",
    "fund_notes": [
     "Net margin 32% \u2014 solidly profitable",
@@ -205,81 +180,52 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:RPRX"
   },
   {
-   "ticker": "ABNB",
+   "ticker": "VCTR",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 166.84,
-   "score": 0.586,
-   "business": "Airbnb, Inc., Consumer Cyclical, large cap at $99.9B",
+   "price": 104.96,
+   "score": 0.605,
+   "business": "Victory Capital Holdings, Inc. , Financial Services, mid cap at $6.5B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 17% above the 200-day, so the larger trend is intact",
+    "Still 28% above the 200-day, so the larger trend is intact",
     "RSI at 41 \u2014 the pullback has done real work"
    ],
-   "entry": 168.19,
-   "stop": 163.62,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 4.57,
-   "risk_pct": 2.72,
-   "target_2r": 177.33,
-   "target_3r": 181.9,
+   "entry": 108.66,
+   "stop": 101.1,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 7.56,
+   "risk_pct": 6.96,
+   "target_2r": 123.78,
+   "target_3r": 131.34,
    "fund_grade": "Strong",
    "fund_notes": [
-    "Net margin 20% \u2014 solidly profitable",
-    "Revenue growing 16% year over year",
-    "Return on equity 35%",
-    "Debt/equity 0.32 \u2014 conservative balance sheet"
+    "Net margin 30% \u2014 solidly profitable",
+    "Revenue growing 24% year over year",
+    "Return on equity 19%",
+    "Debt/equity 0.43 \u2014 conservative balance sheet"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:ABNB"
-  },
-  {
-   "ticker": "BILL",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 47.06,
-   "score": 0.586,
-   "business": "BILL Holdings, Inc., Technology, mid cap at $4.0B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 8% above the 200-day, so the larger trend is intact",
-    "RSI at 46 \u2014 the pullback has done real work"
-   ],
-   "entry": 48.35,
-   "stop": 45.55,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 2.8,
-   "risk_pct": 5.79,
-   "target_2r": 53.95,
-   "target_3r": 56.75,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin -1% \u2014 currently lossmaking",
-    "Revenue growing 14% year over year",
-    "Return on equity -0% \u2014 destroying capital",
-    "Debt/equity 0.54 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:BILL"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:VCTR"
   },
   {
    "ticker": "FDS",
-   "setup": "Pullback to 20-day",
+   "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 284.1,
-   "score": 0.578,
-   "business": "FactSet Research Systems Inc., Financial Services, large cap at $10.1B",
+   "price": 276.42,
+   "score": 0.605,
+   "business": "FactSet Research Systems Inc., Financial Services, mid cap at $9.8B",
    "reasons": [
-    "Trading 15% above its 200-day average, so the long-term trend is up",
-    "Now 2.0% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 50 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 30.9% over 60 days"
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 12% above the 200-day, so the larger trend is intact",
+    "RSI at 46 \u2014 the pullback has done real work"
    ],
-   "entry": 290.42,
-   "stop": 264.98,
+   "entry": 289.54,
+   "stop": 263.94,
    "stop_basis": "2x ATR cap",
-   "risk_per_share": 25.44,
-   "risk_pct": 8.76,
-   "target_2r": 341.3,
-   "target_3r": 366.74,
+   "risk_per_share": 25.6,
+   "risk_pct": 8.84,
+   "target_2r": 340.74,
+   "target_3r": 366.34,
    "fund_grade": "Sound",
    "fund_notes": [
     "Net margin 23% \u2014 solidly profitable",
@@ -288,6 +234,65 @@
     "Debt/equity 0.77 \u2014 moderate leverage"
    ],
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:FDS"
+  },
+  {
+   "ticker": "URBN",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 75.02,
+   "score": 0.604,
+   "business": "Urban Outfitters, Inc., Consumer Cyclical, mid cap at $6.4B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 4% above the 200-day, so the larger trend is intact",
+    "RSI at 45 \u2014 the pullback has done real work"
+   ],
+   "entry": 77.4,
+   "stop": 73.54,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 3.86,
+   "risk_pct": 4.99,
+   "target_2r": 85.12,
+   "target_3r": 88.98,
+   "fund_grade": "Strong",
+   "fund_notes": [
+    "Net margin 9% \u2014 thin but positive",
+    "Revenue growing 10% year over year",
+    "Return on equity 21%",
+    "Debt/equity 0.43 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:URBN"
+  },
+  {
+   "ticker": "FIVE",
+   "setup": "Volatility coil",
+   "also": [
+    "Pullback to 20-day",
+    "Trend reset at 50-day"
+   ],
+   "price": 232.28,
+   "score": 0.603,
+   "business": "Five Below, Inc., Consumer Cyclical, large cap at $12.8B",
+   "reasons": [
+    "Daily ranges have contracted to 78% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 12% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined"
+   ],
+   "entry": 242.95,
+   "stop": 229.31,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 13.64,
+   "risk_pct": 5.61,
+   "target_2r": 270.23,
+   "target_3r": 283.87,
+   "fund_grade": "Strong",
+   "fund_notes": [
+    "Net margin 12% \u2014 solidly profitable",
+    "Revenue growing 23% year over year",
+    "Return on equity 28%",
+    "Debt/equity 0.82 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:FIVE"
   }
  ],
  "past_runs": [
@@ -300,6 +305,7 @@
   "2026-09-16",
   "2026-09-17",
   "2026-09-18",
-  "2026-09-21"
+  "2026-09-21",
+  "2026-09-22"
  ]
 }
