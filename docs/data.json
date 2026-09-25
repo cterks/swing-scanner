@@ -1,6 +1,6 @@
 {
- "run_date": "2026-09-23",
- "generated": "2026-09-23 22:25 UTC",
+ "run_date": "2026-09-25",
+ "generated": "2026-09-25 00:34 UTC",
  "scanned": 1200,
  "bench_return_60d": 3.88,
  "candidates": [
@@ -38,7 +38,7 @@
    "setup": "Trend reset at 50-day",
    "also": [],
    "price": 74.82,
-   "score": 0.659,
+   "score": 0.66,
    "business": "Urban Outfitters, Inc., Consumer Cyclical, mid cap at $6.4B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
@@ -67,19 +67,19 @@
    "also": [],
    "price": 57.65,
    "score": 0.652,
-   "business": "Royalty Pharma plc, Healthcare, large cap at $33.3B",
+   "business": "Royalty Pharma plc, Healthcare, large cap at $33.7B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 15% above the 200-day, so the larger trend is intact",
     "RSI at 39 \u2014 the pullback has done real work"
    ],
    "entry": 59.1,
-   "stop": 57.25,
+   "stop": 57.24,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 1.85,
-   "risk_pct": 3.13,
-   "target_2r": 62.8,
-   "target_3r": 64.65,
+   "risk_per_share": 1.86,
+   "risk_pct": 3.15,
+   "target_2r": 62.82,
+   "target_3r": 64.68,
    "fund_grade": "Sound",
    "fund_notes": [
     "Net margin 32% \u2014 solidly profitable",
@@ -124,19 +124,19 @@
    "also": [],
    "price": 45.92,
    "score": 0.648,
-   "business": "BILL Holdings, Inc., Technology, mid cap at $3.9B",
+   "business": "BILL Holdings, Inc., Technology, mid cap at $4.5B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 5% above the 200-day, so the larger trend is intact",
     "RSI at 43 \u2014 the pullback has done real work"
    ],
    "entry": 47.17,
-   "stop": 45.2,
+   "stop": 45.16,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 1.97,
-   "risk_pct": 4.18,
-   "target_2r": 51.11,
-   "target_3r": 53.08,
+   "risk_per_share": 2.01,
+   "risk_pct": 4.26,
+   "target_2r": 51.19,
+   "target_3r": 53.2,
    "fund_grade": "Weak",
    "fund_notes": [
     "Net margin -1% \u2014 currently lossmaking",
@@ -153,8 +153,8 @@
     "Trend reset at 50-day"
    ],
    "price": 143.58,
-   "score": 0.642,
-   "business": "Paylocity Holding Corporation, Technology, mid cap at $7.9B",
+   "score": 0.643,
+   "business": "Paylocity Holding Corporation, Technology, mid cap at $7.6B",
    "reasons": [
     "Trading 15% above its 200-day average, so the long-term trend is up",
     "Now 0.2% above its 50-day average \u2014 closer to support than to a chase",
@@ -185,7 +185,7 @@
    ],
    "price": 39.08,
    "score": 0.642,
-   "business": "Samsara Inc., Technology, large cap at $22.9B",
+   "business": "Samsara Inc., Technology, large cap at $23.0B",
    "reasons": [
     "Trading 16% above its 200-day average, so the long-term trend is up",
     "Now 1.1% above its 50-day average \u2014 closer to support than to a chase",
@@ -216,7 +216,7 @@
    ],
    "price": 279.43,
    "score": 0.637,
-   "business": "FactSet Research Systems Inc., Financial Services, mid cap at $9.9B",
+   "business": "FactSet Research Systems Inc., Financial Services, mid cap at $9.6B",
    "reasons": [
     "Daily ranges have contracted to 77% of their 20-day norm \u2014 volatility is compressing",
     "Holding within 11% of its 52-week high while quieting down",
@@ -246,21 +246,21 @@
     "Trend reset at 50-day"
    ],
    "price": 70.47,
-   "score": 0.635,
-   "business": "PBF Energy Inc., Energy, mid cap at $8.4B",
+   "score": 0.634,
+   "business": "PBF Energy Inc., Energy, mid cap at $8.5B",
    "reasons": [
     "Trading 53% above its 200-day average, so the long-term trend is up",
     "Now 1.5% above its 50-day average \u2014 closer to support than to a chase",
     "RSI at 47 \u2014 cooled off without breaking down",
     "Outperforming SPY by 60.2% over 60 days"
    ],
-   "entry": 74.69,
-   "stop": 67.31,
+   "entry": 74.99,
+   "stop": 67.27,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 7.38,
-   "risk_pct": 9.88,
-   "target_2r": 89.45,
-   "target_3r": 96.83,
+   "risk_per_share": 7.72,
+   "risk_pct": 10.29,
+   "target_2r": 90.43,
+   "target_3r": 98.15,
    "fund_grade": "Strong",
    "fund_notes": [
     "Net margin 4% \u2014 thin but positive",
@@ -311,6 +311,7 @@
   "2026-09-18",
   "2026-09-21",
   "2026-09-22",
-  "2026-09-23"
+  "2026-09-23",
+  "2026-09-25"
  ]
 }
