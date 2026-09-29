@@ -1,37 +1,174 @@
 {
- "run_date": "2026-09-26",
- "generated": "2026-09-26 00:39 UTC",
+ "run_date": "2026-09-29",
+ "generated": "2026-09-29 01:55 UTC",
  "scanned": 1200,
- "bench_return_60d": 2.99,
+ "bench_return_60d": 3.05,
  "candidates": [
   {
-   "ticker": "CBZ",
-   "setup": "Breakout ready",
-   "also": [
-    "Volatility coil"
-   ],
-   "price": 54.68,
-   "score": 0.715,
-   "business": "CBIZ, Inc., Industrials, mid cap at $3.0B",
+   "ticker": "SM",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 33.55,
+   "score": 0.676,
+   "business": "SM Energy Company, Energy, mid cap at $8.0B",
    "reasons": [
-    "Sitting 3.7% below its 52-week high \u2014 a breakout is within reach",
-    "RSI at 69, so it is not yet stretched",
-    "Ranges are narrowing into the level rather than spiking through it"
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 21% above the 200-day, so the larger trend is intact",
+    "RSI at 41 \u2014 the pullback has done real work"
    ],
-   "entry": 54.76,
-   "stop": 54.48,
+   "entry": 34.83,
+   "stop": 33.08,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 0.28,
-   "risk_pct": 0.51,
-   "target_2r": 55.32,
-   "target_3r": 55.6,
+   "risk_per_share": 1.75,
+   "risk_pct": 5.02,
+   "target_2r": 38.33,
+   "target_3r": 40.08,
+   "fund_grade": "Strong",
+   "fund_notes": [
+    "Net margin 20% \u2014 solidly profitable",
+    "Revenue growing 176% year over year",
+    "Return on equity 16%",
+    "Debt/equity 0.95 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:SM"
+  },
+  {
+   "ticker": "ADM",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 80.38,
+   "score": 0.672,
+   "business": "Archer-Daniels-Midland Company, Consumer Defensive, large cap at $38.7B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 10% above the 200-day, so the larger trend is intact",
+    "RSI at 41 \u2014 the pullback has done real work"
+   ],
+   "entry": 82.21,
+   "stop": 79.73,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 2.48,
+   "risk_pct": 3.02,
+   "target_2r": 87.17,
+   "target_3r": 89.65,
+   "fund_grade": "Sound",
+   "fund_notes": [
+    "Net margin 2% \u2014 thin but positive",
+    "Revenue up 7% \u2014 modest growth",
+    "Debt/equity 0.39 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ADM"
+  },
+  {
+   "ticker": "PARR",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 77.97,
+   "score": 0.671,
+   "business": "Par Pacific Holdings, Inc. Comm, Energy, mid cap at $3.9B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 33% above the 200-day, so the larger trend is intact",
+    "RSI at 46 \u2014 the pullback has done real work"
+   ],
+   "entry": 78.55,
+   "stop": 73.16,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 5.39,
+   "risk_pct": 6.86,
+   "target_2r": 89.33,
+   "target_3r": 94.72,
+   "fund_grade": "Sound",
+   "fund_notes": [
+    "Net margin 10% \u2014 thin but positive",
+    "Revenue growing 57% year over year",
+    "Return on equity 53%",
+    "Debt/equity 0.56 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:PARR"
+  },
+  {
+   "ticker": "SLB",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 51.49,
+   "score": 0.664,
+   "business": "SLB Limited, Energy, large cap at $76.4B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 3% above the 200-day, so the larger trend is intact",
+    "RSI at 41 \u2014 the pullback has done real work"
+   ],
+   "entry": 52.38,
+   "stop": 50.04,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 2.34,
+   "risk_pct": 4.47,
+   "target_2r": 57.06,
+   "target_3r": 59.4,
+   "fund_grade": "Sound",
+   "fund_notes": [
+    "Net margin 9% \u2014 thin but positive",
+    "Revenue up 5% \u2014 modest growth",
+    "Debt/equity 0.47 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:SLB"
+  },
+  {
+   "ticker": "CNQ",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 47.55,
+   "score": 0.664,
+   "business": "Canadian Natural Resources Limi, Energy, large cap at $98.0B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 11% above the 200-day, so the larger trend is intact",
+    "RSI at 42 \u2014 the pullback has done real work"
+   ],
+   "entry": 48.34,
+   "stop": 46.68,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 1.66,
+   "risk_pct": 3.43,
+   "target_2r": 51.66,
+   "target_3r": 53.32,
+   "fund_grade": "Strong",
+   "fund_notes": [
+    "Net margin 26% \u2014 solidly profitable",
+    "Revenue growing 70% year over year",
+    "Return on equity 27%",
+    "Debt/equity 0.43 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CNQ"
+  },
+  {
+   "ticker": "DK",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 67.47,
+   "score": 0.662,
+   "business": "Delek US Holdings, Inc., Energy, mid cap at $4.1B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 42% above the 200-day, so the larger trend is intact",
+    "RSI at 42 \u2014 the pullback has done real work"
+   ],
+   "entry": 68.31,
+   "stop": 64.51,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 3.8,
+   "risk_pct": 5.56,
+   "target_2r": 75.91,
+   "target_3r": 79.71,
    "fund_grade": "Mixed",
    "fund_notes": [
-    "Net margin 4% \u2014 thin but positive",
-    "Revenue -0% \u2014 sales are shrinking",
-    "Debt/equity 1.02 \u2014 moderate leverage"
+    "Net margin 2% \u2014 thin but positive",
+    "Revenue growing 48% year over year",
+    "Return on equity 79%",
+    "Debt/equity 8.12 \u2014 heavily leveraged"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CBZ"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:DK"
   },
   {
    "ticker": "BWIN",
@@ -39,21 +176,21 @@
    "also": [
     "Volatility coil"
    ],
-   "price": 31.84,
-   "score": 0.674,
+   "price": 31.82,
+   "score": 0.658,
    "business": "The Baldwin Insurance Group, In, Financial Services, mid cap at $3.1B",
    "reasons": [
-    "Sitting 2.0% below its 52-week high \u2014 a breakout is within reach",
+    "Sitting 2.1% below its 52-week high \u2014 a breakout is within reach",
     "RSI at 58, so it is not yet stretched",
     "Ranges are narrowing into the level rather than spiking through it"
    ],
-   "entry": 31.95,
-   "stop": 30.34,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 1.61,
-   "risk_pct": 5.04,
-   "target_2r": 35.17,
-   "target_3r": 36.78,
+   "entry": 31.92,
+   "stop": 31.53,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 0.39,
+   "risk_pct": 1.22,
+   "target_2r": 32.7,
+   "target_3r": 33.09,
    "fund_grade": "Weak",
    "fund_notes": [
     "Net margin -5% \u2014 currently lossmaking",
@@ -64,226 +201,90 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:BWIN"
   },
   {
-   "ticker": "PCTY",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 143.64,
-   "score": 0.666,
-   "business": "Paylocity Holding Corporation, Technology, mid cap at $7.6B",
+   "ticker": "CRGY",
+   "setup": "Pullback to 20-day",
+   "also": [
+    "Trend reset at 50-day"
+   ],
+   "price": 12.98,
+   "score": 0.653,
+   "business": "Crescent Energy Company, Energy, mid cap at $4.3B",
    "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 15% above the 200-day, so the larger trend is intact",
-    "RSI at 46 \u2014 the pullback has done real work"
+    "Trading 15% above its 200-day average, so the long-term trend is up",
+    "Now 1.6% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 44 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 37.3% over 60 days"
    ],
-   "entry": 146.57,
-   "stop": 139.79,
+   "entry": 13.38,
+   "stop": 12.8,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 6.78,
-   "risk_pct": 4.63,
-   "target_2r": 160.13,
-   "target_3r": 166.91,
-   "fund_grade": "Strong",
-   "fund_notes": [
-    "Net margin 15% \u2014 solidly profitable",
-    "Revenue growing 11% year over year",
-    "Return on equity 22%",
-    "Debt/equity 0.11 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:PCTY"
-  },
-  {
-   "ticker": "THC",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 249.54,
-   "score": 0.664,
-   "business": "Tenet Healthcare Corporation, Healthcare, large cap at $20.9B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 18% above the 200-day, so the larger trend is intact",
-    "RSI at 40 \u2014 the pullback has done real work"
-   ],
-   "entry": 259.89,
-   "stop": 247.47,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 12.42,
-   "risk_pct": 4.78,
-   "target_2r": 284.73,
-   "target_3r": 297.15,
+   "risk_per_share": 0.58,
+   "risk_pct": 4.33,
+   "target_2r": 14.54,
+   "target_3r": 15.12,
    "fund_grade": "Sound",
    "fund_notes": [
-    "Net margin 10% \u2014 solidly profitable",
-    "Revenue up 7% \u2014 modest growth",
-    "Return on equity 37%",
-    "Debt/equity 1.52 \u2014 moderate leverage"
+    "Net margin 1% \u2014 thin but positive",
+    "Revenue growing 55% year over year",
+    "Debt/equity 1.00 \u2014 moderate leverage"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:THC"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CRGY"
   },
   {
-   "ticker": "PTEN",
+   "ticker": "EOG",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 11.18,
-   "score": 0.664,
-   "business": "Patterson-UTI Energy, Inc., Energy, mid cap at $4.1B",
+   "price": 140.63,
+   "score": 0.651,
+   "business": "EOG Resources, Inc., Energy, large cap at $74.9B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 15% above the 200-day, so the larger trend is intact",
-    "RSI at 41 \u2014 the pullback has done real work"
-   ],
-   "entry": 11.39,
-   "stop": 10.82,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 0.57,
-   "risk_pct": 5.0,
-   "target_2r": 12.53,
-   "target_3r": 13.1,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin -2% \u2014 currently lossmaking",
-    "Revenue up 1% \u2014 modest growth",
-    "Return on equity -3% \u2014 destroying capital",
-    "Debt/equity 0.41 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:PTEN"
-  },
-  {
-   "ticker": "GPN",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 85.31,
-   "score": 0.653,
-   "business": "Global Payments Inc., Industrials, large cap at $22.9B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 12% above the 200-day, so the larger trend is intact",
+    "Still 8% above the 200-day, so the larger trend is intact",
     "RSI at 43 \u2014 the pullback has done real work"
    ],
-   "entry": 85.58,
-   "stop": 82.52,
+   "entry": 142.57,
+   "stop": 137.11,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 3.06,
-   "risk_pct": 3.58,
-   "target_2r": 91.7,
-   "target_3r": 94.76,
-   "fund_grade": "Mixed",
-   "fund_notes": [
-    "Net margin -9% \u2014 currently lossmaking",
-    "Revenue growing 69% year over year",
-    "Debt/equity 0.98 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:GPN"
-  },
-  {
-   "ticker": "URBN",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 74.78,
-   "score": 0.653,
-   "business": "Urban Outfitters, Inc., Consumer Cyclical, mid cap at $6.5B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 3% above the 200-day, so the larger trend is intact",
-    "RSI at 45 \u2014 the pullback has done real work"
-   ],
-   "entry": 76.13,
-   "stop": 73.01,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 3.12,
-   "risk_pct": 4.1,
-   "target_2r": 82.37,
-   "target_3r": 85.49,
+   "risk_per_share": 5.46,
+   "risk_pct": 3.83,
+   "target_2r": 153.49,
+   "target_3r": 158.95,
    "fund_grade": "Strong",
    "fund_notes": [
-    "Net margin 9% \u2014 thin but positive",
-    "Revenue growing 10% year over year",
-    "Return on equity 21%",
-    "Debt/equity 0.43 \u2014 conservative balance sheet"
+    "Net margin 26% \u2014 solidly profitable",
+    "Revenue growing 59% year over year",
+    "Return on equity 23%",
+    "Debt/equity 0.26 \u2014 conservative balance sheet"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:URBN"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:EOG"
   },
   {
-   "ticker": "VCTR",
-   "setup": "Trend reset at 50-day",
+   "ticker": "ATKR",
+   "setup": "Volatility coil",
    "also": [],
-   "price": 106.1,
-   "score": 0.648,
-   "business": "Victory Capital Holdings, Inc. , Financial Services, mid cap at $6.7B",
+   "price": 94.6,
+   "score": 0.65,
+   "business": "Atkore Inc., Industrials, mid cap at $3.2B",
    "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 29% above the 200-day, so the larger trend is intact",
-    "RSI at 44 \u2014 the pullback has done real work"
+    "Daily ranges have contracted to 55% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 0% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined"
    ],
-   "entry": 107.18,
-   "stop": 100.47,
+   "entry": 94.73,
+   "stop": 94.26,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 6.71,
-   "risk_pct": 6.26,
-   "target_2r": 120.6,
-   "target_3r": 127.31,
-   "fund_grade": "Strong",
+   "risk_per_share": 0.47,
+   "risk_pct": 0.5,
+   "target_2r": 95.67,
+   "target_3r": 96.14,
+   "fund_grade": "Weak",
    "fund_notes": [
-    "Net margin 30% \u2014 solidly profitable",
-    "Revenue growing 24% year over year",
-    "Return on equity 19%",
-    "Debt/equity 0.43 \u2014 conservative balance sheet"
+    "Net margin -6% \u2014 currently lossmaking",
+    "Revenue up 8% \u2014 modest growth",
+    "Return on equity -12% \u2014 destroying capital",
+    "Debt/equity 0.72 \u2014 moderate leverage"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:VCTR"
-  },
-  {
-   "ticker": "FOXA",
-   "setup": "Pullback to 20-day",
-   "also": [],
-   "price": 63.84,
-   "score": 0.644,
-   "business": "Fox Corporation, Communication Services, large cap at $26.6B",
-   "reasons": [
-    "Trading 1% above its 200-day average, so the long-term trend is up",
-    "Now 0.6% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 45 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 19.9% over 60 days"
-   ],
-   "entry": 64.43,
-   "stop": 62.67,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 1.76,
-   "risk_pct": 2.73,
-   "target_2r": 67.95,
-   "target_3r": 69.71,
-   "fund_grade": "Sound",
-   "fund_notes": [
-    "Net margin 10% \u2014 thin but positive",
-    "Revenue growing 28% year over year",
-    "Debt/equity 0.64 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:FOXA"
-  },
-  {
-   "ticker": "SLB",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 51.43,
-   "score": 0.641,
-   "business": "SLB Limited, Energy, large cap at $76.5B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 3% above the 200-day, so the larger trend is intact",
-    "RSI at 41 \u2014 the pullback has done real work"
-   ],
-   "entry": 52.69,
-   "stop": 50.03,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 2.66,
-   "risk_pct": 5.05,
-   "target_2r": 58.01,
-   "target_3r": 60.67,
-   "fund_grade": "Sound",
-   "fund_notes": [
-    "Net margin 9% \u2014 thin but positive",
-    "Revenue up 5% \u2014 modest growth",
-    "Debt/equity 0.47 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:SLB"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ATKR"
   }
  ],
  "past_runs": [
@@ -300,6 +301,7 @@
   "2026-09-22",
   "2026-09-23",
   "2026-09-25",
-  "2026-09-26"
+  "2026-09-26",
+  "2026-09-29"
  ]
 }
