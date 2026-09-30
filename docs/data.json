@@ -1,6 +1,6 @@
 {
- "run_date": "2026-09-29",
- "generated": "2026-09-29 01:55 UTC",
+ "run_date": "2026-09-30",
+ "generated": "2026-09-30 01:18 UTC",
  "scanned": 1200,
  "bench_return_60d": 3.05,
  "candidates": [
@@ -10,7 +10,7 @@
    "also": [],
    "price": 33.55,
    "score": 0.676,
-   "business": "SM Energy Company, Energy, mid cap at $8.0B",
+   "business": "SM Energy Company, Energy, mid cap at $7.9B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 21% above the 200-day, so the larger trend is intact",
@@ -38,7 +38,7 @@
    "also": [],
    "price": 80.38,
    "score": 0.672,
-   "business": "Archer-Daniels-Midland Company, Consumer Defensive, large cap at $38.7B",
+   "business": "Archer-Daniels-Midland Company, Consumer Defensive, large cap at $38.3B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 10% above the 200-day, so the larger trend is intact",
@@ -93,7 +93,7 @@
    "also": [],
    "price": 51.49,
    "score": 0.664,
-   "business": "SLB Limited, Energy, large cap at $76.4B",
+   "business": "SLB Limited, Energy, large cap at $74.0B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 3% above the 200-day, so the larger trend is intact",
@@ -120,7 +120,7 @@
    "also": [],
    "price": 47.55,
    "score": 0.664,
-   "business": "Canadian Natural Resources Limi, Energy, large cap at $98.0B",
+   "business": "Canadian Natural Resources Limi, Energy, large cap at $97.2B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 11% above the 200-day, so the larger trend is intact",
@@ -148,7 +148,7 @@
    "also": [],
    "price": 67.47,
    "score": 0.662,
-   "business": "Delek US Holdings, Inc., Energy, mid cap at $4.1B",
+   "business": "Delek US Holdings, Inc., Energy, mid cap at $4.2B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 42% above the 200-day, so the larger trend is intact",
@@ -208,7 +208,7 @@
    ],
    "price": 12.98,
    "score": 0.653,
-   "business": "Crescent Energy Company, Energy, mid cap at $4.3B",
+   "business": "Crescent Energy Company, Energy, mid cap at $5.1B",
    "reasons": [
     "Trading 15% above its 200-day average, so the long-term trend is up",
     "Now 1.6% above its 50-day average \u2014 closer to support than to a chase",
@@ -236,7 +236,7 @@
    "also": [],
    "price": 140.63,
    "score": 0.651,
-   "business": "EOG Resources, Inc., Energy, large cap at $74.9B",
+   "business": "EOG Resources, Inc., Energy, large cap at $73.3B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 8% above the 200-day, so the larger trend is intact",
@@ -302,6 +302,7 @@
   "2026-09-23",
   "2026-09-25",
   "2026-09-26",
-  "2026-09-29"
+  "2026-09-29",
+  "2026-09-30"
  ]
 }
