@@ -1,93 +1,35 @@
 {
- "run_date": "2026-10-01",
- "generated": "2026-10-01 01:17 UTC",
+ "run_date": "2026-10-02",
+ "generated": "2026-10-02 01:41 UTC",
  "scanned": 1200,
- "bench_return_60d": 1.97,
+ "bench_return_60d": 2.75,
  "candidates": [
   {
-   "ticker": "CRGY",
-   "setup": "Pullback to 20-day",
-   "also": [
-    "Trend reset at 50-day"
-   ],
-   "price": 12.89,
-   "score": 0.685,
-   "business": "Crescent Energy Company, Energy, mid cap at $5.1B",
-   "reasons": [
-    "Trading 14% above its 200-day average, so the long-term trend is up",
-    "Now 0.5% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 43 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 40.5% over 60 days"
-   ],
-   "entry": 13.06,
-   "stop": 12.56,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 0.5,
-   "risk_pct": 3.83,
-   "target_2r": 14.06,
-   "target_3r": 14.56,
-   "fund_grade": "Sound",
-   "fund_notes": [
-    "Net margin 1% \u2014 thin but positive",
-    "Revenue growing 55% year over year",
-    "Debt/equity 1.00 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CRGY"
-  },
-  {
-   "ticker": "CNQ",
-   "setup": "Trend reset at 50-day",
+   "ticker": "ITGR",
+   "setup": "Volatility coil",
    "also": [],
-   "price": 47.17,
-   "score": 0.681,
-   "business": "Canadian Natural Resources Limi, Energy, large cap at $97.0B",
+   "price": 126.42,
+   "score": 0.677,
+   "business": "Integer Holdings Corporation, Healthcare, mid cap at $4.3B",
    "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 10% above the 200-day, so the larger trend is intact",
-    "RSI at 40 \u2014 the pullback has done real work"
+    "Daily ranges have contracted to 46% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 0% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined"
    ],
-   "entry": 47.53,
-   "stop": 46.27,
+   "entry": 126.48,
+   "stop": 126.11,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 1.26,
-   "risk_pct": 2.65,
-   "target_2r": 50.05,
-   "target_3r": 51.31,
-   "fund_grade": "Strong",
+   "risk_per_share": 0.37,
+   "risk_pct": 0.29,
+   "target_2r": 127.22,
+   "target_3r": 127.59,
+   "fund_grade": "Mixed",
    "fund_notes": [
-    "Net margin 26% \u2014 solidly profitable",
-    "Revenue growing 70% year over year",
-    "Return on equity 27%",
-    "Debt/equity 0.43 \u2014 conservative balance sheet"
+    "Net margin 7% \u2014 thin but positive",
+    "Revenue -3% \u2014 sales are shrinking",
+    "Debt/equity 0.79 \u2014 moderate leverage"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CNQ"
-  },
-  {
-   "ticker": "AMLX",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 29.28,
-   "score": 0.679,
-   "business": "Amylyx Pharmaceuticals, Inc., Healthcare, mid cap at $3.7B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 60% above the 200-day, so the larger trend is intact",
-    "RSI at 42 \u2014 the pullback has done real work"
-   ],
-   "entry": 30.18,
-   "stop": 28.33,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 1.85,
-   "risk_pct": 6.13,
-   "target_2r": 33.88,
-   "target_3r": 35.73,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin 0% \u2014 currently lossmaking",
-    "Return on equity -75% \u2014 destroying capital",
-    "Debt/equity 2.20 \u2014 heavily leveraged"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:AMLX"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ITGR"
   },
   {
    "ticker": "BWIN",
@@ -95,21 +37,21 @@
    "also": [
     "Volatility coil"
    ],
-   "price": 31.78,
-   "score": 0.673,
+   "price": 31.77,
+   "score": 0.662,
    "business": "The Baldwin Insurance Group, In, Financial Services, mid cap at $3.1B",
    "reasons": [
     "Sitting 2.2% below its 52-week high \u2014 a breakout is within reach",
     "RSI at 57, so it is not yet stretched",
     "Ranges are narrowing into the level rather than spiking through it"
    ],
-   "entry": 31.93,
-   "stop": 31.57,
+   "entry": 31.95,
+   "stop": 31.61,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 0.36,
-   "risk_pct": 1.13,
-   "target_2r": 32.65,
-   "target_3r": 33.01,
+   "risk_per_share": 0.34,
+   "risk_pct": 1.06,
+   "target_2r": 32.63,
+   "target_3r": 32.97,
    "fund_grade": "Weak",
    "fund_notes": [
     "Net margin -5% \u2014 currently lossmaking",
@@ -120,174 +62,231 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:BWIN"
   },
   {
-   "ticker": "HPQ",
+   "ticker": "NEM",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 114.67,
+   "score": 0.642,
+   "business": "Newmont Corporation, Basic Materials, large cap at $120.8B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 3% above the 200-day, so the larger trend is intact",
+    "RSI at 40 \u2014 the pullback has done real work"
+   ],
+   "entry": 115.98,
+   "stop": 113.21,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 2.77,
+   "risk_pct": 2.39,
+   "target_2r": 121.52,
+   "target_3r": 124.29,
+   "fund_grade": "Strong",
+   "fund_notes": [
+    "Net margin 33% \u2014 solidly profitable",
+    "Revenue growing 15% year over year",
+    "Return on equity 26%",
+    "Debt/equity 0.16 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:NEM"
+  },
+  {
+   "ticker": "ATKR",
+   "setup": "Volatility coil",
+   "also": [],
+   "price": 94.77,
+   "score": 0.641,
+   "business": "Atkore Inc., Industrials, mid cap at $3.2B",
+   "reasons": [
+    "Daily ranges have contracted to 55% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 0% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 83% of its 50-day average, typical of a supply pause"
+   ],
+   "entry": 94.85,
+   "stop": 94.46,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 0.39,
+   "risk_pct": 0.41,
+   "target_2r": 95.63,
+   "target_3r": 96.02,
+   "fund_grade": "Weak",
+   "fund_notes": [
+    "Net margin -6% \u2014 currently lossmaking",
+    "Revenue up 8% \u2014 modest growth",
+    "Return on equity -12% \u2014 destroying capital",
+    "Debt/equity 0.72 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ATKR"
+  },
+  {
+   "ticker": "AUGO",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 78.85,
+   "score": 0.614,
+   "business": "Aura Minerals Inc., Basic Materials, mid cap at $6.6B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 10% above the 200-day, so the larger trend is intact",
+    "RSI at 43 \u2014 the pullback has done real work"
+   ],
+   "entry": 80.05,
+   "stop": 75.9,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 4.15,
+   "risk_pct": 5.18,
+   "target_2r": 88.35,
+   "target_3r": 92.5,
+   "fund_grade": "Strong",
+   "fund_notes": [
+    "Net margin 23% \u2014 solidly profitable",
+    "Revenue growing 76% year over year",
+    "Return on equity 100%",
+    "Debt/equity 1.00 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:AUGO"
+  },
+  {
+   "ticker": "CRGY",
    "setup": "Pullback to 20-day",
    "also": [
     "Trend reset at 50-day"
    ],
-   "price": 30.73,
-   "score": 0.669,
-   "business": "HP Inc., Technology, large cap at $28.2B",
+   "price": 13.27,
+   "score": 0.612,
+   "business": "Crescent Energy Company, Energy, mid cap at $5.2B",
    "reasons": [
-    "Trading 33% above its 200-day average, so the long-term trend is up",
-    "Now 2.6% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 46 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 35.3% over 60 days"
+    "Trading 17% above its 200-day average, so the long-term trend is up",
+    "Now 2.8% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 49 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 37.0% over 60 days"
    ],
-   "entry": 31.43,
-   "stop": 30.2,
+   "entry": 13.36,
+   "stop": 12.56,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 1.23,
-   "risk_pct": 3.91,
-   "target_2r": 33.89,
-   "target_3r": 35.12,
+   "risk_per_share": 0.8,
+   "risk_pct": 5.99,
+   "target_2r": 14.96,
+   "target_3r": 15.76,
    "fund_grade": "Sound",
    "fund_notes": [
-    "Net margin 4% \u2014 thin but positive",
-    "Revenue growing 12% year over year"
+    "Net margin 1% \u2014 thin but positive",
+    "Revenue growing 55% year over year",
+    "Debt/equity 1.00 \u2014 moderate leverage"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:HPQ"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CRGY"
   },
   {
-   "ticker": "LH",
+   "ticker": "HBM",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 308.81,
-   "score": 0.665,
-   "business": "Labcorp Holdings Inc., Healthcare, large cap at $25.0B",
+   "price": 26.18,
+   "score": 0.608,
+   "business": "Hudbay Minerals Inc., Basic Materials, large cap at $11.6B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 7% above the 200-day, so the larger trend is intact",
+    "RSI at 46 \u2014 the pullback has done real work"
+   ],
+   "entry": 26.66,
+   "stop": 24.95,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 1.71,
+   "risk_pct": 6.41,
+   "target_2r": 30.08,
+   "target_3r": 31.79,
+   "fund_grade": "Strong",
+   "fund_notes": [
+    "Net margin 27% \u2014 solidly profitable",
+    "Revenue growing 18% year over year",
+    "Return on equity 17%",
+    "Debt/equity 0.20 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:HBM"
+  },
+  {
+   "ticker": "AVTR",
+   "setup": "Pullback to 20-day",
+   "also": [],
+   "price": 15.03,
+   "score": 0.606,
+   "business": "Avantor, Inc., Healthcare, large cap at $10.2B",
+   "reasons": [
+    "Trading 40% above its 200-day average, so the long-term trend is up",
+    "Now 5.2% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 53 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 51.2% over 60 days"
+   ],
+   "entry": 15.22,
+   "stop": 14.46,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 0.76,
+   "risk_pct": 4.99,
+   "target_2r": 16.74,
+   "target_3r": 17.5,
+   "fund_grade": "Weak",
+   "fund_notes": [
+    "Net margin -9% \u2014 currently lossmaking",
+    "Revenue up 0% \u2014 modest growth",
+    "Return on equity -10% \u2014 destroying capital",
+    "Debt/equity 0.66 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:AVTR"
+  },
+  {
+   "ticker": "MSI",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 448.03,
+   "score": 0.605,
+   "business": "Motorola Solutions, Inc., Technology, large cap at $74.1B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 5% above the 200-day, so the larger trend is intact",
+    "RSI at 40 \u2014 the pullback has done real work"
+   ],
+   "entry": 450.47,
+   "stop": 441.59,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 8.88,
+   "risk_pct": 1.97,
+   "target_2r": 468.23,
+   "target_3r": 477.11,
+   "fund_grade": "Mixed",
+   "fund_notes": [
+    "Net margin 17% \u2014 solidly profitable",
+    "Revenue growing 13% year over year",
+    "Return on equity 92%",
+    "Debt/equity 3.58 \u2014 heavily leveraged"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:MSI"
+  },
+  {
+   "ticker": "CHRD",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 136.85,
+   "score": 0.603,
+   "business": "Chord Energy Corporation, Energy, mid cap at $7.5B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 11% above the 200-day, so the larger trend is intact",
-    "RSI at 41 \u2014 the pullback has done real work"
+    "RSI at 43 \u2014 the pullback has done real work"
    ],
-   "entry": 310.36,
-   "stop": 301.07,
+   "entry": 138.15,
+   "stop": 131.54,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 9.29,
-   "risk_pct": 2.99,
-   "target_2r": 328.94,
-   "target_3r": 338.23,
-   "fund_grade": "Limited data",
-   "fund_notes": [
-    "Net margin 7% \u2014 thin but positive",
-    "Revenue up 6% \u2014 modest growth",
-    "Debt/equity 0.79 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:LH"
-  },
-  {
-   "ticker": "EXLS",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 34.58,
-   "score": 0.664,
-   "business": "ExlService Holdings, Inc., Technology, mid cap at $5.2B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 4% above the 200-day, so the larger trend is intact",
-    "RSI at 44 \u2014 the pullback has done real work"
-   ],
-   "entry": 34.88,
-   "stop": 33.84,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 1.04,
-   "risk_pct": 2.98,
-   "target_2r": 36.96,
-   "target_3r": 38.0,
+   "risk_per_share": 6.61,
+   "risk_pct": 4.78,
+   "target_2r": 151.37,
+   "target_3r": 157.98,
    "fund_grade": "Strong",
    "fund_notes": [
-    "Net margin 11% \u2014 solidly profitable",
-    "Revenue growing 16% year over year",
-    "Return on equity 26%",
-    "Debt/equity 0.57 \u2014 moderate leverage"
+    "Net margin 14% \u2014 solidly profitable",
+    "Revenue growing 84% year over year",
+    "Debt/equity 0.18 \u2014 conservative balance sheet"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:EXLS"
-  },
-  {
-   "ticker": "PARR",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 78.31,
-   "score": 0.661,
-   "business": "Par Pacific Holdings, Inc. Comm, Energy, mid cap at $4.1B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 33% above the 200-day, so the larger trend is intact",
-    "RSI at 47 \u2014 the pullback has done real work"
-   ],
-   "entry": 79.29,
-   "stop": 73.17,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 6.12,
-   "risk_pct": 7.72,
-   "target_2r": 91.53,
-   "target_3r": 97.65,
-   "fund_grade": "Sound",
-   "fund_notes": [
-    "Net margin 10% \u2014 thin but positive",
-    "Revenue growing 57% year over year",
-    "Return on equity 53%",
-    "Debt/equity 0.56 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:PARR"
-  },
-  {
-   "ticker": "ITGR",
-   "setup": "Volatility coil",
-   "also": [],
-   "price": 126.33,
-   "score": 0.66,
-   "business": "Integer Holdings Corporation, Healthcare, mid cap at $4.3B",
-   "reasons": [
-    "Daily ranges have contracted to 58% of their 20-day norm \u2014 volatility is compressing",
-    "Holding within 0% of its 52-week high while quieting down",
-    "Tight action near highs often precedes an expansion, though the direction is not predetermined"
-   ],
-   "entry": 126.42,
-   "stop": 126.04,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 0.38,
-   "risk_pct": 0.3,
-   "target_2r": 127.18,
-   "target_3r": 127.56,
-   "fund_grade": "Mixed",
-   "fund_notes": [
-    "Net margin 7% \u2014 thin but positive",
-    "Revenue -3% \u2014 sales are shrinking",
-    "Debt/equity 0.79 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ITGR"
-  },
-  {
-   "ticker": "MANH",
-   "setup": "Pullback to 20-day",
-   "also": [
-    "Trend reset at 50-day"
-   ],
-   "price": 200.11,
-   "score": 0.66,
-   "business": "Manhattan Associates, Inc., Technology, large cap at $11.6B",
-   "reasons": [
-    "Trading 24% above its 200-day average, so the long-term trend is up",
-    "Now 0.2% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 43 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 28.1% over 60 days"
-   ],
-   "entry": 201.46,
-   "stop": 195.16,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 6.3,
-   "risk_pct": 3.13,
-   "target_2r": 214.06,
-   "target_3r": 220.36,
-   "fund_grade": "Strong",
-   "fund_notes": [
-    "Net margin 19% \u2014 solidly profitable",
-    "Revenue up 9% \u2014 modest growth",
-    "Return on equity 96%",
-    "Debt/equity 0.34 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:MANH"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:CHRD"
   }
  ],
  "past_runs": [
@@ -307,6 +306,7 @@
   "2026-09-26",
   "2026-09-29",
   "2026-09-30",
-  "2026-10-01"
+  "2026-10-01",
+  "2026-10-02"
  ]
 }
