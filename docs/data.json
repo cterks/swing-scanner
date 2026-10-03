@@ -1,6 +1,6 @@
 {
- "run_date": "2026-10-02",
- "generated": "2026-10-02 01:41 UTC",
+ "run_date": "2026-10-03",
+ "generated": "2026-10-03 01:12 UTC",
  "scanned": 1200,
  "bench_return_60d": 2.75,
  "candidates": [
@@ -67,7 +67,7 @@
    "also": [],
    "price": 114.67,
    "score": 0.642,
-   "business": "Newmont Corporation, Basic Materials, large cap at $120.8B",
+   "business": "Newmont Corporation, Basic Materials, large cap at $121.8B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 3% above the 200-day, so the larger trend is intact",
@@ -124,7 +124,7 @@
    "also": [],
    "price": 78.85,
    "score": 0.614,
-   "business": "Aura Minerals Inc., Basic Materials, mid cap at $6.6B",
+   "business": "Aura Minerals Inc., Basic Materials, mid cap at $6.9B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 10% above the 200-day, so the larger trend is intact",
@@ -154,7 +154,7 @@
    ],
    "price": 13.27,
    "score": 0.612,
-   "business": "Crescent Energy Company, Energy, mid cap at $5.2B",
+   "business": "Crescent Energy Company, Energy, mid cap at $4.4B",
    "reasons": [
     "Trading 17% above its 200-day average, so the long-term trend is up",
     "Now 2.8% above its 50-day average \u2014 closer to support than to a chase",
@@ -182,7 +182,7 @@
    "also": [],
    "price": 26.18,
    "score": 0.608,
-   "business": "Hudbay Minerals Inc., Basic Materials, large cap at $11.6B",
+   "business": "Hudbay Minerals Inc., Basic Materials, large cap at $12.1B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 7% above the 200-day, so the larger trend is intact",
@@ -210,7 +210,7 @@
    "also": [],
    "price": 15.03,
    "score": 0.606,
-   "business": "Avantor, Inc., Healthcare, large cap at $10.2B",
+   "business": "Avantor, Inc., Healthcare, large cap at $10.4B",
    "reasons": [
     "Trading 40% above its 200-day average, so the long-term trend is up",
     "Now 5.2% above its 50-day average \u2014 closer to support than to a chase",
@@ -239,7 +239,7 @@
    "also": [],
    "price": 448.03,
    "score": 0.605,
-   "business": "Motorola Solutions, Inc., Technology, large cap at $74.1B",
+   "business": "Motorola Solutions, Inc., Technology, large cap at $74.0B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 5% above the 200-day, so the larger trend is intact",
@@ -307,6 +307,7 @@
   "2026-09-29",
   "2026-09-30",
   "2026-10-01",
-  "2026-10-02"
+  "2026-10-02",
+  "2026-10-03"
  ]
 }
