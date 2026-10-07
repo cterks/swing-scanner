@@ -1,8 +1,8 @@
 {
- "run_date": "2026-10-06",
- "generated": "2026-10-06 02:18 UTC",
+ "run_date": "2026-10-07",
+ "generated": "2026-10-07 01:32 UTC",
  "scanned": 1200,
- "bench_return_60d": 2.89,
+ "bench_return_60d": 4.25,
  "candidates": [
   {
    "ticker": "BWIN",
@@ -11,7 +11,7 @@
     "Volatility coil"
    ],
    "price": 31.9,
-   "score": 0.743,
+   "score": 0.745,
    "business": "The Baldwin Insurance Group, In, Financial Services, mid cap at $4.5B",
    "reasons": [
     "Sitting 1.8% below its 52-week high \u2014 a breakout is within reach",
@@ -35,25 +35,53 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:BWIN"
   },
   {
+   "ticker": "WPM",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 137.65,
+   "score": 0.722,
+   "business": "Wheaton Precious Metals Corp, Basic Materials, large cap at $62.5B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 4% above the 200-day, so the larger trend is intact",
+    "RSI at 44 \u2014 the pullback has done real work"
+   ],
+   "entry": 139.03,
+   "stop": 130.09,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 8.94,
+   "risk_pct": 6.43,
+   "target_2r": 156.91,
+   "target_3r": 165.85,
+   "fund_grade": "Strong",
+   "fund_notes": [
+    "Net margin 65% \u2014 solidly profitable",
+    "Revenue growing 85% year over year",
+    "Return on equity 24%",
+    "Debt/equity 0.20 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:WPM"
+  },
+  {
    "ticker": "ITGR",
    "setup": "Volatility coil",
    "also": [],
-   "price": 126.45,
-   "score": 0.712,
+   "price": 126.47,
+   "score": 0.718,
    "business": "Integer Holdings Corporation, Healthcare, mid cap at $4.3B",
    "reasons": [
-    "Daily ranges have contracted to 58% of their 20-day norm \u2014 volatility is compressing",
+    "Daily ranges have contracted to 60% of their 20-day norm \u2014 volatility is compressing",
     "Holding within 0% of its 52-week high while quieting down",
     "Tight action near highs often precedes an expansion, though the direction is not predetermined",
-    "Volume has dried up to 65% of its 50-day average, typical of a supply pause"
+    "Volume has dried up to 43% of its 50-day average, typical of a supply pause"
    ],
-   "entry": 126.66,
-   "stop": 126.27,
+   "entry": 126.59,
+   "stop": 126.22,
    "stop_basis": "2x ATR cap",
-   "risk_per_share": 0.39,
-   "risk_pct": 0.31,
-   "target_2r": 127.44,
-   "target_3r": 127.83,
+   "risk_per_share": 0.37,
+   "risk_pct": 0.29,
+   "target_2r": 127.33,
+   "target_3r": 127.7,
    "fund_grade": "Mixed",
    "fund_notes": [
     "Net margin 7% \u2014 thin but positive",
@@ -66,21 +94,21 @@
    "ticker": "NEM",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 115.82,
-   "score": 0.701,
-   "business": "Newmont Corporation, Basic Materials, large cap at $122.0B",
+   "price": 116.39,
+   "score": 0.716,
+   "business": "Newmont Corporation, Basic Materials, large cap at $122.6B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 4% above the 200-day, so the larger trend is intact",
-    "RSI at 42 \u2014 the pullback has done real work"
+    "Still 5% above the 200-day, so the larger trend is intact",
+    "RSI at 43 \u2014 the pullback has done real work"
    ],
-   "entry": 117.11,
-   "stop": 112.65,
+   "entry": 117.51,
+   "stop": 112.7,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 4.46,
-   "risk_pct": 3.81,
-   "target_2r": 126.03,
-   "target_3r": 130.49,
+   "risk_per_share": 4.81,
+   "risk_pct": 4.09,
+   "target_2r": 127.13,
+   "target_3r": 131.94,
    "fund_grade": "Strong",
    "fund_notes": [
     "Net margin 33% \u2014 solidly profitable",
@@ -97,7 +125,7 @@
     "Volatility coil"
    ],
    "price": 19.73,
-   "score": 0.694,
+   "score": 0.711,
    "business": "Accelerant Holdings, Financial Services, mid cap at $4.3B",
    "reasons": [
     "Sitting 0.8% below its 52-week high \u2014 a breakout is within reach",
@@ -121,24 +149,52 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ARX"
   },
   {
+   "ticker": "THC",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 258.47,
+   "score": 0.702,
+   "business": "Tenet Healthcare Corporation, Healthcare, large cap at $20.8B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 21% above the 200-day, so the larger trend is intact",
+    "RSI at 50 \u2014 the pullback has done real work"
+   ],
+   "entry": 263.82,
+   "stop": 249.42,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 14.4,
+   "risk_pct": 5.46,
+   "target_2r": 292.62,
+   "target_3r": 307.02,
+   "fund_grade": "Sound",
+   "fund_notes": [
+    "Net margin 10% \u2014 solidly profitable",
+    "Revenue up 7% \u2014 modest growth",
+    "Return on equity 37%",
+    "Debt/equity 1.52 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:THC"
+  },
+  {
    "ticker": "WBD",
    "setup": "Volatility coil",
    "also": [],
    "price": 30.95,
-   "score": 0.688,
+   "score": 0.695,
    "business": "Warner Bros. Discovery, Inc. - , Communication Services, large cap at $77.6B",
    "reasons": [
-    "Daily ranges have contracted to 20% of their 20-day norm \u2014 volatility is compressing",
+    "Daily ranges have contracted to 17% of their 20-day norm \u2014 volatility is compressing",
     "Holding within 0% of its 52-week high while quieting down",
     "Tight action near highs often precedes an expansion, though the direction is not predetermined"
    ],
-   "entry": 31.01,
+   "entry": 30.97,
    "stop": 30.59,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 0.42,
-   "risk_pct": 1.35,
-   "target_2r": 31.85,
-   "target_3r": 32.27,
+   "risk_per_share": 0.38,
+   "risk_pct": 1.23,
+   "target_2r": 31.73,
+   "target_3r": 32.11,
    "fund_grade": "Weak",
    "fund_notes": [
     "Net margin -9% \u2014 currently lossmaking",
@@ -149,33 +205,62 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:WBD"
   },
   {
-   "ticker": "HPQ",
-   "setup": "Volatility coil",
-   "also": [
-    "Pullback to 20-day"
-   ],
-   "price": 31.47,
-   "score": 0.684,
-   "business": "HP Inc., Technology, large cap at $28.4B",
+   "ticker": "MANH",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 202.84,
+   "score": 0.691,
+   "business": "Manhattan Associates, Inc., Technology, large cap at $11.8B",
    "reasons": [
-    "Daily ranges have contracted to 62% of their 20-day norm \u2014 volatility is compressing",
-    "Holding within 11% of its 52-week high while quieting down",
-    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
-    "Volume has dried up to 76% of its 50-day average, typical of a supply pause"
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 26% above the 200-day, so the larger trend is intact",
+    "RSI at 47 \u2014 the pullback has done real work"
    ],
-   "entry": 32.14,
-   "stop": 30.28,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 1.86,
-   "risk_pct": 5.79,
-   "target_2r": 35.86,
-   "target_3r": 37.72,
-   "fund_grade": "Sound",
+   "entry": 207.07,
+   "stop": 195.66,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 11.41,
+   "risk_pct": 5.51,
+   "target_2r": 229.89,
+   "target_3r": 241.3,
+   "fund_grade": "Strong",
    "fund_notes": [
-    "Net margin 4% \u2014 thin but positive",
-    "Revenue growing 12% year over year"
+    "Net margin 19% \u2014 solidly profitable",
+    "Revenue up 9% \u2014 modest growth",
+    "Return on equity 96%",
+    "Debt/equity 0.34 \u2014 conservative balance sheet"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:HPQ"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:MANH"
+  },
+  {
+   "ticker": "ATKR",
+   "setup": "Breakout ready",
+   "also": [
+    "Volatility coil"
+   ],
+   "price": 94.78,
+   "score": 0.687,
+   "business": "Atkore Inc., Industrials, mid cap at $3.2B",
+   "reasons": [
+    "Sitting 0.0% below its 52-week high \u2014 a breakout is within reach",
+    "RSI at 72, so it is not yet stretched",
+    "Ranges are narrowing into the level rather than spiking through it"
+   ],
+   "entry": 94.82,
+   "stop": 94.5,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 0.32,
+   "risk_pct": 0.34,
+   "target_2r": 95.46,
+   "target_3r": 95.78,
+   "fund_grade": "Weak",
+   "fund_notes": [
+    "Net margin -6% \u2014 currently lossmaking",
+    "Revenue up 8% \u2014 modest growth",
+    "Return on equity -12% \u2014 destroying capital",
+    "Debt/equity 0.72 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ATKR"
   },
   {
    "ticker": "ACVA",
@@ -204,95 +289,6 @@
     "Debt/equity 0.64 \u2014 moderate leverage"
    ],
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ACVA"
-  },
-  {
-   "ticker": "MANH",
-   "setup": "Volatility coil",
-   "also": [
-    "Pullback to 20-day"
-   ],
-   "price": 205.45,
-   "score": 0.67,
-   "business": "Manhattan Associates, Inc., Technology, large cap at $12.0B",
-   "reasons": [
-    "Daily ranges have contracted to 78% of their 20-day norm \u2014 volatility is compressing",
-    "Holding within 8% of its 52-week high while quieting down",
-    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
-    "Volume has dried up to 62% of its 50-day average, typical of a supply pause"
-   ],
-   "entry": 209.32,
-   "stop": 197.34,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 11.98,
-   "risk_pct": 5.72,
-   "target_2r": 233.28,
-   "target_3r": 245.26,
-   "fund_grade": "Strong",
-   "fund_notes": [
-    "Net margin 19% \u2014 solidly profitable",
-    "Revenue up 9% \u2014 modest growth",
-    "Return on equity 96%",
-    "Debt/equity 0.34 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:MANH"
-  },
-  {
-   "ticker": "ATKR",
-   "setup": "Breakout ready",
-   "also": [
-    "Volatility coil"
-   ],
-   "price": 94.78,
-   "score": 0.666,
-   "business": "Atkore Inc., Industrials, mid cap at $3.2B",
-   "reasons": [
-    "Sitting 0.0% below its 52-week high \u2014 a breakout is within reach",
-    "RSI at 72, so it is not yet stretched",
-    "Ranges are narrowing into the level rather than spiking through it"
-   ],
-   "entry": 94.82,
-   "stop": 94.5,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 0.32,
-   "risk_pct": 0.34,
-   "target_2r": 95.46,
-   "target_3r": 95.78,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin -6% \u2014 currently lossmaking",
-    "Revenue up 8% \u2014 modest growth",
-    "Return on equity -12% \u2014 destroying capital",
-    "Debt/equity 0.72 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ATKR"
-  },
-  {
-   "ticker": "SAP",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 207.74,
-   "score": 0.659,
-   "business": "SAP  SE, Technology, mega cap at $239.8B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 8% above the 200-day, so the larger trend is intact",
-    "RSI at 48 \u2014 the pullback has done real work"
-   ],
-   "entry": 211.24,
-   "stop": 202.41,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 8.83,
-   "risk_pct": 4.18,
-   "target_2r": 228.9,
-   "target_3r": 237.73,
-   "fund_grade": "Strong",
-   "fund_notes": [
-    "Net margin 20% \u2014 solidly profitable",
-    "Revenue up 9% \u2014 modest growth",
-    "Return on equity 18%",
-    "Debt/equity 0.22 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:SAP"
   }
  ],
  "past_runs": [
@@ -315,6 +311,7 @@
   "2026-10-01",
   "2026-10-02",
   "2026-10-03",
-  "2026-10-06"
+  "2026-10-06",
+  "2026-10-07"
  ]
 }
