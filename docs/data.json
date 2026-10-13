@@ -1,88 +1,140 @@
 {
- "run_date": "2026-10-10",
- "generated": "2026-10-10 01:46 UTC",
+ "run_date": "2026-10-13",
+ "generated": "2026-10-13 03:04 UTC",
  "scanned": 1200,
- "bench_return_60d": 3.97,
+ "bench_return_60d": 4.94,
  "candidates": [
   {
-   "ticker": "BWIN",
-   "setup": "Breakout ready",
-   "also": [
-    "Volatility coil"
-   ],
-   "price": 31.87,
-   "score": 0.695,
-   "business": "The Baldwin Insurance Group, In, Financial Services, mid cap at $4.5B",
+   "ticker": "ASST",
+   "setup": "Pullback to 20-day",
+   "also": [],
+   "price": 27.71,
+   "score": 0.756,
+   "business": "Strive, Inc., Financial Services, mid cap at $2.8B",
    "reasons": [
-    "Sitting 1.9% below its 52-week high \u2014 a breakout is within reach",
-    "RSI at 58, so it is not yet stretched",
-    "Ranges are narrowing into the level rather than spiking through it"
+    "Trading 75% above its 200-day average, so the long-term trend is up",
+    "Now 20.3% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 53 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 128.7% over 60 days"
    ],
-   "entry": 31.91,
-   "stop": 31.72,
+   "entry": 28.07,
+   "stop": 26.65,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 0.19,
-   "risk_pct": 0.6,
-   "target_2r": 32.29,
-   "target_3r": 32.48,
+   "risk_per_share": 1.42,
+   "risk_pct": 5.06,
+   "target_2r": 30.91,
+   "target_3r": 32.33,
    "fund_grade": "Weak",
    "fund_notes": [
-    "Net margin -5% \u2014 currently lossmaking",
-    "Revenue growing 30% year over year",
-    "Return on equity -11% \u2014 destroying capital",
-    "Debt/equity 1.80 \u2014 moderate leverage"
+    "Net margin 0% \u2014 currently lossmaking",
+    "Revenue growing 95% year over year",
+    "Return on equity -137% \u2014 destroying capital",
+    "Debt/equity 0.25 \u2014 conservative balance sheet"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:BWIN"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:ASST"
   },
   {
-   "ticker": "WPM",
-   "setup": "Trend reset at 50-day",
+   "ticker": "TEAM",
+   "setup": "Breakout ready",
    "also": [],
-   "price": 138.65,
-   "score": 0.687,
-   "business": "Wheaton Precious Metals Corp, Basic Materials, large cap at $63.0B",
+   "price": 207.75,
+   "score": 0.729,
+   "business": "Atlassian Corporation, Technology, large cap at $52.6B",
    "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 4% above the 200-day, so the larger trend is intact",
-    "RSI at 47 \u2014 the pullback has done real work"
+    "Sitting 0.0% below its 52-week high \u2014 a breakout is within reach",
+    "RSI at 67, so it is not yet stretched",
+    "Ranges are narrowing into the level rather than spiking through it"
    ],
-   "entry": 139.88,
-   "stop": 130.52,
+   "entry": 213.26,
+   "stop": 196.4,
    "stop_basis": "2x ATR cap",
-   "risk_per_share": 9.36,
-   "risk_pct": 6.69,
-   "target_2r": 158.6,
-   "target_3r": 167.96,
-   "fund_grade": "Strong",
+   "risk_per_share": 16.86,
+   "risk_pct": 7.91,
+   "target_2r": 246.98,
+   "target_3r": 263.84,
+   "fund_grade": "Weak",
    "fund_notes": [
-    "Net margin 65% \u2014 solidly profitable",
-    "Revenue growing 85% year over year",
-    "Return on equity 24%",
-    "Debt/equity 0.20 \u2014 conservative balance sheet"
+    "Net margin -1% \u2014 currently lossmaking",
+    "Revenue growing 28% year over year",
+    "Return on equity -4% \u2014 destroying capital",
+    "Debt/equity 1.16 \u2014 moderate leverage"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:WPM"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:TEAM"
+  },
+  {
+   "ticker": "PTC",
+   "setup": "Volatility coil",
+   "also": [],
+   "price": 194.39,
+   "score": 0.715,
+   "business": "PTC Inc., Technology, large cap at $21.1B",
+   "reasons": [
+    "Daily ranges have contracted to 18% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 6% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined"
+   ],
+   "entry": 195.22,
+   "stop": 181.39,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 13.83,
+   "risk_pct": 7.08,
+   "target_2r": 222.88,
+   "target_3r": 236.71,
+   "fund_grade": "Mixed",
+   "fund_notes": [
+    "Net margin 41% \u2014 solidly profitable",
+    "Revenue -7% \u2014 sales are shrinking",
+    "Return on equity 35%",
+    "Debt/equity 0.46 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:PTC"
+  },
+  {
+   "ticker": "RNG",
+   "setup": "Breakout ready",
+   "also": [],
+   "price": 78.17,
+   "score": 0.678,
+   "business": "Ringcentral, Inc., Technology, mid cap at $6.5B",
+   "reasons": [
+    "Sitting 2.1% below its 52-week high \u2014 a breakout is within reach",
+    "RSI at 59, so it is not yet stretched",
+    "Ranges are narrowing into the level rather than spiking through it"
+   ],
+   "entry": 81.94,
+   "stop": 75.72,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 6.22,
+   "risk_pct": 7.59,
+   "target_2r": 94.38,
+   "target_3r": 100.6,
+   "fund_grade": "Limited data",
+   "fund_notes": [
+    "Net margin 4% \u2014 thin but positive",
+    "Revenue up 6% \u2014 modest growth"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:RNG"
   },
   {
    "ticker": "ATKR",
-   "setup": "Breakout ready",
-   "also": [
-    "Volatility coil"
-   ],
-   "price": 94.84,
-   "score": 0.664,
+   "setup": "Volatility coil",
+   "also": [],
+   "price": 94.88,
+   "score": 0.669,
    "business": "Atkore Inc., Industrials, mid cap at $3.2B",
    "reasons": [
-    "Sitting 0.0% below its 52-week high \u2014 a breakout is within reach",
-    "RSI at 72, so it is not yet stretched",
-    "Ranges are narrowing into the level rather than spiking through it"
+    "Daily ranges have contracted to 59% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 0% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 51% of its 50-day average, typical of a supply pause"
    ],
-   "entry": 94.9,
-   "stop": 94.63,
+   "entry": 94.91,
+   "stop": 94.66,
    "stop_basis": "2x ATR cap",
-   "risk_per_share": 0.27,
-   "risk_pct": 0.28,
-   "target_2r": 95.44,
-   "target_3r": 95.71,
+   "risk_per_share": 0.25,
+   "risk_pct": 0.26,
+   "target_2r": 95.41,
+   "target_3r": 95.66,
    "fund_grade": "Weak",
    "fund_notes": [
     "Net margin -6% \u2014 currently lossmaking",
@@ -93,198 +145,145 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ATKR"
   },
   {
-   "ticker": "ARX",
+   "ticker": "BWIN",
    "setup": "Breakout ready",
    "also": [
     "Volatility coil"
    ],
-   "price": 19.8,
-   "score": 0.66,
-   "business": "Accelerant Holdings, Financial Services, mid cap at $4.3B",
+   "price": 31.85,
+   "score": 0.665,
+   "business": "The Baldwin Insurance Group, In, Financial Services, mid cap at $4.5B",
    "reasons": [
-    "Sitting 0.4% below its 52-week high \u2014 a breakout is within reach",
-    "RSI at 71, so it is not yet stretched",
+    "Sitting 2.0% below its 52-week high \u2014 a breakout is within reach",
+    "RSI at 57, so it is not yet stretched",
     "Ranges are narrowing into the level rather than spiking through it"
    ],
-   "entry": 19.8,
-   "stop": 19.7,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 0.1,
-   "risk_pct": 0.51,
-   "target_2r": 20.0,
-   "target_3r": 20.1,
+   "entry": 31.92,
+   "stop": 31.72,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 0.2,
+   "risk_pct": 0.63,
+   "target_2r": 32.32,
+   "target_3r": 32.52,
    "fund_grade": "Weak",
    "fund_notes": [
-    "Net margin -128% \u2014 currently lossmaking",
-    "Revenue growing 57% year over year",
-    "Return on equity -222% \u2014 destroying capital",
-    "Debt/equity 0.16 \u2014 conservative balance sheet"
+    "Net margin -5% \u2014 currently lossmaking",
+    "Revenue growing 30% year over year",
+    "Return on equity -11% \u2014 destroying capital",
+    "Debt/equity 1.80 \u2014 moderate leverage"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ARX"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:BWIN"
   },
   {
-   "ticker": "WDAY",
+   "ticker": "BMNR",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 186.59,
-   "score": 0.648,
-   "business": "Workday, Inc., Technology, large cap at $45.0B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 19% above the 200-day, so the larger trend is intact",
-    "RSI at 48 \u2014 the pullback has done real work"
-   ],
-   "entry": 191.7,
-   "stop": 179.86,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 11.84,
-   "risk_pct": 6.18,
-   "target_2r": 215.38,
-   "target_3r": 227.22,
-   "fund_grade": "Strong",
-   "fund_notes": [
-    "Net margin 12% \u2014 solidly profitable",
-    "Revenue growing 13% year over year",
-    "Return on equity 16%",
-    "Debt/equity 0.58 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:WDAY"
-  },
-  {
-   "ticker": "MANH",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 204.89,
-   "score": 0.645,
-   "business": "Manhattan Associates, Inc., Technology, large cap at $11.9B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 27% above the 200-day, so the larger trend is intact",
-    "RSI at 50 \u2014 the pullback has done real work"
-   ],
-   "entry": 210.29,
-   "stop": 198.87,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 11.42,
-   "risk_pct": 5.43,
-   "target_2r": 233.13,
-   "target_3r": 244.55,
-   "fund_grade": "Strong",
-   "fund_notes": [
-    "Net margin 19% \u2014 solidly profitable",
-    "Revenue up 9% \u2014 modest growth",
-    "Return on equity 96%",
-    "Debt/equity 0.34 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:MANH"
-  },
-  {
-   "ticker": "DGX",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 230.97,
-   "score": 0.64,
-   "business": "Quest Diagnostics Incorporated, Healthcare, large cap at $25.5B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 12% above the 200-day, so the larger trend is intact",
-    "RSI at 45 \u2014 the pullback has done real work"
-   ],
-   "entry": 232.46,
-   "stop": 224.39,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 8.07,
-   "risk_pct": 3.47,
-   "target_2r": 248.6,
-   "target_3r": 256.67,
-   "fund_grade": "Sound",
-   "fund_notes": [
-    "Net margin 9% \u2014 thin but positive",
-    "Revenue growing 10% year over year",
-    "Debt/equity 0.81 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:DGX"
-  },
-  {
-   "ticker": "C",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 129.64,
-   "score": 0.638,
-   "business": "Citigroup, Inc., Financial Services, mega cap at $217.5B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 3% above the 200-day, so the larger trend is intact",
-    "RSI at 45 \u2014 the pullback has done real work"
-   ],
-   "entry": 130.02,
-   "stop": 124.38,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 5.64,
-   "risk_pct": 4.34,
-   "target_2r": 141.3,
-   "target_3r": 146.94,
-   "fund_grade": "Sound",
-   "fund_notes": [
-    "Net margin 22% \u2014 solidly profitable",
-    "Revenue growing 16% year over year"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:C"
-  },
-  {
-   "ticker": "NEM",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 117.84,
-   "score": 0.637,
-   "business": "Newmont Corporation, Basic Materials, large cap at $124.2B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 6% above the 200-day, so the larger trend is intact",
-    "RSI at 48 \u2014 the pullback has done real work"
-   ],
-   "entry": 119.23,
-   "stop": 112.08,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 7.15,
-   "risk_pct": 6.0,
-   "target_2r": 133.53,
-   "target_3r": 140.68,
-   "fund_grade": "Strong",
-   "fund_notes": [
-    "Net margin 33% \u2014 solidly profitable",
-    "Revenue growing 15% year over year",
-    "Return on equity 26%",
-    "Debt/equity 0.16 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:NEM"
-  },
-  {
-   "ticker": "LH",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 312.15,
-   "score": 0.636,
-   "business": "Labcorp Holdings Inc., Healthcare, large cap at $25.3B",
+   "price": 23.83,
+   "score": 0.654,
+   "business": "BitMine Immersion Technologies,, Financial Services, large cap at $14.4B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 11% above the 200-day, so the larger trend is intact",
-    "RSI at 48 \u2014 the pullback has done real work"
+    "RSI at 44 \u2014 the pullback has done real work"
    ],
-   "entry": 318.51,
-   "stop": 305.13,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 13.38,
-   "risk_pct": 4.2,
-   "target_2r": 345.27,
-   "target_3r": 358.65,
-   "fund_grade": "Limited data",
+   "entry": 24.5,
+   "stop": 22.91,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 1.59,
+   "risk_pct": 6.49,
+   "target_2r": 27.68,
+   "target_3r": 29.27,
+   "fund_grade": "Weak",
    "fund_notes": [
-    "Net margin 7% \u2014 thin but positive",
-    "Revenue up 6% \u2014 modest growth",
-    "Debt/equity 0.79 \u2014 moderate leverage"
+    "Net margin 0% \u2014 currently lossmaking",
+    "Revenue growing 2168% year over year",
+    "Return on equity -151% \u2014 destroying capital",
+    "Debt/equity 0.01 \u2014 conservative balance sheet"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:LH"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:BMNR"
+  },
+  {
+   "ticker": "U",
+   "setup": "Volatility coil",
+   "also": [],
+   "price": 46.68,
+   "score": 0.651,
+   "business": "Unity Software Inc., Technology, large cap at $20.5B",
+   "reasons": [
+    "Daily ranges have contracted to 78% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 6% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined"
+   ],
+   "entry": 47.88,
+   "stop": 43.37,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 4.51,
+   "risk_pct": 9.42,
+   "target_2r": 56.9,
+   "target_3r": 61.41,
+   "fund_grade": "Weak",
+   "fund_notes": [
+    "Net margin -29% \u2014 currently lossmaking",
+    "Revenue growing 24% year over year",
+    "Return on equity -17% \u2014 destroying capital",
+    "Debt/equity 0.70 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:U"
+  },
+  {
+   "ticker": "PAYC",
+   "setup": "Breakout ready",
+   "also": [],
+   "price": 235.01,
+   "score": 0.636,
+   "business": "Paycom Software, Inc., Technology, large cap at $10.6B",
+   "reasons": [
+    "Sitting 2.3% below its 52-week high \u2014 a breakout is within reach",
+    "RSI at 64, so it is not yet stretched",
+    "Ranges are narrowing into the level rather than spiking through it"
+   ],
+   "entry": 239.11,
+   "stop": 225.75,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 13.36,
+   "risk_pct": 5.59,
+   "target_2r": 265.83,
+   "target_3r": 279.19,
+   "fund_grade": "Sound",
+   "fund_notes": [
+    "Net margin 23% \u2014 solidly profitable",
+    "Revenue up 10% \u2014 modest growth",
+    "Return on equity 41%",
+    "Debt/equity 1.72 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:PAYC"
+  },
+  {
+   "ticker": "FNV",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 245.75,
+   "score": 0.629,
+   "business": "Franco-Nevada Corporation, Basic Materials, large cap at $47.4B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 3% above the 200-day, so the larger trend is intact",
+    "RSI at 47 \u2014 the pullback has done real work"
+   ],
+   "entry": 246.96,
+   "stop": 228.35,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 18.61,
+   "risk_pct": 7.54,
+   "target_2r": 284.18,
+   "target_3r": 302.79,
+   "fund_grade": "Strong",
+   "fund_notes": [
+    "Net margin 64% \u2014 solidly profitable",
+    "Revenue growing 58% year over year",
+    "Return on equity 20%"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:FNV"
   }
  ],
  "past_runs": [
@@ -311,6 +310,7 @@
   "2026-10-07",
   "2026-10-08",
   "2026-10-09",
-  "2026-10-10"
+  "2026-10-10",
+  "2026-10-13"
  ]
 }
