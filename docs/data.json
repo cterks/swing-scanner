@@ -1,6 +1,6 @@
 {
- "run_date": "2026-10-13",
- "generated": "2026-10-13 03:04 UTC",
+ "run_date": "2026-10-14",
+ "generated": "2026-10-14 01:13 UTC",
  "scanned": 1200,
  "bench_return_60d": 4.94,
  "candidates": [
@@ -39,7 +39,7 @@
    "also": [],
    "price": 207.75,
    "score": 0.729,
-   "business": "Atlassian Corporation, Technology, large cap at $52.6B",
+   "business": "Atlassian Corporation, Technology, large cap at $52.7B",
    "reasons": [
     "Sitting 0.0% below its 52-week high \u2014 a breakout is within reach",
     "RSI at 67, so it is not yet stretched",
@@ -95,7 +95,7 @@
    "also": [],
    "price": 78.17,
    "score": 0.678,
-   "business": "Ringcentral, Inc., Technology, mid cap at $6.5B",
+   "business": "Ringcentral, Inc., Technology, mid cap at $6.6B",
    "reasons": [
     "Sitting 2.1% below its 52-week high \u2014 a breakout is within reach",
     "RSI at 59, so it is not yet stretched",
@@ -180,7 +180,7 @@
    "also": [],
    "price": 23.83,
    "score": 0.654,
-   "business": "BitMine Immersion Technologies,, Financial Services, large cap at $14.4B",
+   "business": "BitMine Immersion Technologies,, Financial Services, large cap at $14.2B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 11% above the 200-day, so the larger trend is intact",
@@ -236,7 +236,7 @@
    "also": [],
    "price": 235.01,
    "score": 0.636,
-   "business": "Paycom Software, Inc., Technology, large cap at $10.6B",
+   "business": "Paycom Software, Inc., Technology, large cap at $10.7B",
    "reasons": [
     "Sitting 2.3% below its 52-week high \u2014 a breakout is within reach",
     "RSI at 64, so it is not yet stretched",
@@ -264,7 +264,7 @@
    "also": [],
    "price": 245.75,
    "score": 0.629,
-   "business": "Franco-Nevada Corporation, Basic Materials, large cap at $47.4B",
+   "business": "Franco-Nevada Corporation, Basic Materials, large cap at $47.0B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 3% above the 200-day, so the larger trend is intact",
@@ -311,6 +311,7 @@
   "2026-10-08",
   "2026-10-09",
   "2026-10-10",
-  "2026-10-13"
+  "2026-10-13",
+  "2026-10-14"
  ]
 }
