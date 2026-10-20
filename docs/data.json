@@ -1,29 +1,28 @@
 {
- "run_date": "2026-10-17",
- "generated": "2026-10-17 00:27 UTC",
+ "run_date": "2026-10-20",
+ "generated": "2026-10-20 01:06 UTC",
  "scanned": 1200,
- "bench_return_60d": 3.52,
+ "bench_return_60d": 3.65,
  "candidates": [
   {
    "ticker": "ABCL",
-   "setup": "Pullback to 20-day",
+   "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 12.68,
-   "score": 0.688,
-   "business": "AbCellera Biologics Inc., Healthcare, mid cap at $3.8B",
+   "price": 11.8,
+   "score": 0.721,
+   "business": "AbCellera Biologics Inc., Healthcare, mid cap at $3.9B",
    "reasons": [
-    "Trading 98% above its 200-day average, so the long-term trend is up",
-    "Now 7.3% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 52 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 117.8% over 60 days"
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 83% above the 200-day, so the larger trend is intact",
+    "RSI at 44 \u2014 the pullback has done real work"
    ],
-   "entry": 12.91,
-   "stop": 11.46,
+   "entry": 12.72,
+   "stop": 11.48,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 1.45,
-   "risk_pct": 11.23,
-   "target_2r": 15.81,
-   "target_3r": 17.26,
+   "risk_per_share": 1.24,
+   "risk_pct": 9.75,
+   "target_2r": 15.2,
+   "target_3r": 16.44,
    "fund_grade": "Weak",
    "fund_notes": [
     "Net margin -249% \u2014 currently lossmaking",
@@ -37,22 +36,21 @@
    "ticker": "ATKR",
    "setup": "Volatility coil",
    "also": [],
-   "price": 94.92,
-   "score": 0.684,
+   "price": 94.96,
+   "score": 0.648,
    "business": "Atkore Inc., Industrials, mid cap at $3.2B",
    "reasons": [
-    "Daily ranges have contracted to 50% of their 20-day norm \u2014 volatility is compressing",
+    "Daily ranges have contracted to 53% of their 20-day norm \u2014 volatility is compressing",
     "Holding within 0% of its 52-week high while quieting down",
-    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
-    "Volume has dried up to 81% of its 50-day average, typical of a supply pause"
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined"
    ],
    "entry": 94.98,
-   "stop": 94.74,
+   "stop": 94.76,
    "stop_basis": "2x ATR cap",
-   "risk_per_share": 0.24,
-   "risk_pct": 0.25,
-   "target_2r": 95.46,
-   "target_3r": 95.7,
+   "risk_per_share": 0.22,
+   "risk_pct": 0.23,
+   "target_2r": 95.42,
+   "target_3r": 95.64,
    "fund_grade": "Weak",
    "fund_notes": [
     "Net margin -6% \u2014 currently lossmaking",
@@ -63,134 +61,81 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ATKR"
   },
   {
-   "ticker": "TWST",
+   "ticker": "ASST",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 144.49,
-   "score": 0.668,
-   "business": "Twist Bioscience Corporation, Healthcare, mid cap at $8.8B",
+   "price": 24.09,
+   "score": 0.641,
+   "business": "Strive, Inc., Financial Services, mid cap at $2.6B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 75% above the 200-day, so the larger trend is intact",
-    "RSI at 43 \u2014 the pullback has done real work"
+    "Still 50% above the 200-day, so the larger trend is intact",
+    "RSI at 37 \u2014 the pullback has done real work"
    ],
-   "entry": 149.15,
-   "stop": 126.55,
+   "entry": 25.41,
+   "stop": 22.03,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 22.6,
-   "risk_pct": 15.15,
-   "target_2r": 194.35,
-   "target_3r": 216.95,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin -32% \u2014 currently lossmaking",
-    "Revenue growing 23% year over year",
-    "Return on equity -30% \u2014 destroying capital",
-    "Debt/equity 0.24 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:TWST"
-  },
-  {
-   "ticker": "EMBJ",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 72.1,
-   "score": 0.644,
-   "business": "Embraer S.A., Industrials, large cap at $12.9B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 7% above the 200-day, so the larger trend is intact",
-    "RSI at 44 \u2014 the pullback has done real work"
-   ],
-   "entry": 73.27,
-   "stop": 69.05,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 4.22,
-   "risk_pct": 5.76,
-   "target_2r": 81.71,
-   "target_3r": 85.93,
-   "fund_grade": "Sound",
-   "fund_notes": [
-    "Net margin 5% \u2014 thin but positive",
-    "Revenue growing 10% year over year",
-    "Debt/equity 0.69 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:EMBJ"
-  },
-  {
-   "ticker": "CORT",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 113.37,
-   "score": 0.632,
-   "business": "Corcept Therapeutics Incorporat, Healthcare, large cap at $11.9B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 58% above the 200-day, so the larger trend is intact",
-    "RSI at 45 \u2014 the pullback has done real work"
-   ],
-   "entry": 117.73,
-   "stop": 111.79,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 5.94,
-   "risk_pct": 5.05,
-   "target_2r": 129.61,
-   "target_3r": 135.55,
-   "fund_grade": "Sound",
-   "fund_notes": [
-    "Net margin 7% \u2014 thin but positive",
-    "Revenue growing 32% year over year",
-    "Debt/equity 1.33 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:CORT"
-  },
-  {
-   "ticker": "BMNR",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 23.36,
-   "score": 0.631,
-   "business": "BitMine Immersion Technologies,, Financial Services, large cap at $13.1B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 9% above the 200-day, so the larger trend is intact",
-    "RSI at 44 \u2014 the pullback has done real work"
-   ],
-   "entry": 23.66,
-   "stop": 20.75,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 2.91,
-   "risk_pct": 12.3,
-   "target_2r": 29.48,
-   "target_3r": 32.39,
+   "risk_per_share": 3.38,
+   "risk_pct": 13.3,
+   "target_2r": 32.17,
+   "target_3r": 35.55,
    "fund_grade": "Weak",
    "fund_notes": [
     "Net margin 0% \u2014 currently lossmaking",
-    "Revenue growing 2168% year over year",
-    "Return on equity -151% \u2014 destroying capital",
-    "Debt/equity 0.01 \u2014 conservative balance sheet"
+    "Revenue growing 95% year over year",
+    "Return on equity -137% \u2014 destroying capital",
+    "Debt/equity 0.25 \u2014 conservative balance sheet"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:BMNR"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:ASST"
+  },
+  {
+   "ticker": "HTFL",
+   "setup": "Pullback to 20-day",
+   "also": [],
+   "price": 48.29,
+   "score": 0.634,
+   "business": "Heartflow, Inc., Healthcare, mid cap at $4.4B",
+   "reasons": [
+    "Trading 47% above its 200-day average, so the long-term trend is up",
+    "Now 3.0% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 49 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 92.6% over 60 days"
+   ],
+   "entry": 51.13,
+   "stop": 45.79,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 5.34,
+   "risk_pct": 10.44,
+   "target_2r": 61.81,
+   "target_3r": 67.15,
+   "fund_grade": "Weak",
+   "fund_notes": [
+    "Net margin -56% \u2014 currently lossmaking",
+    "Revenue growing 48% year over year",
+    "Return on equity -154% \u2014 destroying capital",
+    "Debt/equity 0.10 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:HTFL"
   },
   {
    "ticker": "TXG",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 72.39,
-   "score": 0.628,
+   "price": 69.86,
+   "score": 0.632,
    "business": "10x Genomics, Inc., Healthcare, mid cap at $9.1B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 93% above the 200-day, so the larger trend is intact",
-    "RSI at 45 \u2014 the pullback has done real work"
+    "Still 85% above the 200-day, so the larger trend is intact",
+    "RSI at 42 \u2014 the pullback has done real work"
    ],
-   "entry": 74.12,
-   "stop": 66.57,
+   "entry": 74.37,
+   "stop": 65.63,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 7.55,
-   "risk_pct": 10.19,
-   "target_2r": 89.22,
-   "target_3r": 96.77,
+   "risk_per_share": 8.74,
+   "risk_pct": 11.75,
+   "target_2r": 91.85,
+   "target_3r": 100.59,
    "fund_grade": "Weak",
    "fund_notes": [
     "Net margin -12% \u2014 currently lossmaking",
@@ -201,91 +146,144 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:TXG"
   },
   {
-   "ticker": "TECH",
-   "setup": "Breakout ready",
-   "also": [
-    "Volatility coil"
-   ],
-   "price": 72.52,
-   "score": 0.616,
-   "business": "Bio-Techne Corp, Healthcare, large cap at $11.4B",
-   "reasons": [
-    "Sitting 0.1% below its 52-week high \u2014 a breakout is within reach",
-    "RSI at 57, so it is not yet stretched",
-    "Ranges are narrowing into the level rather than spiking through it"
-   ],
-   "entry": 72.62,
-   "stop": 72.34,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 0.28,
-   "risk_pct": 0.39,
-   "target_2r": 73.18,
-   "target_3r": 73.46,
-   "fund_grade": "Sound",
-   "fund_notes": [
-    "Net margin 15% \u2014 solidly profitable",
-    "Revenue up 1% \u2014 modest growth",
-    "Debt/equity 0.14 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:TECH"
-  },
-  {
-   "ticker": "U",
+   "ticker": "EMBJ",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 43.34,
-   "score": 0.614,
-   "business": "Unity Software Inc., Technology, large cap at $17.8B",
+   "price": 72.34,
+   "score": 0.6,
+   "business": "Embraer S.A., Industrials, large cap at $13.0B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 36% above the 200-day, so the larger trend is intact",
-    "RSI at 50 \u2014 the pullback has done real work"
+    "Still 8% above the 200-day, so the larger trend is intact",
+    "RSI at 45 \u2014 the pullback has done real work"
    ],
-   "entry": 43.58,
-   "stop": 39.38,
+   "entry": 73.36,
+   "stop": 69.07,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 4.2,
-   "risk_pct": 9.64,
-   "target_2r": 51.98,
-   "target_3r": 56.18,
-   "fund_grade": "Weak",
+   "risk_per_share": 4.29,
+   "risk_pct": 5.85,
+   "target_2r": 81.94,
+   "target_3r": 86.23,
+   "fund_grade": "Sound",
    "fund_notes": [
-    "Net margin -29% \u2014 currently lossmaking",
-    "Revenue growing 24% year over year",
-    "Return on equity -17% \u2014 destroying capital",
-    "Debt/equity 0.70 \u2014 moderate leverage"
+    "Net margin 5% \u2014 thin but positive",
+    "Revenue growing 10% year over year",
+    "Debt/equity 0.69 \u2014 moderate leverage"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:U"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:EMBJ"
   },
   {
-   "ticker": "BWIN",
-   "setup": "Breakout ready",
+   "ticker": "ATRC",
+   "setup": "Volatility coil",
    "also": [
-    "Volatility coil"
+    "Pullback to 20-day"
    ],
-   "price": 31.93,
-   "score": 0.612,
-   "business": "The Baldwin Insurance Group, In, Financial Services, mid cap at $4.5B",
+   "price": 56.07,
+   "score": 0.598,
+   "business": "AtriCure, Inc., Healthcare, mid cap at $2.8B",
    "reasons": [
-    "Sitting 1.7% below its 52-week high \u2014 a breakout is within reach",
-    "RSI at 59, so it is not yet stretched",
-    "Ranges are narrowing into the level rather than spiking through it"
+    "Daily ranges have contracted to 80% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 8% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 65% of its 50-day average, typical of a supply pause"
    ],
-   "entry": 32.04,
-   "stop": 31.84,
+   "entry": 58.44,
+   "stop": 53.37,
    "stop_basis": "2x ATR cap",
-   "risk_per_share": 0.2,
-   "risk_pct": 0.62,
-   "target_2r": 32.44,
-   "target_3r": 32.64,
-   "fund_grade": "Weak",
+   "risk_per_share": 5.07,
+   "risk_pct": 8.68,
+   "target_2r": 68.58,
+   "target_3r": 73.65,
+   "fund_grade": "Sound",
    "fund_notes": [
-    "Net margin -5% \u2014 currently lossmaking",
-    "Revenue growing 30% year over year",
-    "Return on equity -11% \u2014 destroying capital",
-    "Debt/equity 1.80 \u2014 moderate leverage"
+    "Net margin 2% \u2014 thin but positive",
+    "Revenue growing 13% year over year",
+    "Debt/equity 0.14 \u2014 conservative balance sheet"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:BWIN"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:ATRC"
+  },
+  {
+   "ticker": "WIX",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 75.01,
+   "score": 0.592,
+   "business": "Wix.com Ltd., Technology, mid cap at $3.2B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 5% above the 200-day, so the larger trend is intact",
+    "RSI at 50 \u2014 the pullback has done real work"
+   ],
+   "entry": 81.77,
+   "stop": 73.72,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 8.05,
+   "risk_pct": 9.84,
+   "target_2r": 97.87,
+   "target_3r": 105.92,
+   "fund_grade": "Mixed",
+   "fund_notes": [
+    "Net margin -8% \u2014 currently lossmaking",
+    "Revenue growing 15% year over year"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:WIX"
+  },
+  {
+   "ticker": "RGEN",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 175.42,
+   "score": 0.583,
+   "business": "Repligen Corporation, Healthcare, large cap at $11.2B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 22% above the 200-day, so the larger trend is intact",
+    "RSI at 49 \u2014 the pullback has done real work"
+   ],
+   "entry": 186.5,
+   "stop": 166.65,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 19.85,
+   "risk_pct": 10.64,
+   "target_2r": 226.2,
+   "target_3r": 246.05,
+   "fund_grade": "Sound",
+   "fund_notes": [
+    "Net margin 5% \u2014 thin but positive",
+    "Revenue growing 12% year over year",
+    "Debt/equity 0.33 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:RGEN"
+  },
+  {
+   "ticker": "SWKS",
+   "setup": "Pullback to 20-day",
+   "also": [
+    "Trend reset at 50-day"
+   ],
+   "price": 79.7,
+   "score": 0.579,
+   "business": "Skyworks Solutions, Inc., Technology, large cap at $18.9B",
+   "reasons": [
+    "Trading 21% above its 200-day average, so the long-term trend is up",
+    "Now 3.0% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 49 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 28.1% over 60 days"
+   ],
+   "entry": 81.96,
+   "stop": 73.51,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 8.45,
+   "risk_pct": 10.31,
+   "target_2r": 98.86,
+   "target_3r": 107.31,
+   "fund_grade": "Mixed",
+   "fund_notes": [
+    "Net margin 7% \u2014 thin but positive",
+    "Revenue -3% \u2014 sales are shrinking",
+    "Debt/equity 0.12 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:SWKS"
   }
  ],
  "past_runs": [
@@ -317,6 +315,7 @@
   "2026-10-14",
   "2026-10-15",
   "2026-10-16",
-  "2026-10-17"
+  "2026-10-17",
+  "2026-10-20"
  ]
 }
