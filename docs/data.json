@@ -1,74 +1,15 @@
 {
- "run_date": "2026-10-23",
- "generated": "2026-10-23 00:39 UTC",
+ "run_date": "2026-10-24",
+ "generated": "2026-10-24 00:39 UTC",
  "scanned": 1200,
- "bench_return_60d": 4.61,
+ "bench_return_60d": 4.99,
  "candidates": [
-  {
-   "ticker": "ABCL",
-   "setup": "Pullback to 20-day",
-   "also": [
-    "Trend reset at 50-day"
-   ],
-   "price": 12.24,
-   "score": 0.798,
-   "business": "AbCellera Biologics Inc., Healthcare, mid cap at $3.7B",
-   "reasons": [
-    "Trading 86% above its 200-day average, so the long-term trend is up",
-    "Now 1.0% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 49 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 126.8% over 60 days"
-   ],
-   "entry": 12.41,
-   "stop": 11.21,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 1.2,
-   "risk_pct": 9.67,
-   "target_2r": 14.81,
-   "target_3r": 16.01,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin -249% \u2014 currently lossmaking",
-    "Revenue -76% \u2014 sales are shrinking",
-    "Return on equity -17% \u2014 destroying capital",
-    "Debt/equity 0.15 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:ABCL"
-  },
-  {
-   "ticker": "TWST",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 149.13,
-   "score": 0.695,
-   "business": "Twist Bioscience Corporation, Healthcare, mid cap at $9.0B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 76% above the 200-day, so the larger trend is intact",
-    "RSI at 48 \u2014 the pullback has done real work"
-   ],
-   "entry": 154.64,
-   "stop": 126.47,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 28.17,
-   "risk_pct": 18.22,
-   "target_2r": 210.98,
-   "target_3r": 239.15,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin -32% \u2014 currently lossmaking",
-    "Revenue growing 23% year over year",
-    "Return on equity -30% \u2014 destroying capital",
-    "Debt/equity 0.24 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:TWST"
-  },
   {
    "ticker": "ATKR",
    "setup": "Volatility coil",
    "also": [],
    "price": 94.96,
-   "score": 0.67,
+   "score": 0.625,
    "business": "Atkore Inc., Industrials, mid cap at $3.2B",
    "reasons": [
     "Daily ranges have contracted to 53% of their 20-day norm \u2014 volatility is compressing",
@@ -92,171 +33,59 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ATKR"
   },
   {
-   "ticker": "TEM",
+   "ticker": "DE",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 67.76,
-   "score": 0.655,
-   "business": "Tempus AI, Inc., Healthcare, large cap at $11.5B",
+   "price": 643.62,
+   "score": 0.578,
+   "business": "Deere & Company, Industrials, large cap at $174.2B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 19% above the 200-day, so the larger trend is intact",
+    "Still 8% above the 200-day, so the larger trend is intact",
     "RSI at 46 \u2014 the pullback has done real work"
    ],
-   "entry": 69.23,
-   "stop": 61.71,
+   "entry": 645.7,
+   "stop": 613.25,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 7.52,
-   "risk_pct": 10.86,
-   "target_2r": 84.27,
-   "target_3r": 91.79,
-   "fund_grade": "Weak",
+   "risk_per_share": 32.45,
+   "risk_pct": 5.03,
+   "target_2r": 710.6,
+   "target_3r": 743.05,
+   "fund_grade": "Mixed",
    "fund_notes": [
-    "Net margin -18% \u2014 currently lossmaking",
-    "Revenue growing 22% year over year",
-    "Return on equity -67% \u2014 destroying capital",
-    "Debt/equity 3.25 \u2014 heavily leveraged"
+    "Net margin 10% \u2014 solidly profitable",
+    "Revenue up 5% \u2014 modest growth",
+    "Return on equity 18%",
+    "Debt/equity 2.30 \u2014 heavily leveraged"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:TEM"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:DE"
   },
   {
-   "ticker": "SDGR",
+   "ticker": "ADM",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 23.9,
-   "score": 0.654,
-   "business": "Schrodinger, Inc., Healthcare, small cap at $1.7B",
+   "price": 79.84,
+   "score": 0.577,
+   "business": "Archer-Daniels-Midland Company, Consumer Defensive, large cap at $38.6B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 45% above the 200-day, so the larger trend is intact",
-    "RSI at 44 \u2014 the pullback has done real work"
-   ],
-   "entry": 24.36,
-   "stop": 21.21,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 3.15,
-   "risk_pct": 12.93,
-   "target_2r": 30.66,
-   "target_3r": 33.81,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin -21% \u2014 currently lossmaking",
-    "Revenue up 8% \u2014 modest growth",
-    "Return on equity -16% \u2014 destroying capital",
-    "Debt/equity 0.33 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:SDGR"
-  },
-  {
-   "ticker": "MXL",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 75.79,
-   "score": 0.648,
-   "business": "MaxLinear, Inc, Technology, mid cap at $5.9B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 30% above the 200-day, so the larger trend is intact",
+    "Still 6% above the 200-day, so the larger trend is intact",
     "RSI at 43 \u2014 the pullback has done real work"
    ],
-   "entry": 78.08,
-   "stop": 67.97,
+   "entry": 80.02,
+   "stop": 77.66,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 10.11,
-   "risk_pct": 12.95,
-   "target_2r": 98.3,
-   "target_3r": 108.41,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin -18% \u2014 currently lossmaking",
-    "Revenue growing 55% year over year",
-    "Return on equity -21% \u2014 destroying capital",
-    "Debt/equity 0.31 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:MXL"
-  },
-  {
-   "ticker": "HPE",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 58.17,
-   "score": 0.618,
-   "business": "Hewlett Packard Enterprise Comp, Technology, large cap at $73.6B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 48% above the 200-day, so the larger trend is intact",
-    "RSI at 44 \u2014 the pullback has done real work"
-   ],
-   "entry": 59.69,
-   "stop": 53.12,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 6.57,
-   "risk_pct": 11.01,
-   "target_2r": 72.83,
-   "target_3r": 79.4,
+   "risk_per_share": 2.36,
+   "risk_pct": 2.95,
+   "target_2r": 84.74,
+   "target_3r": 87.1,
    "fund_grade": "Sound",
    "fund_notes": [
-    "Net margin 7% \u2014 thin but positive",
-    "Revenue growing 34% year over year",
-    "Debt/equity 0.76 \u2014 moderate leverage"
+    "Net margin 2% \u2014 thin but positive",
+    "Revenue up 7% \u2014 modest growth",
+    "Debt/equity 0.39 \u2014 conservative balance sheet"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:HPE"
-  },
-  {
-   "ticker": "CORT",
-   "setup": "Pullback to 20-day",
-   "also": [],
-   "price": 116.28,
-   "score": 0.601,
-   "business": "Corcept Therapeutics Incorporat, Healthcare, large cap at $11.6B",
-   "reasons": [
-    "Trading 59% above its 200-day average, so the long-term trend is up",
-    "Now 0.4% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 51 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 18.8% over 60 days"
-   ],
-   "entry": 118.66,
-   "stop": 109.11,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 9.55,
-   "risk_pct": 8.05,
-   "target_2r": 137.76,
-   "target_3r": 147.31,
-   "fund_grade": "Sound",
-   "fund_notes": [
-    "Net margin 7% \u2014 thin but positive",
-    "Revenue growing 32% year over year",
-    "Debt/equity 1.33 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:CORT"
-  },
-  {
-   "ticker": "MRVL",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 244.76,
-   "score": 0.592,
-   "business": "Marvell Technology, Inc., Technology, mega cap at $200.8B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 37% above the 200-day, so the larger trend is intact",
-    "RSI at 47 \u2014 the pullback has done real work"
-   ],
-   "entry": 251.0,
-   "stop": 222.13,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 28.87,
-   "risk_pct": 11.5,
-   "target_2r": 308.74,
-   "target_3r": 337.61,
-   "fund_grade": "Strong",
-   "fund_notes": [
-    "Net margin 28% \u2014 solidly profitable",
-    "Revenue growing 36% year over year",
-    "Return on equity 17%",
-    "Debt/equity 0.29 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:MRVL"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ADM"
   },
   {
    "ticker": "PCVX",
@@ -264,22 +93,22 @@
    "also": [
     "Trend reset at 50-day"
    ],
-   "price": 63.23,
-   "score": 0.587,
-   "business": "Vaxcyte, Inc., Healthcare, mid cap at $9.9B",
+   "price": 62.85,
+   "score": 0.574,
+   "business": "Vaxcyte, Inc., Healthcare, mid cap at $9.5B",
    "reasons": [
-    "Trading 12% above its 200-day average, so the long-term trend is up",
-    "Now 2.9% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 50 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 11.2% over 60 days"
+    "Trading 11% above its 200-day average, so the long-term trend is up",
+    "Now 2.2% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 49 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 13.6% over 60 days"
    ],
-   "entry": 67.78,
-   "stop": 60.97,
+   "entry": 64.9,
+   "stop": 59.95,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 6.81,
-   "risk_pct": 10.05,
-   "target_2r": 81.4,
-   "target_3r": 88.21,
+   "risk_per_share": 4.95,
+   "risk_pct": 7.63,
+   "target_2r": 74.8,
+   "target_3r": 79.75,
    "fund_grade": "Weak",
    "fund_notes": [
     "Net margin 0% \u2014 currently lossmaking",
@@ -287,6 +116,173 @@
     "Debt/equity 4.19 \u2014 heavily leveraged"
    ],
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:PCVX"
+  },
+  {
+   "ticker": "UNM",
+   "setup": "Breakout ready",
+   "also": [
+    "Volatility coil"
+   ],
+   "price": 93.75,
+   "score": 0.564,
+   "business": "Unum Group, Financial Services, large cap at $14.3B",
+   "reasons": [
+    "Sitting 2.9% below its 52-week high \u2014 a breakout is within reach",
+    "RSI at 57, so it is not yet stretched",
+    "Ranges are narrowing into the level rather than spiking through it"
+   ],
+   "entry": 94.04,
+   "stop": 89.43,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 4.61,
+   "risk_pct": 4.9,
+   "target_2r": 103.26,
+   "target_3r": 107.87,
+   "fund_grade": "Sound",
+   "fund_notes": [
+    "Net margin 5% \u2014 thin but positive",
+    "Revenue up 0% \u2014 modest growth",
+    "Debt/equity 0.37 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:UNM"
+  },
+  {
+   "ticker": "DUOL",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 141.39,
+   "score": 0.554,
+   "business": "Duolingo, Inc., Technology, mid cap at $6.7B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 13% above the 200-day, so the larger trend is intact",
+    "RSI at 47 \u2014 the pullback has done real work"
+   ],
+   "entry": 143.94,
+   "stop": 133.9,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 10.04,
+   "risk_pct": 6.98,
+   "target_2r": 164.02,
+   "target_3r": 174.06,
+   "fund_grade": "Strong",
+   "fund_notes": [
+    "Net margin 36% \u2014 solidly profitable",
+    "Revenue growing 18% year over year",
+    "Return on equity 34%",
+    "Debt/equity 0.06 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:DUOL"
+  },
+  {
+   "ticker": "GH",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 162.94,
+   "score": 0.554,
+   "business": "Guardant Health, Inc., Healthcare, large cap at $22.7B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 27% above the 200-day, so the larger trend is intact",
+    "RSI at 46 \u2014 the pullback has done real work"
+   ],
+   "entry": 167.72,
+   "stop": 152.67,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 15.05,
+   "risk_pct": 8.97,
+   "target_2r": 197.82,
+   "target_3r": 212.87,
+   "fund_grade": "Mixed",
+   "fund_notes": [
+    "Net margin -38% \u2014 currently lossmaking",
+    "Revenue growing 44% year over year"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:GH"
+  },
+  {
+   "ticker": "AFRM",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 72.4,
+   "score": 0.549,
+   "business": "Affirm Holdings, Inc., Financial Services, large cap at $23.6B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 9% above the 200-day, so the larger trend is intact",
+    "RSI at 48 \u2014 the pullback has done real work"
+   ],
+   "entry": 74.91,
+   "stop": 67.35,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 7.56,
+   "risk_pct": 10.09,
+   "target_2r": 90.03,
+   "target_3r": 97.59,
+   "fund_grade": "Strong",
+   "fund_notes": [
+    "Net margin 45% \u2014 solidly profitable",
+    "Revenue growing 33% year over year",
+    "Return on equity 45%",
+    "Debt/equity 1.83 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:AFRM"
+  },
+  {
+   "ticker": "TGTX",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 53.16,
+   "score": 0.547,
+   "business": "TG Therapeutics, Inc., Healthcare, mid cap at $8.3B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 24% above the 200-day, so the larger trend is intact",
+    "RSI at 45 \u2014 the pullback has done real work"
+   ],
+   "entry": 53.8,
+   "stop": 52.02,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 1.78,
+   "risk_pct": 3.31,
+   "target_2r": 57.36,
+   "target_3r": 59.14,
+   "fund_grade": "Strong",
+   "fund_notes": [
+    "Net margin 55% \u2014 solidly profitable",
+    "Revenue growing 70% year over year",
+    "Return on equity 100%",
+    "Debt/equity 1.25 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:TGTX"
+  },
+  {
+   "ticker": "CTVA",
+   "setup": "Volatility coil",
+   "also": [],
+   "price": 12.86,
+   "score": 0.547,
+   "business": "Corteva, Inc., Basic Materials, mid cap at $8.3B",
+   "reasons": [
+    "Daily ranges have contracted to 60% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 11% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 51% of its 50-day average, typical of a supply pause"
+   ],
+   "entry": 12.92,
+   "stop": 12.24,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 0.68,
+   "risk_pct": 5.26,
+   "target_2r": 14.28,
+   "target_3r": 14.96,
+   "fund_grade": "Mixed",
+   "fund_notes": [
+    "Net margin 3% \u2014 thin but positive",
+    "Revenue -1% \u2014 sales are shrinking",
+    "Debt/equity 0.57 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CTVA"
   }
  ],
  "past_runs": [
@@ -322,6 +318,7 @@
   "2026-10-20",
   "2026-10-21",
   "2026-10-22",
-  "2026-10-23"
+  "2026-10-23",
+  "2026-10-24"
  ]
 }
