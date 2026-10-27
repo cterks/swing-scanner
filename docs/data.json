@@ -1,56 +1,193 @@
 {
- "run_date": "2026-10-24",
- "generated": "2026-10-24 00:39 UTC",
+ "run_date": "2026-10-27",
+ "generated": "2026-10-27 01:30 UTC",
  "scanned": 1200,
- "bench_return_60d": 4.99,
+ "bench_return_60d": 2.72,
  "candidates": [
   {
-   "ticker": "ATKR",
-   "setup": "Volatility coil",
+   "ticker": "SDGR",
+   "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 94.96,
-   "score": 0.625,
-   "business": "Atkore Inc., Industrials, mid cap at $3.2B",
+   "price": 23.8,
+   "score": 0.614,
+   "business": "Schrodinger, Inc., Healthcare, small cap at $1.8B",
    "reasons": [
-    "Daily ranges have contracted to 53% of their 20-day norm \u2014 volatility is compressing",
-    "Holding within 0% of its 52-week high while quieting down",
-    "Tight action near highs often precedes an expansion, though the direction is not predetermined"
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 44% above the 200-day, so the larger trend is intact",
+    "RSI at 45 \u2014 the pullback has done real work"
    ],
-   "entry": 94.98,
-   "stop": 94.76,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 0.22,
-   "risk_pct": 0.23,
-   "target_2r": 95.42,
-   "target_3r": 95.64,
+   "entry": 24.06,
+   "stop": 21.23,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 2.83,
+   "risk_pct": 11.76,
+   "target_2r": 29.72,
+   "target_3r": 32.55,
    "fund_grade": "Weak",
    "fund_notes": [
-    "Net margin -6% \u2014 currently lossmaking",
+    "Net margin -21% \u2014 currently lossmaking",
     "Revenue up 8% \u2014 modest growth",
-    "Return on equity -12% \u2014 destroying capital",
-    "Debt/equity 0.72 \u2014 moderate leverage"
+    "Return on equity -16% \u2014 destroying capital",
+    "Debt/equity 0.33 \u2014 conservative balance sheet"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ATKR"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:SDGR"
+  },
+  {
+   "ticker": "TEM",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 67.61,
+   "score": 0.607,
+   "business": "Tempus AI, Inc., Healthcare, large cap at $12.2B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 19% above the 200-day, so the larger trend is intact",
+    "RSI at 47 \u2014 the pullback has done real work"
+   ],
+   "entry": 68.44,
+   "stop": 60.03,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 8.41,
+   "risk_pct": 12.29,
+   "target_2r": 85.26,
+   "target_3r": 93.67,
+   "fund_grade": "Weak",
+   "fund_notes": [
+    "Net margin -18% \u2014 currently lossmaking",
+    "Revenue growing 22% year over year",
+    "Return on equity -67% \u2014 destroying capital",
+    "Debt/equity 3.25 \u2014 heavily leveraged"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:TEM"
+  },
+  {
+   "ticker": "PCVX",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 60.43,
+   "score": 0.606,
+   "business": "Vaxcyte, Inc., Healthcare, mid cap at $9.4B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 7% above the 200-day, so the larger trend is intact",
+    "RSI at 45 \u2014 the pullback has done real work"
+   ],
+   "entry": 62.98,
+   "stop": 59.23,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 3.75,
+   "risk_pct": 5.95,
+   "target_2r": 70.48,
+   "target_3r": 74.23,
+   "fund_grade": "Weak",
+   "fund_notes": [
+    "Net margin 0% \u2014 currently lossmaking",
+    "Return on equity -37% \u2014 destroying capital",
+    "Debt/equity 4.19 \u2014 heavily leveraged"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:PCVX"
+  },
+  {
+   "ticker": "TXG",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 71.55,
+   "score": 0.588,
+   "business": "10x Genomics, Inc., Healthcare, mid cap at $9.5B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 83% above the 200-day, so the larger trend is intact",
+    "RSI at 46 \u2014 the pullback has done real work"
+   ],
+   "entry": 72.21,
+   "stop": 65.33,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 6.88,
+   "risk_pct": 9.53,
+   "target_2r": 85.97,
+   "target_3r": 92.85,
+   "fund_grade": "Weak",
+   "fund_notes": [
+    "Net margin -12% \u2014 currently lossmaking",
+    "Revenue -13% \u2014 sales are shrinking",
+    "Return on equity -9% \u2014 destroying capital",
+    "Debt/equity 0.10 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:TXG"
+  },
+  {
+   "ticker": "CTVA",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 12.45,
+   "score": 0.578,
+   "business": "Corteva, Inc., Basic Materials, mid cap at $8.0B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 4% above the 200-day, so the larger trend is intact",
+    "RSI at 46 \u2014 the pullback has done real work"
+   ],
+   "entry": 12.77,
+   "stop": 12.22,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 0.55,
+   "risk_pct": 4.31,
+   "target_2r": 13.87,
+   "target_3r": 14.42,
+   "fund_grade": "Mixed",
+   "fund_notes": [
+    "Net margin 3% \u2014 thin but positive",
+    "Revenue -1% \u2014 sales are shrinking",
+    "Debt/equity 0.57 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CTVA"
+  },
+  {
+   "ticker": "RGEN",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 176.93,
+   "score": 0.565,
+   "business": "Repligen Corporation, Healthcare, large cap at $11.4B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 23% above the 200-day, so the larger trend is intact",
+    "RSI at 50 \u2014 the pullback has done real work"
+   ],
+   "entry": 179.99,
+   "stop": 167.49,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 12.5,
+   "risk_pct": 6.94,
+   "target_2r": 204.99,
+   "target_3r": 217.49,
+   "fund_grade": "Sound",
+   "fund_notes": [
+    "Net margin 5% \u2014 thin but positive",
+    "Revenue growing 12% year over year",
+    "Debt/equity 0.33 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:RGEN"
   },
   {
    "ticker": "DE",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 643.62,
-   "score": 0.578,
-   "business": "Deere & Company, Industrials, large cap at $174.2B",
+   "price": 646.15,
+   "score": 0.561,
+   "business": "Deere & Company, Industrials, large cap at $172.9B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 8% above the 200-day, so the larger trend is intact",
-    "RSI at 46 \u2014 the pullback has done real work"
+    "RSI at 47 \u2014 the pullback has done real work"
    ],
-   "entry": 645.7,
-   "stop": 613.25,
+   "entry": 647.15,
+   "stop": 613.27,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 32.45,
-   "risk_pct": 5.03,
-   "target_2r": 710.6,
-   "target_3r": 743.05,
+   "risk_per_share": 33.88,
+   "risk_pct": 5.24,
+   "target_2r": 714.91,
+   "target_3r": 748.79,
    "fund_grade": "Mixed",
    "fund_notes": [
     "Net margin 10% \u2014 solidly profitable",
@@ -61,24 +198,52 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:DE"
   },
   {
+   "ticker": "SNOW",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 325.43,
+   "score": 0.552,
+   "business": "Snowflake Inc., Technology, large cap at $118.2B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 38% above the 200-day, so the larger trend is intact",
+    "RSI at 48 \u2014 the pullback has done real work"
+   ],
+   "entry": 326.49,
+   "stop": 297.87,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 28.62,
+   "risk_pct": 8.77,
+   "target_2r": 383.73,
+   "target_3r": 412.35,
+   "fund_grade": "Weak",
+   "fund_notes": [
+    "Net margin -20% \u2014 currently lossmaking",
+    "Revenue growing 35% year over year",
+    "Return on equity -48% \u2014 destroying capital",
+    "Debt/equity 1.29 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:SNOW"
+  },
+  {
    "ticker": "ADM",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 79.84,
-   "score": 0.577,
-   "business": "Archer-Daniels-Midland Company, Consumer Defensive, large cap at $38.6B",
+   "price": 80.14,
+   "score": 0.549,
+   "business": "Archer-Daniels-Midland Company, Consumer Defensive, large cap at $38.1B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 6% above the 200-day, so the larger trend is intact",
-    "RSI at 43 \u2014 the pullback has done real work"
+    "RSI at 44 \u2014 the pullback has done real work"
    ],
-   "entry": 80.02,
-   "stop": 77.66,
+   "entry": 80.87,
+   "stop": 77.69,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 2.36,
-   "risk_pct": 2.95,
-   "target_2r": 84.74,
-   "target_3r": 87.1,
+   "risk_per_share": 3.18,
+   "risk_pct": 3.93,
+   "target_2r": 87.23,
+   "target_3r": 90.41,
    "fund_grade": "Sound",
    "fund_notes": [
     "Net margin 2% \u2014 thin but positive",
@@ -88,56 +253,24 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ADM"
   },
   {
-   "ticker": "PCVX",
-   "setup": "Pullback to 20-day",
-   "also": [
-    "Trend reset at 50-day"
-   ],
-   "price": 62.85,
-   "score": 0.574,
-   "business": "Vaxcyte, Inc., Healthcare, mid cap at $9.5B",
-   "reasons": [
-    "Trading 11% above its 200-day average, so the long-term trend is up",
-    "Now 2.2% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 49 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 13.6% over 60 days"
-   ],
-   "entry": 64.9,
-   "stop": 59.95,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 4.95,
-   "risk_pct": 7.63,
-   "target_2r": 74.8,
-   "target_3r": 79.75,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin 0% \u2014 currently lossmaking",
-    "Return on equity -37% \u2014 destroying capital",
-    "Debt/equity 4.19 \u2014 heavily leveraged"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:PCVX"
-  },
-  {
    "ticker": "UNM",
-   "setup": "Breakout ready",
-   "also": [
-    "Volatility coil"
-   ],
-   "price": 93.75,
-   "score": 0.564,
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 90.28,
+   "score": 0.545,
    "business": "Unum Group, Financial Services, large cap at $14.3B",
    "reasons": [
-    "Sitting 2.9% below its 52-week high \u2014 a breakout is within reach",
-    "RSI at 57, so it is not yet stretched",
-    "Ranges are narrowing into the level rather than spiking through it"
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 9% above the 200-day, so the larger trend is intact",
+    "RSI at 44 \u2014 the pullback has done real work"
    ],
-   "entry": 94.04,
-   "stop": 89.43,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 4.61,
-   "risk_pct": 4.9,
-   "target_2r": 103.26,
-   "target_3r": 107.87,
+   "entry": 93.05,
+   "stop": 88.96,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 4.09,
+   "risk_pct": 4.4,
+   "target_2r": 101.23,
+   "target_3r": 105.32,
    "fund_grade": "Sound",
    "fund_notes": [
     "Net margin 5% \u2014 thin but positive",
@@ -145,144 +278,6 @@
     "Debt/equity 0.37 \u2014 conservative balance sheet"
    ],
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:UNM"
-  },
-  {
-   "ticker": "DUOL",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 141.39,
-   "score": 0.554,
-   "business": "Duolingo, Inc., Technology, mid cap at $6.7B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 13% above the 200-day, so the larger trend is intact",
-    "RSI at 47 \u2014 the pullback has done real work"
-   ],
-   "entry": 143.94,
-   "stop": 133.9,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 10.04,
-   "risk_pct": 6.98,
-   "target_2r": 164.02,
-   "target_3r": 174.06,
-   "fund_grade": "Strong",
-   "fund_notes": [
-    "Net margin 36% \u2014 solidly profitable",
-    "Revenue growing 18% year over year",
-    "Return on equity 34%",
-    "Debt/equity 0.06 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:DUOL"
-  },
-  {
-   "ticker": "GH",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 162.94,
-   "score": 0.554,
-   "business": "Guardant Health, Inc., Healthcare, large cap at $22.7B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 27% above the 200-day, so the larger trend is intact",
-    "RSI at 46 \u2014 the pullback has done real work"
-   ],
-   "entry": 167.72,
-   "stop": 152.67,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 15.05,
-   "risk_pct": 8.97,
-   "target_2r": 197.82,
-   "target_3r": 212.87,
-   "fund_grade": "Mixed",
-   "fund_notes": [
-    "Net margin -38% \u2014 currently lossmaking",
-    "Revenue growing 44% year over year"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:GH"
-  },
-  {
-   "ticker": "AFRM",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 72.4,
-   "score": 0.549,
-   "business": "Affirm Holdings, Inc., Financial Services, large cap at $23.6B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 9% above the 200-day, so the larger trend is intact",
-    "RSI at 48 \u2014 the pullback has done real work"
-   ],
-   "entry": 74.91,
-   "stop": 67.35,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 7.56,
-   "risk_pct": 10.09,
-   "target_2r": 90.03,
-   "target_3r": 97.59,
-   "fund_grade": "Strong",
-   "fund_notes": [
-    "Net margin 45% \u2014 solidly profitable",
-    "Revenue growing 33% year over year",
-    "Return on equity 45%",
-    "Debt/equity 1.83 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:AFRM"
-  },
-  {
-   "ticker": "TGTX",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 53.16,
-   "score": 0.547,
-   "business": "TG Therapeutics, Inc., Healthcare, mid cap at $8.3B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 24% above the 200-day, so the larger trend is intact",
-    "RSI at 45 \u2014 the pullback has done real work"
-   ],
-   "entry": 53.8,
-   "stop": 52.02,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 1.78,
-   "risk_pct": 3.31,
-   "target_2r": 57.36,
-   "target_3r": 59.14,
-   "fund_grade": "Strong",
-   "fund_notes": [
-    "Net margin 55% \u2014 solidly profitable",
-    "Revenue growing 70% year over year",
-    "Return on equity 100%",
-    "Debt/equity 1.25 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:TGTX"
-  },
-  {
-   "ticker": "CTVA",
-   "setup": "Volatility coil",
-   "also": [],
-   "price": 12.86,
-   "score": 0.547,
-   "business": "Corteva, Inc., Basic Materials, mid cap at $8.3B",
-   "reasons": [
-    "Daily ranges have contracted to 60% of their 20-day norm \u2014 volatility is compressing",
-    "Holding within 11% of its 52-week high while quieting down",
-    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
-    "Volume has dried up to 51% of its 50-day average, typical of a supply pause"
-   ],
-   "entry": 12.92,
-   "stop": 12.24,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 0.68,
-   "risk_pct": 5.26,
-   "target_2r": 14.28,
-   "target_3r": 14.96,
-   "fund_grade": "Mixed",
-   "fund_notes": [
-    "Net margin 3% \u2014 thin but positive",
-    "Revenue -1% \u2014 sales are shrinking",
-    "Debt/equity 0.57 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CTVA"
   }
  ],
  "past_runs": [
@@ -319,6 +314,7 @@
   "2026-10-21",
   "2026-10-22",
   "2026-10-23",
-  "2026-10-24"
+  "2026-10-24",
+  "2026-10-27"
  ]
 }
