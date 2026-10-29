@@ -1,170 +1,29 @@
 {
- "run_date": "2026-10-28",
- "generated": "2026-10-28 01:19 UTC",
+ "run_date": "2026-10-29",
+ "generated": "2026-10-29 01:50 UTC",
  "scanned": 1200,
- "bench_return_60d": 2.71,
+ "bench_return_60d": 0.38,
  "candidates": [
-  {
-   "ticker": "PCVX",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 59.97,
-   "score": 0.625,
-   "business": "Vaxcyte, Inc., Healthcare, mid cap at $9.5B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 6% above the 200-day, so the larger trend is intact",
-    "RSI at 45 \u2014 the pullback has done real work"
-   ],
-   "entry": 61.68,
-   "stop": 58.28,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 3.4,
-   "risk_pct": 5.51,
-   "target_2r": 68.48,
-   "target_3r": 71.88,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin 0% \u2014 currently lossmaking",
-    "Return on equity -37% \u2014 destroying capital",
-    "Debt/equity 4.19 \u2014 heavily leveraged"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:PCVX"
-  },
-  {
-   "ticker": "MRNA",
-   "setup": "Pullback to 20-day",
-   "also": [],
-   "price": 198.85,
-   "score": 0.609,
-   "business": "Moderna, Inc., Healthcare, large cap at $83.0B",
-   "reasons": [
-    "Trading 140% above its 200-day average, so the long-term trend is up",
-    "Now 14.4% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 50 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 260.0% over 60 days"
-   ],
-   "entry": 204.98,
-   "stop": 175.0,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 29.98,
-   "risk_pct": 14.63,
-   "target_2r": 264.94,
-   "target_3r": 294.92,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin -141% \u2014 currently lossmaking",
-    "Revenue up 2% \u2014 modest growth",
-    "Return on equity -39% \u2014 destroying capital",
-    "Debt/equity 0.19 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:MRNA"
-  },
-  {
-   "ticker": "SDGR",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 24.5,
-   "score": 0.603,
-   "business": "Schrodinger, Inc., Healthcare, small cap at $2.0B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 48% above the 200-day, so the larger trend is intact",
-    "RSI at 48 \u2014 the pullback has done real work"
-   ],
-   "entry": 24.98,
-   "stop": 21.52,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 3.46,
-   "risk_pct": 13.85,
-   "target_2r": 31.9,
-   "target_3r": 35.36,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin -21% \u2014 currently lossmaking",
-    "Revenue up 8% \u2014 modest growth",
-    "Return on equity -16% \u2014 destroying capital",
-    "Debt/equity 0.33 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:SDGR"
-  },
-  {
-   "ticker": "TXG",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 72.96,
-   "score": 0.602,
-   "business": "10x Genomics, Inc., Healthcare, large cap at $10.2B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 85% above the 200-day, so the larger trend is intact",
-    "RSI at 48 \u2014 the pullback has done real work"
-   ],
-   "entry": 74.77,
-   "stop": 65.67,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 9.1,
-   "risk_pct": 12.17,
-   "target_2r": 92.97,
-   "target_3r": 102.07,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin -12% \u2014 currently lossmaking",
-    "Revenue -13% \u2014 sales are shrinking",
-    "Return on equity -9% \u2014 destroying capital",
-    "Debt/equity 0.10 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:TXG"
-  },
-  {
-   "ticker": "HSIC",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 84.51,
-   "score": 0.581,
-   "business": "Henry Schein, Inc., Healthcare, mid cap at $9.4B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 4% above the 200-day, so the larger trend is intact",
-    "RSI at 46 \u2014 the pullback has done real work"
-   ],
-   "entry": 85.53,
-   "stop": 83.35,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 2.18,
-   "risk_pct": 2.55,
-   "target_2r": 89.89,
-   "target_3r": 92.07,
-   "fund_grade": "Limited data",
-   "fund_notes": [
-    "Net margin 3% \u2014 thin but positive",
-    "Revenue up 7% \u2014 modest growth",
-    "Debt/equity 0.81 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:HSIC"
-  },
   {
    "ticker": "ASST",
    "setup": "Pullback to 20-day",
-   "also": [
-    "Trend reset at 50-day"
-   ],
-   "price": 26.32,
-   "score": 0.579,
+   "also": [],
+   "price": 27.53,
+   "score": 0.795,
    "business": "Strive, Inc., Financial Services, mid cap at $3.5B",
    "reasons": [
-    "Trading 61% above its 200-day average, so the long-term trend is up",
-    "Now 1.4% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 47 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 134.2% over 60 days"
+    "Trading 68% above its 200-day average, so the long-term trend is up",
+    "Now 3.8% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 51 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 121.3% over 60 days"
    ],
-   "entry": 28.04,
-   "stop": 23.51,
+   "entry": 27.92,
+   "stop": 23.46,
    "stop_basis": "2x ATR cap",
-   "risk_per_share": 4.53,
-   "risk_pct": 16.16,
-   "target_2r": 37.1,
-   "target_3r": 41.63,
+   "risk_per_share": 4.46,
+   "risk_pct": 15.97,
+   "target_2r": 36.84,
+   "target_3r": 41.3,
    "fund_grade": "Weak",
    "fund_notes": [
     "Net margin 0% \u2014 currently lossmaking",
@@ -175,25 +34,108 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:ASST"
   },
   {
-   "ticker": "TWLO",
-   "setup": "Pullback to 20-day",
+   "ticker": "TEAM",
+   "setup": "Breakout ready",
    "also": [],
-   "price": 263.65,
-   "score": 0.578,
-   "business": "Twilio Inc., Technology, large cap at $39.1B",
+   "price": 220.12,
+   "score": 0.695,
+   "business": "Atlassian Corporation, Technology, large cap at $55.7B",
    "reasons": [
-    "Trading 41% above its 200-day average, so the long-term trend is up",
-    "Now 3.2% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 49 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 30.9% over 60 days"
+    "Sitting 3.3% below its 52-week high \u2014 a breakout is within reach",
+    "RSI at 62, so it is not yet stretched",
+    "Ranges are narrowing into the level rather than spiking through it"
    ],
-   "entry": 265.36,
-   "stop": 235.64,
+   "entry": 225.15,
+   "stop": 207.41,
    "stop_basis": "2x ATR cap",
-   "risk_per_share": 29.72,
-   "risk_pct": 11.2,
-   "target_2r": 324.8,
-   "target_3r": 354.52,
+   "risk_per_share": 17.74,
+   "risk_pct": 7.88,
+   "target_2r": 260.63,
+   "target_3r": 278.37,
+   "fund_grade": "Weak",
+   "fund_notes": [
+    "Net margin -1% \u2014 currently lossmaking",
+    "Revenue growing 28% year over year",
+    "Return on equity -4% \u2014 destroying capital",
+    "Debt/equity 1.16 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:TEAM"
+  },
+  {
+   "ticker": "HTFL",
+   "setup": "Breakout ready",
+   "also": [],
+   "price": 59.1,
+   "score": 0.693,
+   "business": "Heartflow, Inc., Healthcare, mid cap at $5.1B",
+   "reasons": [
+    "Sitting 0.0% below its 52-week high \u2014 a breakout is within reach",
+    "RSI at 71, so it is not yet stretched",
+    "Ranges are narrowing into the level rather than spiking through it"
+   ],
+   "entry": 60.44,
+   "stop": 54.51,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 5.93,
+   "risk_pct": 9.81,
+   "target_2r": 72.3,
+   "target_3r": 78.23,
+   "fund_grade": "Weak",
+   "fund_notes": [
+    "Net margin -56% \u2014 currently lossmaking",
+    "Revenue growing 48% year over year",
+    "Return on equity -154% \u2014 destroying capital",
+    "Debt/equity 0.10 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:HTFL"
+  },
+  {
+   "ticker": "MSTR",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 145.16,
+   "score": 0.678,
+   "business": "Strategy Inc, Technology, large cap at $61.5B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 8% above the 200-day, so the larger trend is intact",
+    "RSI at 50 \u2014 the pullback has done real work"
+   ],
+   "entry": 145.77,
+   "stop": 131.23,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 14.54,
+   "risk_pct": 9.97,
+   "target_2r": 174.85,
+   "target_3r": 189.39,
+   "fund_grade": "Weak",
+   "fund_notes": [
+    "Net margin 0% \u2014 currently lossmaking",
+    "Revenue up 7% \u2014 modest growth",
+    "Return on equity -64% \u2014 destroying capital",
+    "Debt/equity 0.15 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:MSTR"
+  },
+  {
+   "ticker": "TWLO",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 253.77,
+   "score": 0.67,
+   "business": "Twilio Inc., Technology, large cap at $39.0B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 35% above the 200-day, so the larger trend is intact",
+    "RSI at 45 \u2014 the pullback has done real work"
+   ],
+   "entry": 260.66,
+   "stop": 233.03,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 27.63,
+   "risk_pct": 10.6,
+   "target_2r": 315.92,
+   "target_3r": 343.55,
    "fund_grade": "Strong",
    "fund_notes": [
     "Net margin 21% \u2014 solidly profitable",
@@ -203,87 +145,145 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:TWLO"
   },
   {
-   "ticker": "HPE",
-   "setup": "Trend reset at 50-day",
+   "ticker": "CAI",
+   "setup": "Breakout ready",
    "also": [],
-   "price": 58.72,
-   "score": 0.577,
-   "business": "Hewlett Packard Enterprise Comp, Technology, large cap at $80.8B",
+   "price": 35.45,
+   "score": 0.669,
+   "business": "Caris Life Sciences, Inc., Healthcare, large cap at $10.0B",
    "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 47% above the 200-day, so the larger trend is intact",
-    "RSI at 46 \u2014 the pullback has done real work"
+    "Sitting 0.0% below its 52-week high \u2014 a breakout is within reach",
+    "RSI at 71, so it is not yet stretched",
+    "Ranges are narrowing into the level rather than spiking through it"
    ],
-   "entry": 59.59,
-   "stop": 52.97,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 6.62,
-   "risk_pct": 11.11,
-   "target_2r": 72.83,
-   "target_3r": 79.45,
-   "fund_grade": "Sound",
+   "entry": 36.6,
+   "stop": 32.71,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 3.89,
+   "risk_pct": 10.63,
+   "target_2r": 44.38,
+   "target_3r": 48.27,
+   "fund_grade": "Strong",
    "fund_notes": [
-    "Net margin 7% \u2014 thin but positive",
-    "Revenue growing 34% year over year",
+    "Net margin 11% \u2014 solidly profitable",
+    "Revenue growing 45% year over year",
+    "Return on equity 20%",
     "Debt/equity 0.76 \u2014 moderate leverage"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:HPE"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:CAI"
   },
   {
-   "ticker": "SWKS",
-   "setup": "Volatility coil",
-   "also": [],
-   "price": 83.34,
-   "score": 0.574,
-   "business": "Skyworks Solutions, Inc., Technology, large cap at $20.1B",
-   "reasons": [
-    "Daily ranges have contracted to 69% of their 20-day norm \u2014 volatility is compressing",
-    "Holding within 9% of its 52-week high while quieting down",
-    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
-    "Volume has dried up to 52% of its 50-day average, typical of a supply pause"
-   ],
-   "entry": 84.93,
-   "stop": 78.11,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 6.82,
-   "risk_pct": 8.03,
-   "target_2r": 98.57,
-   "target_3r": 105.39,
-   "fund_grade": "Mixed",
-   "fund_notes": [
-    "Net margin 7% \u2014 thin but positive",
-    "Revenue -3% \u2014 sales are shrinking",
-    "Debt/equity 0.12 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:SWKS"
-  },
-  {
-   "ticker": "DE",
+   "ticker": "PCVX",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 641.25,
-   "score": 0.574,
-   "business": "Deere & Company, Industrials, large cap at $172.4B",
+   "price": 61.46,
+   "score": 0.659,
+   "business": "Vaxcyte, Inc., Healthcare, mid cap at $9.7B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 7% above the 200-day, so the larger trend is intact",
-    "RSI at 45 \u2014 the pullback has done real work"
+    "Still 8% above the 200-day, so the larger trend is intact",
+    "RSI at 48 \u2014 the pullback has done real work"
    ],
-   "entry": 650.99,
-   "stop": 620.88,
+   "entry": 64.12,
+   "stop": 58.3,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 30.11,
-   "risk_pct": 4.63,
-   "target_2r": 711.21,
-   "target_3r": 741.32,
+   "risk_per_share": 5.82,
+   "risk_pct": 9.08,
+   "target_2r": 75.76,
+   "target_3r": 81.58,
+   "fund_grade": "Weak",
+   "fund_notes": [
+    "Net margin 0% \u2014 currently lossmaking",
+    "Return on equity -37% \u2014 destroying capital",
+    "Debt/equity 4.19 \u2014 heavily leveraged"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:PCVX"
+  },
+  {
+   "ticker": "QGEN",
+   "setup": "Volatility coil",
+   "also": [],
+   "price": 50.33,
+   "score": 0.65,
+   "business": "Qiagen N.V., Healthcare, large cap at $10.4B",
+   "reasons": [
+    "Daily ranges have contracted to 23% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 9% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined"
+   ],
+   "entry": 50.44,
+   "stop": 48.22,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 2.22,
+   "risk_pct": 4.4,
+   "target_2r": 54.88,
+   "target_3r": 57.1,
+   "fund_grade": "Sound",
+   "fund_notes": [
+    "Net margin 19% \u2014 solidly profitable",
+    "Revenue up 0% \u2014 modest growth",
+    "Debt/equity 0.49 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:QGEN"
+  },
+  {
+   "ticker": "PTC",
+   "setup": "Volatility coil",
+   "also": [],
+   "price": 194.97,
+   "score": 0.641,
+   "business": "PTC Inc., Technology, large cap at $21.2B",
+   "reasons": [
+    "Daily ranges have contracted to 17% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 4% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 63% of its 50-day average, typical of a supply pause"
+   ],
+   "entry": 195.01,
+   "stop": 193.22,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 1.79,
+   "risk_pct": 0.92,
+   "target_2r": 198.59,
+   "target_3r": 200.38,
    "fund_grade": "Mixed",
    "fund_notes": [
-    "Net margin 10% \u2014 solidly profitable",
-    "Revenue up 5% \u2014 modest growth",
-    "Return on equity 18%",
-    "Debt/equity 2.30 \u2014 heavily leveraged"
+    "Net margin 41% \u2014 solidly profitable",
+    "Revenue -7% \u2014 sales are shrinking",
+    "Return on equity 35%",
+    "Debt/equity 0.46 \u2014 conservative balance sheet"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:DE"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:PTC"
+  },
+  {
+   "ticker": "ZETA",
+   "setup": "Breakout ready",
+   "also": [
+    "Volatility coil"
+   ],
+   "price": 33.45,
+   "score": 0.637,
+   "business": "Zeta Global Holdings Corp., Technology, mid cap at $8.4B",
+   "reasons": [
+    "Sitting 1.9% below its 52-week high \u2014 a breakout is within reach",
+    "RSI at 56, so it is not yet stretched",
+    "Ranges are narrowing into the level rather than spiking through it"
+   ],
+   "entry": 34.27,
+   "stop": 31.0,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 3.27,
+   "risk_pct": 9.54,
+   "target_2r": 40.81,
+   "target_3r": 44.08,
+   "fund_grade": "Weak",
+   "fund_notes": [
+    "Net margin -0% \u2014 currently lossmaking",
+    "Revenue growing 44% year over year",
+    "Return on equity -0% \u2014 destroying capital",
+    "Debt/equity 0.24 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ZETA"
   }
  ],
  "past_runs": [
@@ -322,6 +322,7 @@
   "2026-10-23",
   "2026-10-24",
   "2026-10-27",
-  "2026-10-28"
+  "2026-10-28",
+  "2026-10-29"
  ]
 }
