@@ -1,6 +1,6 @@
 {
- "run_date": "2026-11-03",
- "generated": "2026-11-03 03:30 UTC",
+ "run_date": "2026-11-04",
+ "generated": "2026-11-04 02:18 UTC",
  "scanned": 1200,
  "bench_return_60d": -2.49,
  "candidates": [
@@ -10,7 +10,7 @@
    "also": [],
    "price": 220.83,
    "score": 0.701,
-   "business": "Moderna, Inc., Healthcare, large cap at $88.2B",
+   "business": "Moderna, Inc., Healthcare, large cap at $91.2B",
    "reasons": [
     "Daily ranges have contracted to 74% of their 20-day norm \u2014 volatility is compressing",
     "Holding within 10% of its 52-week high while quieting down",
@@ -96,7 +96,7 @@
    "also": [],
    "price": 60.62,
    "score": 0.585,
-   "business": "Vaxcyte, Inc., Healthcare, mid cap at $9.5B",
+   "business": "Vaxcyte, Inc., Healthcare, mid cap at $9.6B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 6% above the 200-day, so the larger trend is intact",
@@ -179,7 +179,7 @@
    "also": [],
    "price": 13.47,
    "score": 0.566,
-   "business": "Crescent Energy Company, Energy, mid cap at $5.3B",
+   "business": "Crescent Energy Company, Energy, mid cap at $5.1B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 13% above the 200-day, so the larger trend is intact",
@@ -206,7 +206,7 @@
    "also": [],
    "price": 31.0,
    "score": 0.56,
-   "business": "Oscar Health, Inc., Healthcare, mid cap at $9.6B",
+   "business": "Oscar Health, Inc., Healthcare, large cap at $10.0B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 31% above the 200-day, so the larger trend is intact",
@@ -236,7 +236,7 @@
    ],
    "price": 410.41,
    "score": 0.557,
-   "business": "Humana Inc., Healthcare, large cap at $49.3B",
+   "business": "Humana Inc., Healthcare, large cap at $50.2B",
    "reasons": [
     "Daily ranges have contracted to 71% of their 20-day norm \u2014 volatility is compressing",
     "Holding within 5% of its 52-week high while quieting down",
@@ -267,7 +267,7 @@
    ],
    "price": 81.55,
    "score": 0.557,
-   "business": "SS&C Technologies Holdings, Inc, Technology, large cap at $19.1B",
+   "business": "SS&C Technologies Holdings, Inc, Technology, large cap at $19.0B",
    "reasons": [
     "Daily ranges have contracted to 77% of their 20-day norm \u2014 volatility is compressing",
     "Holding within 9% of its 52-week high while quieting down",
@@ -329,6 +329,7 @@
   "2026-10-29",
   "2026-10-30",
   "2026-10-31",
-  "2026-11-03"
+  "2026-11-03",
+  "2026-11-04"
  ]
 }
