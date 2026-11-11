@@ -1,8 +1,8 @@
 {
- "run_date": "2026-11-10",
- "generated": "2026-11-10 04:06 UTC",
+ "run_date": "2026-11-11",
+ "generated": "2026-11-11 01:56 UTC",
  "scanned": 1200,
- "bench_return_60d": -2.81,
+ "bench_return_60d": -2.7,
  "candidates": [
   {
    "ticker": "GRAL",
@@ -10,12 +10,12 @@
    "also": [],
    "price": 128.08,
    "score": 0.717,
-   "business": "GRAIL, Inc., Healthcare, mid cap at $5.8B",
+   "business": "GRAIL, Inc., Healthcare, mid cap at $5.6B",
    "reasons": [
     "Trading 62% above its 200-day average, so the long-term trend is up",
     "Now 8.5% above its 50-day average \u2014 closer to support than to a chase",
     "RSI at 48 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 91.5% over 60 days"
+    "Outperforming SPY by 91.4% over 60 days"
    ],
    "entry": 134.91,
    "stop": 113.74,
@@ -40,8 +40,8 @@
     "Volatility coil"
    ],
    "price": 48.96,
-   "score": 0.704,
-   "business": "Varonis Systems, Inc., Technology, mid cap at $5.6B",
+   "score": 0.695,
+   "business": "Varonis Systems, Inc., Technology, mid cap at $5.7B",
    "reasons": [
     "Sitting 2.3% below its 52-week high \u2014 a breakout is within reach",
     "RSI at 55, so it is not yet stretched",
@@ -67,21 +67,21 @@
    "ticker": "QGEN",
    "setup": "Volatility coil",
    "also": [],
-   "price": 50.55,
-   "score": 0.636,
+   "price": 50.51,
+   "score": 0.625,
    "business": "Qiagen N.V., Healthcare, large cap at $10.4B",
    "reasons": [
-    "Daily ranges have contracted to 46% of their 20-day norm \u2014 volatility is compressing",
+    "Daily ranges have contracted to 52% of their 20-day norm \u2014 volatility is compressing",
     "Holding within 8% of its 52-week high while quieting down",
     "Tight action near highs often precedes an expansion, though the direction is not predetermined"
    ],
-   "entry": 50.68,
-   "stop": 49.93,
+   "entry": 50.57,
+   "stop": 49.99,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 0.75,
-   "risk_pct": 1.48,
-   "target_2r": 52.18,
-   "target_3r": 52.93,
+   "risk_per_share": 0.58,
+   "risk_pct": 1.15,
+   "target_2r": 51.73,
+   "target_3r": 52.31,
    "fund_grade": "Sound",
    "fund_notes": [
     "Net margin 18% \u2014 solidly profitable",
@@ -95,8 +95,8 @@
    "setup": "Trend reset at 50-day",
    "also": [],
    "price": 111.22,
-   "score": 0.62,
-   "business": "Rubrik, Inc., Technology, large cap at $22.9B",
+   "score": 0.612,
+   "business": "Rubrik, Inc., Technology, large cap at $22.5B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 43% above the 200-day, so the larger trend is intact",
@@ -121,8 +121,8 @@
    "setup": "Trend reset at 50-day",
    "also": [],
    "price": 90.26,
-   "score": 0.619,
-   "business": "Elastic N.V., Technology, mid cap at $9.5B",
+   "score": 0.611,
+   "business": "Elastic N.V., Technology, mid cap at $9.2B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 33% above the 200-day, so the larger trend is intact",
@@ -145,32 +145,32 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ESTC"
   },
   {
-   "ticker": "CTSH",
+   "ticker": "RGEN",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 63.6,
-   "score": 0.615,
-   "business": "Cognizant Technology Solutions , Technology, large cap at $28.4B",
+   "price": 173.98,
+   "score": 0.597,
+   "business": "Repligen Corporation, Healthcare, large cap at $11.1B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 10% above the 200-day, so the larger trend is intact",
+    "Still 20% above the 200-day, so the larger trend is intact",
     "RSI at 48 \u2014 the pullback has done real work"
    ],
-   "entry": 64.93,
-   "stop": 60.8,
+   "entry": 178.84,
+   "stop": 165.71,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 4.13,
-   "risk_pct": 6.36,
-   "target_2r": 73.19,
-   "target_3r": 77.32,
-   "fund_grade": "Strong",
+   "risk_per_share": 13.13,
+   "risk_pct": 7.34,
+   "target_2r": 205.1,
+   "target_3r": 218.23,
+   "fund_grade": "Weak",
    "fund_notes": [
-    "Net margin 12% \u2014 solidly profitable",
-    "Revenue up 5% \u2014 modest growth",
-    "Return on equity 17%",
-    "Debt/equity 0.14 \u2014 conservative balance sheet"
+    "Net margin -1% \u2014 currently lossmaking",
+    "Revenue growing 11% year over year",
+    "Return on equity -1% \u2014 destroying capital",
+    "Debt/equity 0.33 \u2014 conservative balance sheet"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:CTSH"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:RGEN"
   },
   {
    "ticker": "AVTR",
@@ -179,13 +179,13 @@
     "Trend reset at 50-day"
    ],
    "price": 15.91,
-   "score": 0.6,
-   "business": "Avantor, Inc., Healthcare, large cap at $10.8B",
+   "score": 0.593,
+   "business": "Avantor, Inc., Healthcare, large cap at $10.6B",
    "reasons": [
     "Trading 41% above its 200-day average, so the long-term trend is up",
     "Now 1.8% above its 50-day average \u2014 closer to support than to a chase",
     "RSI at 50 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 19.3% over 60 days"
+    "Outperforming SPY by 19.2% over 60 days"
    ],
    "entry": 15.98,
    "stop": 14.92,
@@ -207,13 +207,13 @@
    "setup": "Pullback to 20-day",
    "also": [],
    "price": 306.4,
-   "score": 0.598,
-   "business": "Veeva Systems Inc., Healthcare, large cap at $49.6B",
+   "score": 0.592,
+   "business": "Veeva Systems Inc., Healthcare, large cap at $49.5B",
    "reasons": [
     "Trading 45% above its 200-day average, so the long-term trend is up",
     "Now 5.7% above its 50-day average \u2014 closer to support than to a chase",
     "RSI at 53 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 28.5% over 60 days"
+    "Outperforming SPY by 28.4% over 60 days"
    ],
    "entry": 308.65,
    "stop": 292.78,
@@ -235,13 +235,13 @@
    "setup": "Pullback to 20-day",
    "also": [],
    "price": 77.75,
-   "score": 0.595,
+   "score": 0.589,
    "business": "DocuSign, Inc., Technology, large cap at $14.5B",
    "reasons": [
     "Trading 41% above its 200-day average, so the long-term trend is up",
     "Now 6.7% above its 50-day average \u2014 closer to support than to a chase",
     "RSI at 51 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 28.1% over 60 days"
+    "Outperforming SPY by 28.0% over 60 days"
    ],
    "entry": 78.5,
    "stop": 75.2,
@@ -260,32 +260,33 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:DOCU"
   },
   {
-   "ticker": "CLF",
-   "setup": "Trend reset at 50-day",
+   "ticker": "ANF",
+   "setup": "Pullback to 20-day",
    "also": [],
-   "price": 12.26,
-   "score": 0.593,
-   "business": "Cleveland-Cliffs Inc., Basic Materials, mid cap at $7.0B",
+   "price": 154.0,
+   "score": 0.583,
+   "business": "Abercrombie & Fitch Company, Consumer Cyclical, mid cap at $6.5B",
    "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 8% above the 200-day, so the larger trend is intact",
-    "RSI at 45 \u2014 the pullback has done real work"
+    "Trading 44% above its 200-day average, so the long-term trend is up",
+    "Now 4.2% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 50 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 49.1% over 60 days"
    ],
-   "entry": 12.45,
-   "stop": 11.02,
+   "entry": 157.4,
+   "stop": 146.75,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 1.43,
-   "risk_pct": 11.49,
-   "target_2r": 15.31,
-   "target_3r": 16.74,
-   "fund_grade": "Weak",
+   "risk_per_share": 10.65,
+   "risk_pct": 6.77,
+   "target_2r": 178.7,
+   "target_3r": 189.35,
+   "fund_grade": "Sound",
    "fund_notes": [
-    "Net margin -2% \u2014 currently lossmaking",
-    "Revenue growing 18% year over year",
-    "Return on equity -7% \u2014 destroying capital",
-    "Debt/equity 1.28 \u2014 moderate leverage"
+    "Net margin 10% \u2014 solidly profitable",
+    "Revenue up 5% \u2014 modest growth",
+    "Return on equity 41%",
+    "Debt/equity 0.94 \u2014 moderate leverage"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CLF"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ANF"
   }
  ],
  "past_runs": [
@@ -333,6 +334,7 @@
   "2026-11-05",
   "2026-11-06",
   "2026-11-07",
-  "2026-11-10"
+  "2026-11-10",
+  "2026-11-11"
  ]
 }
