@@ -1,16 +1,16 @@
 {
- "run_date": "2026-11-13",
- "generated": "2026-11-13 02:37 UTC",
+ "run_date": "2026-11-14",
+ "generated": "2026-11-14 02:24 UTC",
  "scanned": 1200,
- "bench_return_60d": -1.31,
+ "bench_return_60d": -0.83,
  "candidates": [
   {
    "ticker": "GRAL",
    "setup": "Trend reset at 50-day",
    "also": [],
    "price": 121.35,
-   "score": 0.808,
-   "business": "GRAIL, Inc., Healthcare, mid cap at $5.5B",
+   "score": 0.795,
+   "business": "-",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 53% above the 200-day, so the larger trend is intact",
@@ -23,12 +23,9 @@
    "risk_pct": 9.06,
    "target_2r": 145.65,
    "target_3r": 156.82,
-   "fund_grade": "Weak",
+   "fund_grade": "No data",
    "fund_notes": [
-    "Net margin -244% \u2014 currently lossmaking",
-    "Revenue up 4% \u2014 modest growth",
-    "Return on equity -17% \u2014 destroying capital",
-    "Debt/equity 3.50 \u2014 heavily leveraged"
+    "Fundamental data unavailable for this ticker"
    ],
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:GRAL"
   },
@@ -37,8 +34,8 @@
    "setup": "Trend reset at 50-day",
    "also": [],
    "price": 75.89,
-   "score": 0.702,
-   "business": "Ringcentral, Inc., Technology, mid cap at $6.3B",
+   "score": 0.693,
+   "business": "-",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 48% above the 200-day, so the larger trend is intact",
@@ -51,13 +48,64 @@
    "risk_pct": 9.9,
    "target_2r": 92.91,
    "target_3r": 100.59,
-   "fund_grade": "Mixed",
+   "fund_grade": "No data",
    "fund_notes": [
-    "Net margin 25% \u2014 solidly profitable",
-    "Revenue up 6% \u2014 modest growth",
-    "Debt/equity 5.63 \u2014 heavily leveraged"
+    "Fundamental data unavailable for this ticker"
    ],
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:RNG"
+  },
+  {
+   "ticker": "ANF",
+   "setup": "Pullback to 20-day",
+   "also": [
+    "Trend reset at 50-day"
+   ],
+   "price": 148.88,
+   "score": 0.688,
+   "business": "-",
+   "reasons": [
+    "Trading 38% above its 200-day average, so the long-term trend is up",
+    "Now 0.3% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 46 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 42.6% over 60 days"
+   ],
+   "entry": 151.33,
+   "stop": 143.38,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 7.95,
+   "risk_pct": 5.25,
+   "target_2r": 167.23,
+   "target_3r": 175.18,
+   "fund_grade": "No data",
+   "fund_notes": [
+    "Fundamental data unavailable for this ticker"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ANF"
+  },
+  {
+   "ticker": "IT",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 192.15,
+   "score": 0.686,
+   "business": "-",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 15% above the 200-day, so the larger trend is intact",
+    "RSI at 43 \u2014 the pullback has done real work"
+   ],
+   "entry": 195.79,
+   "stop": 182.17,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 13.62,
+   "risk_pct": 6.96,
+   "target_2r": 223.03,
+   "target_3r": 236.65,
+   "fund_grade": "No data",
+   "fund_notes": [
+    "Fundamental data unavailable for this ticker"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:IT"
   },
   {
    "ticker": "ECO",
@@ -66,13 +114,13 @@
     "Trend reset at 50-day"
    ],
    "price": 87.67,
-   "score": 0.679,
-   "business": "Okeanis Eco Tankers Corp., Industrials, mid cap at $3.4B",
+   "score": 0.665,
+   "business": "-",
    "reasons": [
     "Trading 53% above its 200-day average, so the long-term trend is up",
     "Now 2.0% above its 50-day average \u2014 closer to support than to a chase",
     "RSI at 50 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 37.8% over 60 days"
+    "Outperforming SPY by 37.3% over 60 days"
    ],
    "entry": 88.26,
    "stop": 78.0,
@@ -81,210 +129,139 @@
    "risk_pct": 11.62,
    "target_2r": 108.78,
    "target_3r": 119.04,
-   "fund_grade": "Strong",
+   "fund_grade": "No data",
    "fund_notes": [
-    "Net margin 57% \u2014 solidly profitable",
-    "Revenue growing 239% year over year",
-    "Return on equity 62%",
-    "Debt/equity 0.82 \u2014 moderate leverage"
+    "Fundamental data unavailable for this ticker"
    ],
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ECO"
-  },
-  {
-   "ticker": "ANF",
-   "setup": "Pullback to 20-day",
-   "also": [
-    "Trend reset at 50-day"
-   ],
-   "price": 150.49,
-   "score": 0.67,
-   "business": "Abercrombie & Fitch Company, Consumer Cyclical, mid cap at $6.4B",
-   "reasons": [
-    "Trading 40% above its 200-day average, so the long-term trend is up",
-    "Now 1.5% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 47 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 44.0% over 60 days"
-   ],
-   "entry": 153.91,
-   "stop": 146.6,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 7.31,
-   "risk_pct": 4.75,
-   "target_2r": 168.53,
-   "target_3r": 175.84,
-   "fund_grade": "Sound",
-   "fund_notes": [
-    "Net margin 10% \u2014 solidly profitable",
-    "Revenue up 5% \u2014 modest growth",
-    "Return on equity 41%",
-    "Debt/equity 0.94 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ANF"
-  },
-  {
-   "ticker": "MPC",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 412.85,
-   "score": 0.666,
-   "business": "Marathon Petroleum Corporation, Energy, large cap at $112.4B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 38% above the 200-day, so the larger trend is intact",
-    "RSI at 47 \u2014 the pullback has done real work"
-   ],
-   "entry": 418.85,
-   "stop": 376.47,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 42.38,
-   "risk_pct": 10.12,
-   "target_2r": 503.61,
-   "target_3r": 545.99,
-   "fund_grade": "Sound",
-   "fund_notes": [
-    "Net margin 8% \u2014 thin but positive",
-    "Revenue growing 61% year over year",
-    "Return on equity 60%",
-    "Debt/equity 1.15 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:MPC"
   },
   {
    "ticker": "QGEN",
    "setup": "Volatility coil",
    "also": [],
-   "price": 50.1,
-   "score": 0.642,
-   "business": "Qiagen N.V., Healthcare, large cap at $10.3B",
+   "price": 49.89,
+   "score": 0.658,
+   "business": "-",
    "reasons": [
-    "Daily ranges have contracted to 49% of their 20-day norm \u2014 volatility is compressing",
-    "Holding within 9% of its 52-week high while quieting down",
+    "Daily ranges have contracted to 43% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 10% of its 52-week high while quieting down",
     "Tight action near highs often precedes an expansion, though the direction is not predetermined"
    ],
-   "entry": 50.33,
-   "stop": 49.93,
+   "entry": 50.16,
+   "stop": 49.75,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 0.4,
-   "risk_pct": 0.79,
-   "target_2r": 51.13,
-   "target_3r": 51.53,
-   "fund_grade": "Sound",
+   "risk_per_share": 0.41,
+   "risk_pct": 0.82,
+   "target_2r": 50.98,
+   "target_3r": 51.39,
+   "fund_grade": "No data",
    "fund_notes": [
-    "Net margin 18% \u2014 solidly profitable",
-    "Revenue up 3% \u2014 modest growth",
-    "Debt/equity 0.47 \u2014 conservative balance sheet"
+    "Fundamental data unavailable for this ticker"
    ],
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:QGEN"
   },
   {
-   "ticker": "CNQ",
+   "ticker": "SU",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 49.11,
-   "score": 0.639,
-   "business": "Canadian Natural Resources Limi, Energy, large cap at $99.9B",
+   "price": 69.92,
+   "score": 0.654,
+   "business": "-",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 7% above the 200-day, so the larger trend is intact",
-    "RSI at 40 \u2014 the pullback has done real work"
+    "Still 9% above the 200-day, so the larger trend is intact",
+    "RSI at 43 \u2014 the pullback has done real work"
    ],
-   "entry": 49.32,
-   "stop": 46.51,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 2.81,
-   "risk_pct": 5.7,
-   "target_2r": 54.94,
-   "target_3r": 57.75,
-   "fund_grade": "Strong",
-   "fund_notes": [
-    "Net margin 30% \u2014 solidly profitable",
-    "Revenue growing 34% year over year",
-    "Return on equity 32%",
-    "Debt/equity 0.42 \u2014 conservative balance sheet"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CNQ"
-  },
-  {
-   "ticker": "RBRK",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 110.38,
-   "score": 0.638,
-   "business": "Rubrik, Inc., Technology, large cap at $22.7B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 40% above the 200-day, so the larger trend is intact",
-    "RSI at 44 \u2014 the pullback has done real work"
-   ],
-   "entry": 112.64,
-   "stop": 102.0,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 10.64,
-   "risk_pct": 9.45,
-   "target_2r": 133.92,
-   "target_3r": 144.56,
-   "fund_grade": "Mixed",
-   "fund_notes": [
-    "Net margin -16% \u2014 currently lossmaking",
-    "Revenue growing 38% year over year"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:RBRK"
-  },
-  {
-   "ticker": "BP",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 45.82,
-   "score": 0.635,
-   "business": "BP p.l.c., Energy, large cap at $118.0B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 7% above the 200-day, so the larger trend is intact",
-    "RSI at 45 \u2014 the pullback has done real work"
-   ],
-   "entry": 46.1,
-   "stop": 43.52,
+   "entry": 70.16,
+   "stop": 65.44,
    "stop_basis": "2x ATR cap",
-   "risk_per_share": 2.58,
-   "risk_pct": 5.6,
-   "target_2r": 51.26,
-   "target_3r": 53.84,
-   "fund_grade": "Sound",
+   "risk_per_share": 4.72,
+   "risk_pct": 6.73,
+   "target_2r": 79.6,
+   "target_3r": 84.32,
+   "fund_grade": "No data",
    "fund_notes": [
-    "Net margin 4% \u2014 thin but positive",
-    "Revenue growing 41% year over year",
-    "Debt/equity 0.87 \u2014 moderate leverage"
+    "Fundamental data unavailable for this ticker"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:BP"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:SU"
   },
   {
    "ticker": "CLF",
    "setup": "Pullback to 20-day",
-   "also": [],
-   "price": 13.07,
-   "score": 0.631,
-   "business": "Cleveland-Cliffs Inc., Basic Materials, mid cap at $7.5B",
-   "reasons": [
-    "Trading 16% above its 200-day average, so the long-term trend is up",
-    "Now 3.7% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 51 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 18.3% over 60 days"
+   "also": [
+    "Trend reset at 50-day"
    ],
-   "entry": 13.69,
-   "stop": 11.94,
+   "price": 12.65,
+   "score": 0.652,
+   "business": "-",
+   "reasons": [
+    "Trading 12% above its 200-day average, so the long-term trend is up",
+    "Now 0.3% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 48 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 18.6% over 60 days"
+   ],
+   "entry": 13.21,
+   "stop": 11.56,
    "stop_basis": "2x ATR cap",
-   "risk_per_share": 1.75,
-   "risk_pct": 12.78,
-   "target_2r": 17.19,
-   "target_3r": 18.94,
-   "fund_grade": "Weak",
+   "risk_per_share": 1.65,
+   "risk_pct": 12.49,
+   "target_2r": 16.51,
+   "target_3r": 18.16,
+   "fund_grade": "No data",
    "fund_notes": [
-    "Net margin -2% \u2014 currently lossmaking",
-    "Revenue growing 18% year over year",
-    "Return on equity -7% \u2014 destroying capital",
-    "Debt/equity 1.28 \u2014 moderate leverage"
+    "Fundamental data unavailable for this ticker"
    ],
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CLF"
+  },
+  {
+   "ticker": "MPC",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 414.65,
+   "score": 0.639,
+   "business": "-",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 38% above the 200-day, so the larger trend is intact",
+    "RSI at 48 \u2014 the pullback has done real work"
+   ],
+   "entry": 420.06,
+   "stop": 377.75,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 42.31,
+   "risk_pct": 10.07,
+   "target_2r": 504.68,
+   "target_3r": 546.99,
+   "fund_grade": "No data",
+   "fund_notes": [
+    "Fundamental data unavailable for this ticker"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:MPC"
+  },
+  {
+   "ticker": "ATRC",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 56.84,
+   "score": 0.638,
+   "business": "-",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 45% above the 200-day, so the larger trend is intact",
+    "RSI at 47 \u2014 the pullback has done real work"
+   ],
+   "entry": 57.43,
+   "stop": 54.0,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 3.43,
+   "risk_pct": 5.97,
+   "target_2r": 64.29,
+   "target_3r": 67.72,
+   "fund_grade": "No data",
+   "fund_notes": [
+    "Fundamental data unavailable for this ticker"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:ATRC"
   }
  ],
  "past_runs": [
@@ -335,6 +312,7 @@
   "2026-11-10",
   "2026-11-11",
   "2026-11-12",
-  "2026-11-13"
+  "2026-11-13",
+  "2026-11-14"
  ]
 }
