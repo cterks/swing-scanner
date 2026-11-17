@@ -1,159 +1,81 @@
 {
- "run_date": "2026-11-14",
- "generated": "2026-11-14 02:24 UTC",
+ "run_date": "2026-11-17",
+ "generated": "2026-11-17 04:28 UTC",
  "scanned": 1200,
- "bench_return_60d": -0.83,
+ "bench_return_60d": -3.13,
  "candidates": [
   {
-   "ticker": "GRAL",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 121.35,
-   "score": 0.795,
-   "business": "-",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 53% above the 200-day, so the larger trend is intact",
-    "RSI at 45 \u2014 the pullback has done real work"
-   ],
-   "entry": 123.31,
-   "stop": 112.14,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 11.17,
-   "risk_pct": 9.06,
-   "target_2r": 145.65,
-   "target_3r": 156.82,
-   "fund_grade": "No data",
-   "fund_notes": [
-    "Fundamental data unavailable for this ticker"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:GRAL"
-  },
-  {
-   "ticker": "RNG",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 75.89,
-   "score": 0.693,
-   "business": "-",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 48% above the 200-day, so the larger trend is intact",
-    "RSI at 47 \u2014 the pullback has done real work"
-   ],
-   "entry": 77.55,
-   "stop": 69.87,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 7.68,
-   "risk_pct": 9.9,
-   "target_2r": 92.91,
-   "target_3r": 100.59,
-   "fund_grade": "No data",
-   "fund_notes": [
-    "Fundamental data unavailable for this ticker"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:RNG"
-  },
-  {
-   "ticker": "ANF",
+   "ticker": "MRNA",
    "setup": "Pullback to 20-day",
-   "also": [
-    "Trend reset at 50-day"
-   ],
-   "price": 148.88,
-   "score": 0.688,
-   "business": "-",
-   "reasons": [
-    "Trading 38% above its 200-day average, so the long-term trend is up",
-    "Now 0.3% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 46 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 42.6% over 60 days"
-   ],
-   "entry": 151.33,
-   "stop": 143.38,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 7.95,
-   "risk_pct": 5.25,
-   "target_2r": 167.23,
-   "target_3r": 175.18,
-   "fund_grade": "No data",
-   "fund_notes": [
-    "Fundamental data unavailable for this ticker"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ANF"
-  },
-  {
-   "ticker": "IT",
-   "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 192.15,
-   "score": 0.686,
+   "price": 215.27,
+   "score": 0.72,
    "business": "-",
    "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 15% above the 200-day, so the larger trend is intact",
-    "RSI at 43 \u2014 the pullback has done real work"
+    "Trading 121% above its 200-day average, so the long-term trend is up",
+    "Now 6.0% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 47 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 51.5% over 60 days"
    ],
-   "entry": 195.79,
-   "stop": 182.17,
+   "entry": 221.48,
+   "stop": 208.04,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 13.62,
-   "risk_pct": 6.96,
-   "target_2r": 223.03,
-   "target_3r": 236.65,
+   "risk_per_share": 13.44,
+   "risk_pct": 6.07,
+   "target_2r": 248.36,
+   "target_3r": 261.8,
    "fund_grade": "No data",
    "fund_notes": [
     "Fundamental data unavailable for this ticker"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:IT"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:MRNA"
   },
   {
-   "ticker": "ECO",
-   "setup": "Pullback to 20-day",
-   "also": [
-    "Trend reset at 50-day"
-   ],
-   "price": 87.67,
-   "score": 0.665,
+   "ticker": "GME",
+   "setup": "Volatility coil",
+   "also": [],
+   "price": 25.6,
+   "score": 0.689,
    "business": "-",
    "reasons": [
-    "Trading 53% above its 200-day average, so the long-term trend is up",
-    "Now 2.0% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 50 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 37.3% over 60 days"
+    "Daily ranges have contracted to 74% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 9% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 57% of its 50-day average, typical of a supply pause"
    ],
-   "entry": 88.26,
-   "stop": 78.0,
+   "entry": 26.29,
+   "stop": 24.43,
    "stop_basis": "2x ATR cap",
-   "risk_per_share": 10.26,
-   "risk_pct": 11.62,
-   "target_2r": 108.78,
-   "target_3r": 119.04,
+   "risk_per_share": 1.86,
+   "risk_pct": 7.07,
+   "target_2r": 30.01,
+   "target_3r": 31.87,
    "fund_grade": "No data",
    "fund_notes": [
     "Fundamental data unavailable for this ticker"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ECO"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:GME"
   },
   {
    "ticker": "QGEN",
    "setup": "Volatility coil",
    "also": [],
-   "price": 49.89,
-   "score": 0.658,
+   "price": 49.81,
+   "score": 0.685,
    "business": "-",
    "reasons": [
-    "Daily ranges have contracted to 43% of their 20-day norm \u2014 volatility is compressing",
+    "Daily ranges have contracted to 42% of their 20-day norm \u2014 volatility is compressing",
     "Holding within 10% of its 52-week high while quieting down",
-    "Tight action near highs often precedes an expansion, though the direction is not predetermined"
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 78% of its 50-day average, typical of a supply pause"
    ],
-   "entry": 50.16,
-   "stop": 49.75,
+   "entry": 49.97,
+   "stop": 49.66,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 0.41,
-   "risk_pct": 0.82,
-   "target_2r": 50.98,
-   "target_3r": 51.39,
+   "risk_per_share": 0.31,
+   "risk_pct": 0.62,
+   "target_2r": 50.59,
+   "target_3r": 50.9,
    "fund_grade": "No data",
    "fund_notes": [
     "Fundamental data unavailable for this ticker"
@@ -161,107 +83,184 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:QGEN"
   },
   {
-   "ticker": "SU",
+   "ticker": "TRMD",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 69.92,
+   "price": 36.04,
+   "score": 0.675,
+   "business": "-",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 27% above the 200-day, so the larger trend is intact",
+    "RSI at 50 \u2014 the pullback has done real work"
+   ],
+   "entry": 36.82,
+   "stop": 33.32,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 3.5,
+   "risk_pct": 9.51,
+   "target_2r": 43.82,
+   "target_3r": 47.32,
+   "fund_grade": "No data",
+   "fund_notes": [
+    "Fundamental data unavailable for this ticker"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:TRMD"
+  },
+  {
+   "ticker": "CDNA",
+   "setup": "Pullback to 20-day",
+   "also": [],
+   "price": 73.72,
+   "score": 0.666,
+   "business": "-",
+   "reasons": [
+    "Trading 99% above its 200-day average, so the long-term trend is up",
+    "Now 10.4% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 49 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 54.8% over 60 days"
+   ],
+   "entry": 78.68,
+   "stop": 71.73,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 6.95,
+   "risk_pct": 8.83,
+   "target_2r": 92.58,
+   "target_3r": 99.53,
+   "fund_grade": "No data",
+   "fund_notes": [
+    "Fundamental data unavailable for this ticker"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:CDNA"
+  },
+  {
+   "ticker": "ECO",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 84.83,
+   "score": 0.662,
+   "business": "-",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 46% above the 200-day, so the larger trend is intact",
+    "RSI at 46 \u2014 the pullback has done real work"
+   ],
+   "entry": 88.1,
+   "stop": 77.67,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 10.43,
+   "risk_pct": 11.84,
+   "target_2r": 108.96,
+   "target_3r": 119.39,
+   "fund_grade": "No data",
+   "fund_notes": [
+    "Fundamental data unavailable for this ticker"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ECO"
+  },
+  {
+   "ticker": "TRI",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 108.29,
+   "score": 0.657,
+   "business": "-",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 14% above the 200-day, so the larger trend is intact",
+    "RSI at 46 \u2014 the pullback has done real work"
+   ],
+   "entry": 111.53,
+   "stop": 105.22,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 6.31,
+   "risk_pct": 5.66,
+   "target_2r": 124.15,
+   "target_3r": 130.46,
+   "fund_grade": "No data",
+   "fund_notes": [
+    "Fundamental data unavailable for this ticker"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:TRI"
+  },
+  {
+   "ticker": "ANF",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 145.77,
+   "score": 0.655,
+   "business": "-",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 35% above the 200-day, so the larger trend is intact",
+    "RSI at 43 \u2014 the pullback has done real work"
+   ],
+   "entry": 150.31,
+   "stop": 139.58,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 10.73,
+   "risk_pct": 7.14,
+   "target_2r": 171.77,
+   "target_3r": 182.5,
+   "fund_grade": "No data",
+   "fund_notes": [
+    "Fundamental data unavailable for this ticker"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ANF"
+  },
+  {
+   "ticker": "EQH",
+   "setup": "Breakout ready",
+   "also": [
+    "Volatility coil"
+   ],
+   "price": 55.28,
    "score": 0.654,
    "business": "-",
    "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 9% above the 200-day, so the larger trend is intact",
-    "RSI at 43 \u2014 the pullback has done real work"
+    "Sitting 1.5% below its 52-week high \u2014 a breakout is within reach",
+    "RSI at 54, so it is not yet stretched",
+    "Ranges are narrowing into the level rather than spiking through it"
    ],
-   "entry": 70.16,
-   "stop": 65.44,
+   "entry": 56.76,
+   "stop": 53.13,
    "stop_basis": "2x ATR cap",
-   "risk_per_share": 4.72,
-   "risk_pct": 6.73,
-   "target_2r": 79.6,
-   "target_3r": 84.32,
+   "risk_per_share": 3.63,
+   "risk_pct": 6.4,
+   "target_2r": 64.02,
+   "target_3r": 67.65,
    "fund_grade": "No data",
    "fund_notes": [
     "Fundamental data unavailable for this ticker"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:SU"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:EQH"
   },
   {
-   "ticker": "CLF",
-   "setup": "Pullback to 20-day",
+   "ticker": "CRBG",
+   "setup": "Breakout ready",
    "also": [
-    "Trend reset at 50-day"
+    "Volatility coil"
    ],
-   "price": 12.65,
+   "price": 35.71,
    "score": 0.652,
    "business": "-",
    "reasons": [
-    "Trading 12% above its 200-day average, so the long-term trend is up",
-    "Now 0.3% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 48 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 18.6% over 60 days"
+    "Sitting 1.8% below its 52-week high \u2014 a breakout is within reach",
+    "RSI at 54, so it is not yet stretched",
+    "Ranges are narrowing into the level rather than spiking through it"
    ],
-   "entry": 13.21,
-   "stop": 11.56,
+   "entry": 36.74,
+   "stop": 34.41,
    "stop_basis": "2x ATR cap",
-   "risk_per_share": 1.65,
-   "risk_pct": 12.49,
-   "target_2r": 16.51,
-   "target_3r": 18.16,
+   "risk_per_share": 2.33,
+   "risk_pct": 6.34,
+   "target_2r": 41.4,
+   "target_3r": 43.73,
    "fund_grade": "No data",
    "fund_notes": [
     "Fundamental data unavailable for this ticker"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CLF"
-  },
-  {
-   "ticker": "MPC",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 414.65,
-   "score": 0.639,
-   "business": "-",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 38% above the 200-day, so the larger trend is intact",
-    "RSI at 48 \u2014 the pullback has done real work"
-   ],
-   "entry": 420.06,
-   "stop": 377.75,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 42.31,
-   "risk_pct": 10.07,
-   "target_2r": 504.68,
-   "target_3r": 546.99,
-   "fund_grade": "No data",
-   "fund_notes": [
-    "Fundamental data unavailable for this ticker"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:MPC"
-  },
-  {
-   "ticker": "ATRC",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 56.84,
-   "score": 0.638,
-   "business": "-",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 45% above the 200-day, so the larger trend is intact",
-    "RSI at 47 \u2014 the pullback has done real work"
-   ],
-   "entry": 57.43,
-   "stop": 54.0,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 3.43,
-   "risk_pct": 5.97,
-   "target_2r": 64.29,
-   "target_3r": 67.72,
-   "fund_grade": "No data",
-   "fund_notes": [
-    "Fundamental data unavailable for this ticker"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:ATRC"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CRBG"
   }
  ],
  "past_runs": [
@@ -313,6 +312,7 @@
   "2026-11-11",
   "2026-11-12",
   "2026-11-13",
-  "2026-11-14"
+  "2026-11-14",
+  "2026-11-17"
  ]
 }
