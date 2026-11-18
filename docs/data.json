@@ -1,266 +1,288 @@
 {
- "run_date": "2026-11-17",
- "generated": "2026-11-17 04:28 UTC",
+ "run_date": "2026-11-18",
+ "generated": "2026-11-18 03:42 UTC",
  "scanned": 1200,
- "bench_return_60d": -3.13,
+ "bench_return_60d": -3.83,
  "candidates": [
   {
    "ticker": "MRNA",
-   "setup": "Pullback to 20-day",
+   "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 215.27,
-   "score": 0.72,
-   "business": "-",
+   "price": 206.8,
+   "score": 0.701,
+   "business": "Moderna, Inc., Healthcare, large cap at $83.7B",
    "reasons": [
-    "Trading 121% above its 200-day average, so the long-term trend is up",
-    "Now 6.0% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 47 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 51.5% over 60 days"
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 111% above the 200-day, so the larger trend is intact",
+    "RSI at 44 \u2014 the pullback has done real work"
    ],
-   "entry": 221.48,
-   "stop": 208.04,
+   "entry": 223.33,
+   "stop": 199.32,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 13.44,
-   "risk_pct": 6.07,
-   "target_2r": 248.36,
-   "target_3r": 261.8,
-   "fund_grade": "No data",
+   "risk_per_share": 24.01,
+   "risk_pct": 10.75,
+   "target_2r": 271.35,
+   "target_3r": 295.36,
+   "fund_grade": "Weak",
    "fund_notes": [
-    "Fundamental data unavailable for this ticker"
+    "Net margin -110% \u2014 currently lossmaking",
+    "Revenue growing 29% year over year",
+    "Return on equity -35% \u2014 destroying capital",
+    "Debt/equity 0.62 \u2014 moderate leverage"
    ],
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:MRNA"
   },
   {
-   "ticker": "GME",
-   "setup": "Volatility coil",
-   "also": [],
-   "price": 25.6,
-   "score": 0.689,
-   "business": "-",
-   "reasons": [
-    "Daily ranges have contracted to 74% of their 20-day norm \u2014 volatility is compressing",
-    "Holding within 9% of its 52-week high while quieting down",
-    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
-    "Volume has dried up to 57% of its 50-day average, typical of a supply pause"
-   ],
-   "entry": 26.29,
-   "stop": 24.43,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 1.86,
-   "risk_pct": 7.07,
-   "target_2r": 30.01,
-   "target_3r": 31.87,
-   "fund_grade": "No data",
-   "fund_notes": [
-    "Fundamental data unavailable for this ticker"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:GME"
-  },
-  {
-   "ticker": "QGEN",
-   "setup": "Volatility coil",
-   "also": [],
-   "price": 49.81,
-   "score": 0.685,
-   "business": "-",
-   "reasons": [
-    "Daily ranges have contracted to 42% of their 20-day norm \u2014 volatility is compressing",
-    "Holding within 10% of its 52-week high while quieting down",
-    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
-    "Volume has dried up to 78% of its 50-day average, typical of a supply pause"
-   ],
-   "entry": 49.97,
-   "stop": 49.66,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 0.31,
-   "risk_pct": 0.62,
-   "target_2r": 50.59,
-   "target_3r": 50.9,
-   "fund_grade": "No data",
-   "fund_notes": [
-    "Fundamental data unavailable for this ticker"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:QGEN"
-  },
-  {
-   "ticker": "TRMD",
+   "ticker": "CZR",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 36.04,
-   "score": 0.675,
-   "business": "-",
+   "price": 29.2,
+   "score": 0.671,
+   "business": "Caesars Entertainment, Inc., Consumer Cyclical, mid cap at $6.0B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 27% above the 200-day, so the larger trend is intact",
-    "RSI at 50 \u2014 the pullback has done real work"
+    "Still 4% above the 200-day, so the larger trend is intact",
+    "RSI at 49 \u2014 the pullback has done real work"
    ],
-   "entry": 36.82,
-   "stop": 33.32,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 3.5,
-   "risk_pct": 9.51,
-   "target_2r": 43.82,
-   "target_3r": 47.32,
-   "fund_grade": "No data",
-   "fund_notes": [
-    "Fundamental data unavailable for this ticker"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:TRMD"
-  },
-  {
-   "ticker": "CDNA",
-   "setup": "Pullback to 20-day",
-   "also": [],
-   "price": 73.72,
-   "score": 0.666,
-   "business": "-",
-   "reasons": [
-    "Trading 99% above its 200-day average, so the long-term trend is up",
-    "Now 10.4% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 49 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 54.8% over 60 days"
-   ],
-   "entry": 78.68,
-   "stop": 71.73,
+   "entry": 29.38,
+   "stop": 28.95,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 6.95,
-   "risk_pct": 8.83,
-   "target_2r": 92.58,
-   "target_3r": 99.53,
-   "fund_grade": "No data",
+   "risk_per_share": 0.43,
+   "risk_pct": 1.46,
+   "target_2r": 30.24,
+   "target_3r": 30.67,
+   "fund_grade": "Weak",
    "fund_notes": [
-    "Fundamental data unavailable for this ticker"
+    "Net margin -5% \u2014 currently lossmaking",
+    "Revenue up 2% \u2014 modest growth",
+    "Return on equity -13% \u2014 destroying capital",
+    "Debt/equity 7.49 \u2014 heavily leveraged"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:CDNA"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:CZR"
   },
   {
-   "ticker": "ECO",
+   "ticker": "SSNC",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 84.83,
-   "score": 0.662,
-   "business": "-",
+   "price": 78.39,
+   "score": 0.658,
+   "business": "SS&C Technologies Holdings, Inc, Technology, large cap at $18.4B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 46% above the 200-day, so the larger trend is intact",
-    "RSI at 46 \u2014 the pullback has done real work"
+    "Still 7% above the 200-day, so the larger trend is intact",
+    "RSI at 41 \u2014 the pullback has done real work"
    ],
-   "entry": 88.1,
-   "stop": 77.67,
+   "entry": 79.36,
+   "stop": 75.98,
    "stop_basis": "2x ATR cap",
-   "risk_per_share": 10.43,
-   "risk_pct": 11.84,
-   "target_2r": 108.96,
-   "target_3r": 119.39,
-   "fund_grade": "No data",
+   "risk_per_share": 3.38,
+   "risk_pct": 4.26,
+   "target_2r": 86.12,
+   "target_3r": 89.5,
+   "fund_grade": "Sound",
    "fund_notes": [
-    "Fundamental data unavailable for this ticker"
+    "Net margin 13% \u2014 solidly profitable",
+    "Revenue up 8% \u2014 modest growth",
+    "Debt/equity 1.13 \u2014 moderate leverage"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ECO"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:SSNC"
+  },
+  {
+   "ticker": "BP",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 44.85,
+   "score": 0.651,
+   "business": "BP p.l.c., Energy, large cap at $115.5B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 5% above the 200-day, so the larger trend is intact",
+    "RSI at 43 \u2014 the pullback has done real work"
+   ],
+   "entry": 45.55,
+   "stop": 43.27,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 2.28,
+   "risk_pct": 5.01,
+   "target_2r": 50.11,
+   "target_3r": 52.39,
+   "fund_grade": "Sound",
+   "fund_notes": [
+    "Net margin 4% \u2014 thin but positive",
+    "Revenue growing 41% year over year",
+    "Debt/equity 0.87 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:BP"
   },
   {
    "ticker": "TRI",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 108.29,
-   "score": 0.657,
-   "business": "-",
+   "price": 104.17,
+   "score": 0.649,
+   "business": "Thomson Reuters Corp, Industrials, large cap at $45.2B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 14% above the 200-day, so the larger trend is intact",
-    "RSI at 46 \u2014 the pullback has done real work"
+    "Still 10% above the 200-day, so the larger trend is intact",
+    "RSI at 41 \u2014 the pullback has done real work"
    ],
-   "entry": 111.53,
-   "stop": 105.22,
+   "entry": 108.07,
+   "stop": 102.73,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 6.31,
-   "risk_pct": 5.66,
-   "target_2r": 124.15,
-   "target_3r": 130.46,
-   "fund_grade": "No data",
+   "risk_per_share": 5.34,
+   "risk_pct": 4.94,
+   "target_2r": 118.75,
+   "target_3r": 124.09,
+   "fund_grade": "Strong",
    "fund_notes": [
-    "Fundamental data unavailable for this ticker"
+    "Net margin 20% \u2014 solidly profitable",
+    "Revenue growing 11% year over year",
+    "Debt/equity 0.37 \u2014 conservative balance sheet"
    ],
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:TRI"
   },
   {
-   "ticker": "ANF",
+   "ticker": "QGEN",
+   "setup": "Volatility coil",
+   "also": [],
+   "price": 49.75,
+   "score": 0.643,
+   "business": "Qiagen N.V., Healthcare, large cap at $10.3B",
+   "reasons": [
+    "Daily ranges have contracted to 53% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 10% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 62% of its 50-day average, typical of a supply pause"
+   ],
+   "entry": 49.89,
+   "stop": 49.62,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 0.27,
+   "risk_pct": 0.54,
+   "target_2r": 50.43,
+   "target_3r": 50.7,
+   "fund_grade": "Sound",
+   "fund_notes": [
+    "Net margin 18% \u2014 solidly profitable",
+    "Revenue up 3% \u2014 modest growth",
+    "Debt/equity 0.47 \u2014 conservative balance sheet"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:QGEN"
+  },
+  {
+   "ticker": "ECO",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 145.77,
-   "score": 0.655,
-   "business": "-",
+   "price": 84.93,
+   "score": 0.639,
+   "business": "Okeanis Eco Tankers Corp., Industrials, mid cap at $3.3B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 35% above the 200-day, so the larger trend is intact",
-    "RSI at 43 \u2014 the pullback has done real work"
+    "Still 46% above the 200-day, so the larger trend is intact",
+    "RSI at 46 \u2014 the pullback has done real work"
    ],
-   "entry": 150.31,
-   "stop": 139.58,
+   "entry": 87.17,
+   "stop": 77.46,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 9.71,
+   "risk_pct": 11.14,
+   "target_2r": 106.59,
+   "target_3r": 116.3,
+   "fund_grade": "Strong",
+   "fund_notes": [
+    "Net margin 61% \u2014 solidly profitable",
+    "Revenue growing 454% year over year",
+    "Return on equity 97%",
+    "Debt/equity 0.78 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ECO"
+  },
+  {
+   "ticker": "GME",
+   "setup": "Volatility coil",
+   "also": [],
+   "price": 25.36,
+   "score": 0.635,
+   "business": "GameStop Corporation, Consumer Cyclical, large cap at $12.8B",
+   "reasons": [
+    "Daily ranges have contracted to 79% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 9% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 58% of its 50-day average, typical of a supply pause"
+   ],
+   "entry": 25.98,
+   "stop": 24.1,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 1.88,
+   "risk_pct": 7.24,
+   "target_2r": 29.74,
+   "target_3r": 31.62,
+   "fund_grade": "Mixed",
+   "fund_notes": [
+    "Net margin 25% \u2014 solidly profitable",
+    "Revenue -19% \u2014 sales are shrinking",
+    "Return on equity 16%",
+    "Debt/equity 0.71 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:GME"
+  },
+  {
+   "ticker": "RVTY",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 147.79,
+   "score": 0.631,
+   "business": "Revvity, Inc., Healthcare, large cap at $16.5B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 29% above the 200-day, so the larger trend is intact",
+    "RSI at 42 \u2014 the pullback has done real work"
+   ],
+   "entry": 151.86,
+   "stop": 144.7,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 10.73,
-   "risk_pct": 7.14,
-   "target_2r": 171.77,
-   "target_3r": 182.5,
-   "fund_grade": "No data",
+   "risk_per_share": 7.16,
+   "risk_pct": 4.71,
+   "target_2r": 166.18,
+   "target_3r": 173.34,
+   "fund_grade": "Sound",
    "fund_notes": [
-    "Fundamental data unavailable for this ticker"
+    "Net margin 9% \u2014 thin but positive",
+    "Revenue up 4% \u2014 modest growth",
+    "Debt/equity 0.38 \u2014 conservative balance sheet"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:ANF"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:RVTY"
   },
   {
-   "ticker": "EQH",
-   "setup": "Breakout ready",
+   "ticker": "DHR",
+   "setup": "Volatility coil",
    "also": [
-    "Volatility coil"
+    "Pullback to 20-day",
+    "Trend reset at 50-day"
    ],
-   "price": 55.28,
-   "score": 0.654,
-   "business": "-",
+   "price": 225.77,
+   "score": 0.63,
+   "business": "Danaher Corporation, Healthcare, large cap at $158.8B",
    "reasons": [
-    "Sitting 1.5% below its 52-week high \u2014 a breakout is within reach",
-    "RSI at 54, so it is not yet stretched",
-    "Ranges are narrowing into the level rather than spiking through it"
+    "Daily ranges have contracted to 64% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 6% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 74% of its 50-day average, typical of a supply pause"
    ],
-   "entry": 56.76,
-   "stop": 53.13,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 3.63,
-   "risk_pct": 6.4,
-   "target_2r": 64.02,
-   "target_3r": 67.65,
-   "fund_grade": "No data",
+   "entry": 231.61,
+   "stop": 221.39,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 10.22,
+   "risk_pct": 4.41,
+   "target_2r": 252.05,
+   "target_3r": 262.27,
+   "fund_grade": "Sound",
    "fund_notes": [
-    "Fundamental data unavailable for this ticker"
+    "Net margin 17% \u2014 solidly profitable",
+    "Revenue up 8% \u2014 modest growth",
+    "Debt/equity 0.52 \u2014 moderate leverage"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:EQH"
-  },
-  {
-   "ticker": "CRBG",
-   "setup": "Breakout ready",
-   "also": [
-    "Volatility coil"
-   ],
-   "price": 35.71,
-   "score": 0.652,
-   "business": "-",
-   "reasons": [
-    "Sitting 1.8% below its 52-week high \u2014 a breakout is within reach",
-    "RSI at 54, so it is not yet stretched",
-    "Ranges are narrowing into the level rather than spiking through it"
-   ],
-   "entry": 36.74,
-   "stop": 34.41,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 2.33,
-   "risk_pct": 6.34,
-   "target_2r": 41.4,
-   "target_3r": 43.73,
-   "fund_grade": "No data",
-   "fund_notes": [
-    "Fundamental data unavailable for this ticker"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CRBG"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:DHR"
   }
  ],
  "past_runs": [
@@ -313,6 +335,7 @@
   "2026-11-12",
   "2026-11-13",
   "2026-11-14",
-  "2026-11-17"
+  "2026-11-17",
+  "2026-11-18"
  ]
 }
