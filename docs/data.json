@@ -1,28 +1,28 @@
 {
- "run_date": "2026-11-27",
- "generated": "2026-11-27 04:13 UTC",
+ "run_date": "2026-11-28",
+ "generated": "2026-11-28 03:54 UTC",
  "scanned": 1200,
- "bench_return_60d": -5.68,
+ "bench_return_60d": -4.58,
  "candidates": [
   {
    "ticker": "AES",
    "setup": "Volatility coil",
    "also": [],
-   "price": 15.02,
-   "score": 0.725,
+   "price": 15.03,
+   "score": 0.69,
    "business": "The AES Corporation, Utilities, large cap at $10.7B",
    "reasons": [
-    "Daily ranges have contracted to 36% of their 20-day norm \u2014 volatility is compressing",
+    "Daily ranges have contracted to 39% of their 20-day norm \u2014 volatility is compressing",
     "Holding within 10% of its 52-week high while quieting down",
     "Tight action near highs often precedes an expansion, though the direction is not predetermined"
    ],
-   "entry": 15.03,
-   "stop": 14.95,
+   "entry": 15.04,
+   "stop": 14.97,
    "stop_basis": "2x ATR cap",
-   "risk_per_share": 0.08,
-   "risk_pct": 0.53,
-   "target_2r": 15.19,
-   "target_3r": 15.27,
+   "risk_per_share": 0.07,
+   "risk_pct": 0.47,
+   "target_2r": 15.18,
+   "target_3r": 15.25,
    "fund_grade": "Mixed",
    "fund_notes": [
     "Net margin 13% \u2014 solidly profitable",
@@ -35,22 +35,22 @@
    "ticker": "CDNA",
    "setup": "Pullback to 20-day",
    "also": [],
-   "price": 75.86,
-   "score": 0.692,
-   "business": "CareDx, Inc., Healthcare, mid cap at $4.0B",
+   "price": 77.16,
+   "score": 0.673,
+   "business": "CareDx, Inc., Healthcare, mid cap at $4.1B",
    "reasons": [
-    "Trading 95% above its 200-day average, so the long-term trend is up",
-    "Now 8.3% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 52 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 60.6% over 60 days"
+    "Trading 97% above its 200-day average, so the long-term trend is up",
+    "Now 9.5% above its 50-day average \u2014 closer to support than to a chase",
+    "RSI at 54 \u2014 cooled off without breaking down",
+    "Outperforming SPY by 60.1% over 60 days"
    ],
-   "entry": 78.04,
-   "stop": 68.62,
+   "entry": 78.66,
+   "stop": 69.48,
    "stop_basis": "2x ATR cap",
-   "risk_per_share": 9.42,
-   "risk_pct": 12.07,
-   "target_2r": 96.88,
-   "target_3r": 106.3,
+   "risk_per_share": 9.18,
+   "risk_pct": 11.67,
+   "target_2r": 97.02,
+   "target_3r": 106.2,
    "fund_grade": "Strong",
    "fund_notes": [
     "Net margin 26% \u2014 solidly profitable",
@@ -64,21 +64,21 @@
    "ticker": "RVTY",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 150.82,
-   "score": 0.683,
-   "business": "Revvity, Inc., Healthcare, large cap at $16.8B",
+   "price": 151.27,
+   "score": 0.659,
+   "business": "Revvity, Inc., Healthcare, large cap at $16.9B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
     "Still 30% above the 200-day, so the larger trend is intact",
-    "RSI at 47 \u2014 the pullback has done real work"
+    "RSI at 48 \u2014 the pullback has done real work"
    ],
-   "entry": 152.35,
-   "stop": 141.86,
+   "entry": 152.66,
+   "stop": 141.98,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 10.49,
-   "risk_pct": 6.89,
-   "target_2r": 173.33,
-   "target_3r": 183.82,
+   "risk_per_share": 10.68,
+   "risk_pct": 7.0,
+   "target_2r": 174.02,
+   "target_3r": 184.7,
    "fund_grade": "Sound",
    "fund_notes": [
     "Net margin 9% \u2014 thin but positive",
@@ -88,82 +88,26 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:RVTY"
   },
   {
-   "ticker": "DOCS",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 29.6,
-   "score": 0.678,
-   "business": "Doximity, Inc., Healthcare, mid cap at $5.3B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 18% above the 200-day, so the larger trend is intact",
-    "RSI at 41 \u2014 the pullback has done real work"
-   ],
-   "entry": 30.05,
-   "stop": 28.07,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 1.98,
-   "risk_pct": 6.59,
-   "target_2r": 34.01,
-   "target_3r": 35.99,
-   "fund_grade": "Sound",
-   "fund_notes": [
-    "Net margin 21% \u2014 solidly profitable",
-    "Revenue up 4% \u2014 modest growth",
-    "Debt/equity 0.98 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:DOCS"
-  },
-  {
-   "ticker": "MRNA",
-   "setup": "Pullback to 20-day",
-   "also": [],
-   "price": 220.84,
-   "score": 0.676,
-   "business": "Moderna, Inc., Healthcare, large cap at $89.4B",
-   "reasons": [
-    "Trading 114% above its 200-day average, so the long-term trend is up",
-    "Now 4.0% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 51 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 48.8% over 60 days"
-   ],
-   "entry": 229.57,
-   "stop": 194.25,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 35.32,
-   "risk_pct": 15.39,
-   "target_2r": 300.21,
-   "target_3r": 335.53,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin -110% \u2014 currently lossmaking",
-    "Revenue growing 29% year over year",
-    "Return on equity -35% \u2014 destroying capital",
-    "Debt/equity 0.62 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:MRNA"
-  },
-  {
    "ticker": "TXNM",
    "setup": "Breakout ready",
    "also": [
     "Volatility coil"
    ],
-   "price": 58.9,
-   "score": 0.665,
+   "price": 58.99,
+   "score": 0.632,
    "business": "TXNM Energy, Inc., Utilities, mid cap at $6.5B",
    "reasons": [
-    "Sitting 0.1% below its 52-week high \u2014 a breakout is within reach",
-    "RSI at 60, so it is not yet stretched",
+    "Sitting 0.0% below its 52-week high \u2014 a breakout is within reach",
+    "RSI at 62, so it is not yet stretched",
     "Ranges are narrowing into the level rather than spiking through it"
    ],
-   "entry": 58.95,
-   "stop": 58.62,
+   "entry": 59.0,
+   "stop": 58.67,
    "stop_basis": "10-day swing low",
    "risk_per_share": 0.33,
    "risk_pct": 0.56,
-   "target_2r": 59.61,
-   "target_3r": 59.94,
+   "target_2r": 59.66,
+   "target_3r": 59.99,
    "fund_grade": "Sound",
    "fund_notes": [
     "Net margin 10% \u2014 thin but positive",
@@ -173,81 +117,24 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:TXNM"
   },
   {
-   "ticker": "CVLT",
-   "setup": "Pullback to 20-day",
-   "also": [],
-   "price": 157.14,
-   "score": 0.66,
-   "business": "Commvault Systems, Inc., Technology, mid cap at $6.4B",
-   "reasons": [
-    "Trading 27% above its 200-day average, so the long-term trend is up",
-    "Now 0.9% above its 50-day average \u2014 closer to support than to a chase",
-    "RSI at 51 \u2014 cooled off without breaking down",
-    "Outperforming SPY by 27.3% over 60 days"
-   ],
-   "entry": 157.84,
-   "stop": 140.39,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 17.45,
-   "risk_pct": 11.06,
-   "target_2r": 192.74,
-   "target_3r": 210.19,
-   "fund_grade": "Mixed",
-   "fund_notes": [
-    "Net margin 7% \u2014 thin but positive",
-    "Revenue growing 13% year over year",
-    "Return on equity 74%",
-    "Debt/equity 73.51 \u2014 heavily leveraged"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:CVLT"
-  },
-  {
-   "ticker": "GFL",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 42.79,
-   "score": 0.659,
-   "business": "GFL Environmental Inc. Subordin, Industrials, large cap at $18.9B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 5% above the 200-day, so the larger trend is intact",
-    "RSI at 48 \u2014 the pullback has done real work"
-   ],
-   "entry": 43.4,
-   "stop": 40.51,
-   "stop_basis": "2x ATR cap",
-   "risk_per_share": 2.89,
-   "risk_pct": 6.66,
-   "target_2r": 49.18,
-   "target_3r": 52.07,
-   "fund_grade": "Weak",
-   "fund_notes": [
-    "Net margin -4% \u2014 currently lossmaking",
-    "Revenue growing 27% year over year",
-    "Return on equity -3% \u2014 destroying capital",
-    "Debt/equity 1.04 \u2014 moderate leverage"
-   ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:GFL"
-  },
-  {
    "ticker": "APA",
    "setup": "Trend reset at 50-day",
    "also": [],
-   "price": 45.48,
-   "score": 0.651,
-   "business": "APA Corporation, Energy, large cap at $15.3B",
+   "price": 46.1,
+   "score": 0.63,
+   "business": "APA Corporation, Energy, large cap at $15.5B",
    "reasons": [
     "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 16% above the 200-day, so the larger trend is intact",
-    "RSI at 47 \u2014 the pullback has done real work"
+    "Still 18% above the 200-day, so the larger trend is intact",
+    "RSI at 49 \u2014 the pullback has done real work"
    ],
-   "entry": 46.12,
-   "stop": 43.16,
-   "stop_basis": "10-day swing low",
-   "risk_per_share": 2.96,
-   "risk_pct": 6.42,
-   "target_2r": 52.04,
-   "target_3r": 55.0,
+   "entry": 46.77,
+   "stop": 43.56,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 3.21,
+   "risk_pct": 6.86,
+   "target_2r": 53.19,
+   "target_3r": 56.4,
    "fund_grade": "Strong",
    "fund_notes": [
     "Net margin 23% \u2014 solidly profitable",
@@ -258,31 +145,152 @@
    "tv_url": "https://www.tradingview.com/chart/?symbol=NASDAQ:APA"
   },
   {
-   "ticker": "CVX",
-   "setup": "Trend reset at 50-day",
-   "also": [],
-   "price": 210.95,
-   "score": 0.646,
-   "business": "Chevron Corporation, Energy, mega cap at $411.6B",
-   "reasons": [
-    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
-    "Still 9% above the 200-day, so the larger trend is intact",
-    "RSI at 47 \u2014 the pullback has done real work"
+   "ticker": "HNGE",
+   "setup": "Volatility coil",
+   "also": [
+    "Pullback to 20-day"
    ],
-   "entry": 212.14,
-   "stop": 204.25,
+   "price": 111.17,
+   "score": 0.626,
+   "business": "Hinge Health, Inc., Healthcare, mid cap at $9.0B",
+   "reasons": [
+    "Daily ranges have contracted to 80% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 10% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 52% of its 50-day average, typical of a supply pause"
+   ],
+   "entry": 111.61,
+   "stop": 101.58,
    "stop_basis": "10-day swing low",
-   "risk_per_share": 7.89,
-   "risk_pct": 3.72,
-   "target_2r": 227.92,
-   "target_3r": 235.81,
+   "risk_per_share": 10.03,
+   "risk_pct": 8.99,
+   "target_2r": 131.67,
+   "target_3r": 141.7,
    "fund_grade": "Strong",
    "fund_notes": [
-    "Net margin 12% \u2014 solidly profitable",
-    "Revenue growing 35% year over year",
-    "Debt/equity 0.17 \u2014 conservative balance sheet"
+    "Net margin 21% \u2014 solidly profitable",
+    "Revenue growing 52% year over year",
+    "Return on equity 48%",
+    "Debt/equity 0.11 \u2014 conservative balance sheet"
    ],
-   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CVX"
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:HNGE"
+  },
+  {
+   "ticker": "GFL",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 43.05,
+   "score": 0.621,
+   "business": "GFL Environmental Inc. Subordin, Industrials, large cap at $19.0B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 6% above the 200-day, so the larger trend is intact",
+    "RSI at 50 \u2014 the pullback has done real work"
+   ],
+   "entry": 43.43,
+   "stop": 40.61,
+   "stop_basis": "2x ATR cap",
+   "risk_per_share": 2.82,
+   "risk_pct": 6.49,
+   "target_2r": 49.07,
+   "target_3r": 51.89,
+   "fund_grade": "Weak",
+   "fund_notes": [
+    "Net margin -4% \u2014 currently lossmaking",
+    "Revenue growing 27% year over year",
+    "Return on equity -3% \u2014 destroying capital",
+    "Debt/equity 1.04 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:GFL"
+  },
+  {
+   "ticker": "CNC",
+   "setup": "Trend reset at 50-day",
+   "also": [],
+   "price": 65.78,
+   "score": 0.617,
+   "business": "Centene Corporation, Healthcare, large cap at $32.6B",
+   "reasons": [
+    "Price has come right back to its 50-day average, a level buyers often defend in an uptrend",
+    "Still 14% above the 200-day, so the larger trend is intact",
+    "RSI at 45 \u2014 the pullback has done real work"
+   ],
+   "entry": 66.06,
+   "stop": 60.88,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 5.18,
+   "risk_pct": 7.84,
+   "target_2r": 76.42,
+   "target_3r": 81.6,
+   "fund_grade": "Limited data",
+   "fund_notes": [
+    "Net margin 1% \u2014 thin but positive",
+    "Revenue up 0% \u2014 modest growth",
+    "Debt/equity 0.70 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:CNC"
+  },
+  {
+   "ticker": "HAE",
+   "setup": "Volatility coil",
+   "also": [
+    "Pullback to 20-day"
+   ],
+   "price": 120.88,
+   "score": 0.616,
+   "business": "Haemonetics Corporation, Healthcare, mid cap at $5.5B",
+   "reasons": [
+    "Daily ranges have contracted to 76% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 5% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 65% of its 50-day average, typical of a supply pause"
+   ],
+   "entry": 122.67,
+   "stop": 116.26,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 6.41,
+   "risk_pct": 5.23,
+   "target_2r": 135.49,
+   "target_3r": 141.9,
+   "fund_grade": "Limited data",
+   "fund_notes": [
+    "Net margin 8% \u2014 thin but positive",
+    "Revenue up 9% \u2014 modest growth",
+    "Debt/equity 1.25 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:HAE"
+  },
+  {
+   "ticker": "PK",
+   "setup": "Volatility coil",
+   "also": [
+    "Pullback to 20-day",
+    "Trend reset at 50-day"
+   ],
+   "price": 15.97,
+   "score": 0.611,
+   "business": "Park Hotels & Resorts Inc., Real Estate, mid cap at $3.2B",
+   "reasons": [
+    "Daily ranges have contracted to 77% of their 20-day norm \u2014 volatility is compressing",
+    "Holding within 6% of its 52-week high while quieting down",
+    "Tight action near highs often precedes an expansion, though the direction is not predetermined",
+    "Volume has dried up to 65% of its 50-day average, typical of a supply pause"
+   ],
+   "entry": 16.13,
+   "stop": 15.47,
+   "stop_basis": "10-day swing low",
+   "risk_per_share": 0.66,
+   "risk_pct": 4.09,
+   "target_2r": 17.45,
+   "target_3r": 18.11,
+   "fund_grade": "Weak",
+   "fund_notes": [
+    "Net margin -6% \u2014 currently lossmaking",
+    "Revenue -1% \u2014 sales are shrinking",
+    "Return on equity -5% \u2014 destroying capital",
+    "Debt/equity 1.38 \u2014 moderate leverage"
+   ],
+   "tv_url": "https://www.tradingview.com/chart/?symbol=NYSE:PK"
   }
  ],
  "past_runs": [
@@ -343,6 +351,7 @@
   "2026-11-24",
   "2026-11-25",
   "2026-11-26",
-  "2026-11-27"
+  "2026-11-27",
+  "2026-11-28"
  ]
 }
